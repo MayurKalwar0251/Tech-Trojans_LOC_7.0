@@ -18,12 +18,8 @@ dotenv.config();
 const server = http.createServer(app);
 
 // adding all the middlewares
-
 app.use(express.json());
-// app.use(express.urlencoded(true));
-
 app.use(cookieParser());
-
 app.use(
   cors({
     origin:
@@ -59,8 +55,8 @@ app.use("/api/v1/station", policeStationRouter);
 app.use("/api/v1/police-member", policeMemberRouter);
 app.use("/api/v1/police-case", policeCaseRouter);
 
-const policeMembers = new Map(); // Stores policeMembers connections
-const citizens = new Map(); // Stores citizens connections
+const policeMembers = new Map(); // Stores policeMembers connections { userId: { socketId, role } }
+const citizens = new Map(); // Stores citizens connections { userId: socketId }
 
 io.on("connection", (socket) => {
   console.log("A user connected:", socket.id, " police ", policeMembers);
@@ -77,7 +73,7 @@ io.on("connection", (socket) => {
 
     // Add user to the appropriate map based on their role
     if (role === "inspector" || role === "constable") {
-      policeMembers.set(userId, socket.id); // Add to policeMembers map
+      policeMembers.set(userId, { socketId: socket.id, role }); // Add to policeMembers map
       console.log(`Police member registered: ${userId} (${role})`);
     } else if (role === "citizen") {
       citizens.set(userId, socket.id); // Add to citizens map
@@ -94,13 +90,45 @@ io.on("connection", (socket) => {
     console.log("Updated citizens:", citizens);
   });
 
+  // Handle sending messages
+  socket.on("send_message", (data) => {
+    const { fromUserId, toUserId, message } = data;
+
+    if (!fromUserId || !toUserId || !message) {
+      console.log("Invalid message data");
+      return;
+    }
+
+    const sender = policeMembers.get(fromUserId);
+    const receiver = policeMembers.get(toUserId);
+
+    if (!sender || !receiver) {
+      console.log("Sender or receiver not found");
+      return;
+    }
+
+    // Check hierarchy rules
+    if (sender.role === "constable" && receiver.role === "inspector") {
+      console.log("Constable cannot send messages to Inspector");
+      return;
+    }
+
+    // Send the message to the receiver
+    io.to(receiver.socketId).emit("receive_message", {
+      fromUserId,
+      message,
+    });
+
+    console.log(`Message sent from ${fromUserId} to ${toUserId}: ${message}`);
+  });
+
   // Disconnect user
   socket.on("disconnect", () => {
     console.log("A user disconnected:", socket.id);
 
     // Remove user from policeMembers map if they were registered
-    for (const [userId, socketId] of policeMembers.entries()) {
-      if (socketId === socket.id) {
+    for (const [userId, userData] of policeMembers.entries()) {
+      if (userData.socketId === socket.id) {
         policeMembers.delete(userId);
         console.log(`Police member disconnected: ${userId}`);
         break;
@@ -121,10 +149,6 @@ io.on("connection", (socket) => {
     console.log("Updated citizens:", citizens);
   });
 });
-
-// app.listen(4000, () => {
-//   console.log("APP is running on port 4000");
-// });
 
 server.listen(3000, () => {
   console.log("Server is running on port 3000");

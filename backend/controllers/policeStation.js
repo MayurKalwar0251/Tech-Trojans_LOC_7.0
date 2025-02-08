@@ -1,17 +1,37 @@
 const mongoose = require("mongoose");
 const PoliceStation = require("../models/policeStationSchema");
 const PoliceMember = require("../models/policeMember");
+const bcrypt = require("bcrypt");
+const PoliceCase = require("../models/policeCase");
 
 const createPoliceStation = async (req, res) => {
   try {
-    const { name, location, longitude, latitude, contactNumber } = req.body;
+    const {
+      name,
+      location,
+      longitude,
+      latitude,
+      contactNumber,
+      email,
+      password,
+    } = req.body;
 
     // Validate request body
-    if (!name || !location || !longitude || !latitude || !contactNumber) {
+    if (
+      !name ||
+      !location ||
+      !longitude ||
+      !latitude ||
+      !contactNumber ||
+      !email ||
+      !password
+    ) {
       return res
         .status(400)
         .json({ success: false, message: "All fields are required" });
     }
+
+    const hashPass = await bcrypt.hash(password, 10);
 
     // Create a new police station
     const newStation = new PoliceStation({
@@ -20,6 +40,8 @@ const createPoliceStation = async (req, res) => {
       longitude,
       latitude,
       contactNumber,
+      email,
+      password: hashPass,
     });
 
     await newStation.save();
@@ -120,8 +142,37 @@ const makeIncharge = async (req, res) => {
   }
 };
 
+// 📌 Get all cases filed under a specific Police Station
+const getCasesByStation = async (req, res) => {
+  try {
+    const { stationId } = req.params;
+    console.log(stationId);
+
+    // Check if the police station exists
+    const policeStation = await PoliceStation.findById(stationId);
+    if (!policeStation) {
+      return res
+        .status(404)
+        .json({ success: false, message: "Police station not found" });
+    }
+
+    // Find all cases linked to this police station
+    const cases = await PoliceCase.find({ policeStation: stationId })
+      .populate("assignedInspector", "name badgeNumber role") // Fetch inspector details
+      .select("caseNumber title description status crimeDate suspects"); // Select specific fields
+
+    return res
+      .status(200)
+      .json({ success: true, totalCases: cases.length, cases });
+  } catch (error) {
+    console.error("Error fetching cases:", error);
+    return res.status(500).json({ success: false, message: "Server error" });
+  }
+};
+
 module.exports = {
   createPoliceStation,
   addPoliceMembers,
   makeIncharge,
+  getCasesByStation,
 };

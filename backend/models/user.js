@@ -18,18 +18,16 @@ const userSchema = new mongoose.Schema(
       required: true,
       minlength: 6,
     },
-    role: {
-      type: String,
-      enum: ["inspector", "constable", "citizen", "station"],
-      required: true,
-      default: "citizen",
-    },
     phoneNo: {
       type: String,
     },
     profilePicture: {
       type: String, // Store Cloudinary/S3 URL
       default: "",
+    },
+    role: {
+      type: String,
+      default: "client",
     },
     createdAt: {
       type: Date,

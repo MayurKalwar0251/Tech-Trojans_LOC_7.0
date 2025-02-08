@@ -1,8 +1,10 @@
 const express = require("express");
 const {
   createUser,
-  loginUser,
   getUserDetails,
+  loginPolicePeople,
+  loginPoliceStation,
+  loginCitizen,
 } = require("../controllers/user.js");
 const isAuthenticated = require("../middleware/authentication.js");
 
@@ -11,8 +13,14 @@ const userRouter = express.Router();
 // for creating user
 userRouter.post("/", createUser);
 
-// for loging user
-userRouter.post("/login", loginUser);
+// for loging police people
+userRouter.post("/login/police-people", loginPolicePeople);
+
+// for loging police station
+userRouter.post("/login/police-station", loginPoliceStation);
+
+// for loging citizen
+userRouter.post("/login/citizen", loginCitizen);
 
 // // for updating user infos
 // userRouter.put("/update/:id", isAuthenticated, updateUser);

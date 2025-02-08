@@ -4,6 +4,7 @@ const {
   updateCase,
   addSuspect,
   uploadEvidence,
+  getCaseDetails,
 } = require("../controllers/policeCase.js");
 const { upload } = require("../utils/multerConfig.js");
 
@@ -26,5 +27,7 @@ policeCaseRouter.post(
   upload.single("file"),
   uploadEvidence
 );
+
+policeCaseRouter.get("/:caseId", getCaseDetails);
 
 module.exports = policeCaseRouter;

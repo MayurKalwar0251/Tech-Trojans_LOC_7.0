@@ -176,4 +176,26 @@ const uploadEvidence = async (req, res) => {
   }
 };
 
-module.exports = { createCase, updateCase, addSuspect, uploadEvidence };
+// 📌 Get case details by Case ID
+const getCaseDetails = async (req, res) => {
+  try {
+    const { caseId } = req.params;
+
+    // Find the case by ID
+    const policeCase = await PoliceCase.findById(caseId)
+      .populate("policeStation", "name location") // Fetch police station details
+      .populate("assignedInspector", "name badgeNumber role") // Fetch inspector details
+      .select("-__v"); // Exclude unnecessary fields
+
+    if (!policeCase) {
+      return res.status(404).json({ success: false, message: "Case not found" });
+    }
+
+    return res.status(200).json({ success: true, case: policeCase });
+  } catch (error) {
+    console.error("Error fetching case details:", error);
+    return res.status(500).json({ success: false, message: "Server error" });
+  }
+};
+
+module.exports = { createCase, updateCase, addSuspect, uploadEvidence,getCaseDetails };

@@ -32,6 +32,12 @@ const policeStationSchema = new mongoose.Schema(
         ref: "PoliceMember", // Reference to all police members working in this station
       },
     ],
+    email: {
+      type: String,
+    },
+    password: {
+      type: String,
+    },
   },
   { timestamps: true }
 );

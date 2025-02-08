@@ -1,6 +1,8 @@
 const User = require("../models/user");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const PoliceMember = require("../models/policeMember");
+const PoliceStation = require("../models/policeStationSchema");
 
 const createUser = async (req, res) => {
   try {
@@ -9,7 +11,7 @@ const createUser = async (req, res) => {
       req.body.profilePicture ??
       "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png";
 
-    if (!name || !email || !password ) {
+    if (!name || !email || !password) {
       return res.status(500).json({
         success: false,
         message: "All Fields Are Required",
@@ -52,7 +54,87 @@ const createUser = async (req, res) => {
   }
 };
 
-const loginUser = async (req, res) => {
+const loginPoliceStation = async (req, res) => {
+  const { email, password } = req.body;
+
+  if (!email || !password) {
+    return res.status(500).json({
+      success: false,
+      message: "All Fields Are Required",
+    });
+  }
+
+  let user = await PoliceStation.findOne({ email }).select("+password");
+
+  if (!user) {
+    return res.status(500).json({
+      success: false,
+      message: "User Doesn't Exist",
+    });
+  }
+
+  const comparePass = await bcrypt.compare(password, user.password);
+
+  if (!comparePass) {
+    return res.status(500).json({
+      success: false,
+      message: "Password Doesn't Match",
+    });
+  }
+
+  const token = jwt.sign({ email }, process.env.JWT_SECRET, {
+    expiresIn: "7d",
+  });
+
+  return res.status(200).json({
+    success: true,
+    message: "User Login Successfully",
+    user,
+    token,
+  });
+};
+
+const loginPolicePeople = async (req, res) => {
+  const { email, password } = req.body;
+
+  if (!email || !password) {
+    return res.status(500).json({
+      success: false,
+      message: "All Fields Are Required",
+    });
+  }
+
+  let user = await PoliceMember.findOne({ email }).select("+password");
+
+  if (!user) {
+    return res.status(500).json({
+      success: false,
+      message: "User Doesn't Exist",
+    });
+  }
+
+  const comparePass = await bcrypt.compare(password, user.password);
+
+  if (!comparePass) {
+    return res.status(500).json({
+      success: false,
+      message: "Password Doesn't Match",
+    });
+  }
+
+  const token = jwt.sign({ email }, process.env.JWT_SECRET, {
+    expiresIn: "7d",
+  });
+
+  return res.status(200).json({
+    success: true,
+    message: "User Login Successfully",
+    user,
+    token,
+  });
+};
+
+const loginCitizen = async (req, res) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
@@ -123,6 +205,8 @@ const getUserDetails = async (req, res) => {
 
 module.exports = {
   createUser,
-  loginUser,
   getUserDetails,
+  loginPolicePeople,
+  loginPoliceStation,
+  loginCitizen,
 };
