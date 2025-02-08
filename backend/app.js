@@ -8,7 +8,9 @@ const cookieParser = require("cookie-parser");
 
 // routers import
 const userRouter = require("./routers/user");
-// const callBetweenRouter = require("./routers/callBetween");
+const policeStationRouter = require("./routers/policeStationRouter");
+const policeMemberRouter = require("./routers/policeMemberRouter");
+const policeCaseRouter = require("./routers/policeCase");
 
 const app = express();
 dotenv.config();
@@ -53,7 +55,9 @@ connectDb();
 
 // adding routers
 app.use("/api/v1/user", userRouter);
-// app.use("/api/v1/call", callBetweenRouter);
+app.use("/api/v1/station", policeStationRouter);
+app.use("/api/v1/police-member", policeMemberRouter);
+app.use("/api/v1/police-case", policeCaseRouter);
 
 const policeMembers = new Map(); // Stores policeMembers connections
 const citizens = new Map(); // Stores citizens connections

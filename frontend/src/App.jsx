@@ -1,26 +1,34 @@
-import { useContext, useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { useContext, useEffect } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
 import React from "react";
 import "./App.css";
 
 import { UserContext } from "./context/userContext";
 import { getUserDetails } from "./context/User/user";
 import LoginPage from "./pages/LoginPage";
-import SignUpPage from "./pages/SignUpPage";
 import HomePage from "./pages/HomePage";
+import Register from "./pages/SignUpPage";
 
 function App() {
   const { setUser, user, setIsAuthen, setLoading, setError, setIsAgent } =
     useContext(UserContext);
+
+  console.log("user", user);
+
   useEffect(() => {
-    const checkCookiesAndDispatch = () => {
+    const checkCookiesAndDispatch = async () => {
       const userToken = document.cookie.includes("token");
 
-      console.log("USERTOEKN User Login or not", userToken);
+      console.log("USER TOKEN: User Login Status:", userToken);
 
       if (userToken) {
-        getUserDetails(setIsAuthen, setUser, setLoading, setError, setIsAgent);
+        await getUserDetails(
+          setIsAuthen,
+          setUser,
+          setLoading,
+          setError,
+          setIsAgent
+        );
       } else {
         setLoading(false); // No token, stop loading
       }
@@ -28,7 +36,14 @@ function App() {
     checkCookiesAndDispatch();
   }, []);
 
-  return <>{user ? <HomePage /> : <LoginPage />}</>;
+  return (
+    <Routes>
+      <Route path="/" element={user ? <HomePage /> : <LoginPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
+  );
 }
 
 export default App;
