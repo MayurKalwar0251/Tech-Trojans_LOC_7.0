@@ -1,0 +1,2001 @@
+Case_Name,Case_ID,Start_Year,Start_Month,Inspector_ID,Solved/Unsolved,Name,Rank,Police_Station_Name,Station_ID,Case_ID,Crime location
+Murder,2022009,2023,6,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022009,"19.186159, 72.947734"
+Robbery,2022035,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022035,"19.045491, 72.745717"
+Violence,2022045,2024,10,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022045,"18.947344, 72.830422"
+Murder,2022092,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022092,"19.174194, 73.018711"
+Murder,2022101,2024,9,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022101,"19.115703, 72.746924"
+Violence,2022110,2024,11,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022110,"18.991797, 72.780659"
+Robbery,2022147,2023,4,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022147,"19.131139, 72.835229"
+Robbery,2022176,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022176,"19.283669, 72.779972"
+Murder,2022177,2022,10,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022177,"19.029323, 72.998434"
+Suicide,2022178,2023,12,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022178,"18.965551, 72.845247"
+Rape,2022179,2022,12,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022179,"19.189501, 72.810961"
+Rape,2022187,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022187,"19.147759, 72.805876"
+Robbery,2022197,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022197,"19.026776, 72.965724"
+Kidnapping,2022254,2023,3,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022254,"19.177301, 72.894331"
+Drink and Drive,2022272,2023,5,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022272,"19.008971, 72.820282"
+Kidnapping,2022320,2023,4,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022320,"19.102205, 72.788490"
+Violence,2022345,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022345,"18.979892, 72.791159"
+Kidnapping,2022350,2023,6,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022350,"19.189851, 72.677434"
+Violence,2022363,2024,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022363,"19.048169, 72.768569"
+Suicide,2022430,2023,9,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022430,"19.069738, 72.720362"
+Rape,2022446,2023,3,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022446,"19.086609, 72.723782"
+Rape,2022482,2024,8,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022482,"19.113520, 72.955925"
+Suicide,2022485,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022485,"18.954167, 72.830711"
+Rape,2022501,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022501,"18.996724, 72.974125"
+Murder,2022519,2023,3,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022519,"19.079790, 73.005757"
+Suicide,2022531,2022,9,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022531,"19.240002, 72.939759"
+Robbery,2022545,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022545,"19.221097, 72.698122"
+Kidnapping,2022557,2022,4,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022557,"19.169472, 72.829930"
+Kidnapping,2022579,2023,7,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022579,"19.060331, 72.966403"
+Rape,2022581,2024,7,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022581,"19.032795, 72.719010"
+Suicide,2022600,2024,6,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022600,"19.074324, 72.770121"
+Suicide,2022608,2022,6,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022608,"19.147280, 72.950981"
+Kidnapping,2022626,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022626,"19.296445, 72.856975"
+Murder,2022668,2024,3,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022668,"19.236825, 72.730443"
+Murder,2022669,2022,10,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022669,"19.157219, 72.997108"
+Murder,2022679,2022,11,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022679,"19.140679, 72.946287"
+Robbery,2022698,2022,12,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022698,"19.119936, 72.792575"
+Suicide,2022717,2022,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022717,"19.157921, 72.836491"
+Drink and Drive,2022745,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022745,"18.982936, 72.729195"
+Robbery,2022765,2024,8,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022765,"19.287048, 72.819112"
+Drink and Drive,2022806,2023,9,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022806,"19.080255, 72.840423"
+Rape,2022858,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022858,"19.091237, 72.942636"
+Murder,2022886,2023,11,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022886,"19.052358, 72.925502"
+Rape,2022896,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022896,"19.115996, 72.857152"
+Violence,2022930,2024,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022930,"19.027695, 72.834466"
+Drink and Drive,2022940,2023,8,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022940,"19.116357, 72.866399"
+Robbery,2022945,2022,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022945,"19.099777, 72.743221"
+Suicide,2022996,2022,5,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2022996,"19.266680, 72.949980"
+Kidnapping,2023023,2022,3,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023023,"19.213412, 72.887926"
+Violence,2023059,2023,4,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023059,"19.169706, 72.720282"
+Violence,2023167,2023,6,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023167,"18.984376, 72.967844"
+Rape,2023171,2024,6,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023171,"18.960091, 72.918854"
+Murder,2023190,2024,7,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023190,"19.025436, 72.944378"
+Kidnapping,2023226,2022,2,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023226,"19.057194, 72.897812"
+Rape,2023236,2022,10,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023236,"19.071771, 72.716233"
+Murder,2023245,2024,8,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023245,"19.164313, 72.757940"
+Drink and Drive,2023268,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023268,"19.176585, 72.672319"
+Rape,2023278,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023278,"19.129991, 72.737064"
+Murder,2023288,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023288,"19.068866, 72.666531"
+Violence,2023335,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023335,"19.103499, 72.677042"
+Robbery,2023365,2023,6,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023365,"19.106621, 72.940017"
+Murder,2023386,2023,7,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023386,"19.289240, 72.874419"
+Rape,2023389,2022,4,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023389,"19.087078, 72.800532"
+Drink and Drive,2023413,2022,9,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023413,"19.109388, 72.858414"
+Murder,2023470,2022,5,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023470,"18.985230, 72.780760"
+Drink and Drive,2023499,2022,5,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023499,"19.182385, 72.778499"
+Drink and Drive,2023512,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023512,"19.006217, 72.796661"
+Murder,2023578,2024,3,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023578,"19.001811, 72.968893"
+Violence,2023598,2024,11,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023598,"19.080449, 72.681152"
+Murder,2023604,2022,5,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023604,"18.947021, 72.857367"
+Drink and Drive,2023654,2024,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023654,"19.139382, 72.731483"
+Violence,2023671,2022,8,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023671,"18.964833, 72.812714"
+Robbery,2023685,2022,2,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023685,"19.102052, 72.675394"
+Robbery,2023689,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023689,"19.100832, 72.684599"
+Suicide,2023701,2023,5,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023701,"19.231804, 72.877915"
+Kidnapping,2023705,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023705,"19.114776, 72.696995"
+Robbery,2023730,2025,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023730,"19.219132, 72.739617"
+Murder,2023799,2024,1,1004,Solved,Vikram Singh,Inspector,Andheri West,PS002,2023799,"19.131534, 72.705410"
+Suicide,2023814,2023,4,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023814,"18.964619, 72.790454"
+Murder,2023819,2024,9,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023819,"19.143167, 72.926126"
+Drink and Drive,2023843,2024,1,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023843,"19.134207, 72.754456"
+Robbery,2023877,2023,8,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023877,"18.998638, 72.869238"
+Rape,2023893,2023,4,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023893,"19.066248, 72.887999"
+Suicide,2023911,2024,12,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023911,"19.147892, 72.968736"
+Murder,2023946,2022,6,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023946,"19.110928, 72.678439"
+Rape,2023968,2022,5,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023968,"19.021088, 72.894819"
+Robbery,2023987,2025,1,1004,Unsolved,Vikram Singh,Inspector,Andheri West,PS002,2023987,"19.065397, 72.823984"
+Drink and Drive,2022063,2022,4,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022063,"18.993990, 72.754226"
+Suicide,2022094,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022094,"19.050150, 72.886397"
+Robbery,2022133,2024,12,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022133,"19.049299, 72.950805"
+Robbery,2022140,2023,5,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022140,"18.965886, 72.980895"
+Robbery,2022175,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022175,"19.022486, 72.792641"
+Rape,2022199,2022,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022199,"19.039559, 72.809874"
+Drink and Drive,2022201,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022201,"18.947338, 72.887771"
+Rape,2022203,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022203,"18.965567, 72.741692"
+Rape,2022223,2024,9,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022223,"18.960862, 72.776277"
+Drink and Drive,2022256,2024,5,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022256,"19.067642, 72.760254"
+Kidnapping,2022279,2024,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022279,"18.966255, 72.747270"
+Rape,2022295,2024,7,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022295,"19.003679, 72.809858"
+Rape,2022297,2022,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022297,"18.905010, 72.920259"
+Suicide,2022305,2023,9,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022305,"18.900702, 72.854862"
+Rape,2022328,2022,2,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022328,"18.925322, 72.843447"
+Drink and Drive,2022373,2024,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022373,"19.085296, 72.725303"
+Kidnapping,2022383,2022,3,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022383,"19.104377, 72.909068"
+Murder,2022423,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022423,"19.030326, 72.732946"
+Violence,2022431,2022,6,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022431,"19.101312, 72.999797"
+Kidnapping,2022448,2024,8,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022448,"18.970993, 72.865806"
+Kidnapping,2022537,2022,3,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022537,"19.081488, 72.936192"
+Kidnapping,2022544,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022544,"19.050107, 72.992166"
+Kidnapping,2022555,2023,7,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022555,"19.007937, 72.991330"
+Rape,2022596,2024,8,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022596,"19.030393, 72.934124"
+Suicide,2022624,2024,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022624,"19.101930, 72.721197"
+Violence,2022633,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022633,"19.118107, 73.015460"
+Suicide,2022676,2024,12,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022676,"19.065979, 72.708179"
+Robbery,2022688,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022688,"19.191444, 72.910928"
+Drink and Drive,2022725,2022,5,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022725,"19.057157, 73.027941"
+Kidnapping,2022751,2023,11,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022751,"19.153874, 72.857971"
+Rape,2022768,2023,7,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022768,"19.148317, 72.736312"
+Murder,2022839,2023,12,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022839,"19.194919, 72.740176"
+Suicide,2022923,2024,9,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022923,"19.109246, 73.028363"
+Robbery,2022961,2022,2,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022961,"19.050202, 72.921431"
+Suicide,2022975,2024,9,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2022975,"18.936098, 72.737052"
+Suicide,2023000,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023000,"18.951958, 72.923755"
+Robbery,2023006,2022,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023006,"18.932148, 72.950339"
+Violence,2023020,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023020,"18.895851, 72.902725"
+Drink and Drive,2023022,2024,3,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023022,"19.201589, 72.935166"
+Suicide,2023041,2023,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023041,"19.093916, 72.962136"
+Rape,2023080,2023,7,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023080,"19.087517, 72.717513"
+Kidnapping,2023107,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023107,"19.045991, 72.830074"
+Drink and Drive,2023126,2023,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023126,"19.046383, 72.831631"
+Murder,2023152,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023152,"19.149869, 72.908513"
+Robbery,2023169,2024,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023169,"19.063231, 72.669944"
+Murder,2023203,2022,8,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023203,"19.056966, 72.713742"
+Kidnapping,2023205,2023,9,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023205,"19.064788, 72.849750"
+Violence,2023300,2022,11,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023300,"19.133842, 72.777718"
+Murder,2023380,2022,3,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023380,"19.063267, 72.778687"
+Violence,2023418,2024,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023418,"19.046004, 72.861564"
+Violence,2023448,2024,4,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023448,"19.079442, 73.016733"
+Kidnapping,2023456,2022,11,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023456,"19.175251, 72.884655"
+Murder,2023475,2022,4,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023475,"19.037131, 72.930210"
+Kidnapping,2023483,2024,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023483,"18.936736, 72.721681"
+Rape,2023552,2023,2,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023552,"19.186942, 72.958269"
+Kidnapping,2023590,2024,4,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023590,"18.953583, 72.718486"
+Kidnapping,2023599,2023,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023599,"19.168380, 72.740809"
+Murder,2023616,2023,9,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023616,"19.175506, 72.919077"
+Kidnapping,2023641,2022,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023641,"18.962190, 72.714239"
+Robbery,2023646,2024,6,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023646,"18.992442, 72.825705"
+Murder,2023651,2022,10,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023651,"19.175743, 72.787312"
+Drink and Drive,2023652,2024,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023652,"19.056276, 72.678419"
+Murder,2023667,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023667,"18.911475, 72.782130"
+Drink and Drive,2023707,2023,7,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023707,"19.016438, 72.924771"
+Drink and Drive,2023758,2025,1,1007,Solved,Sunil Patil,Inspector,Bandra East,PS003,2023758,"18.941971, 72.850147"
+Murder,2023816,2025,1,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023816,"18.994814, 72.735359"
+Suicide,2023825,2022,10,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023825,"19.153434, 73.007287"
+Drink and Drive,2023846,2024,2,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023846,"19.025720, 73.023810"
+Kidnapping,2023873,2024,11,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023873,"19.032207, 72.999666"
+Robbery,2023892,2025,1,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023892,"19.184426, 72.809801"
+Murder,2023901,2025,1,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023901,"19.079886, 72.816435"
+Murder,2023915,2022,12,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023915,"19.088791, 72.759391"
+Murder,2023967,2023,4,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023967,"18.913438, 72.843919"
+Kidnapping,2023972,2022,5,1007,Unsolved,Sunil Patil,Inspector,Bandra East,PS003,2023972,"19.091220, 72.715928"
+Rape,2022004,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022004,"19.185397, 72.770405"
+Murder,2022010,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022010,"19.232065, 73.054504"
+Suicide,2022018,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022018,"19.287734, 73.011980"
+Rape,2022021,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022021,"19.174894, 72.972314"
+Kidnapping,2022085,2022,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022085,"18.965944, 72.917757"
+Suicide,2022098,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022098,"19.106504, 72.814976"
+Rape,2022151,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022151,"18.966680, 72.919730"
+Robbery,2022157,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022157,"19.264298, 72.807879"
+Suicide,2022163,2022,2,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022163,"19.095918, 72.885637"
+Rape,2022165,2024,2,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022165,"19.210248, 73.055537"
+Drink and Drive,2022172,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022172,"19.252639, 72.941144"
+Rape,2022181,2023,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022181,"19.212990, 73.068464"
+Robbery,2022185,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022185,"19.285312, 72.926606"
+Rape,2022204,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022204,"19.254749, 72.825958"
+Kidnapping,2022218,2022,6,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022218,"19.178177, 72.872999"
+Drink and Drive,2022239,2023,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022239,"19.180006, 73.067896"
+Drink and Drive,2022252,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022252,"19.056731, 72.886613"
+Rape,2022298,2023,7,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022298,"19.234926, 72.994378"
+Drink and Drive,2022312,2023,5,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022312,"19.205935, 72.845796"
+Drink and Drive,2022347,2024,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022347,"19.067840, 72.925698"
+Murder,2022390,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022390,"19.203630, 72.867715"
+Murder,2022391,2023,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022391,"19.041488, 72.993442"
+Suicide,2022392,2022,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022392,"19.240539, 73.029278"
+Violence,2022400,2022,10,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022400,"19.116997, 72.919731"
+Murder,2022417,2023,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022417,"19.007547, 73.036092"
+Murder,2022426,2022,11,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022426,"19.214409, 73.038641"
+Drink and Drive,2022460,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022460,"18.971657, 72.891327"
+Murder,2022462,2022,12,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022462,"19.297688, 72.975827"
+Drink and Drive,2022533,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022533,"19.152974, 73.101537"
+Rape,2022561,2023,3,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022561,"19.005541, 73.022141"
+Robbery,2022629,2024,5,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022629,"19.144218, 72.875221"
+Violence,2022632,2024,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022632,"19.154127, 72.907313"
+Rape,2022641,2023,11,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022641,"18.988227, 73.004559"
+Kidnapping,2022671,2023,6,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022671,"19.255731, 73.003363"
+Rape,2022678,2022,2,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022678,"19.088850, 72.839758"
+Robbery,2022692,2022,7,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022692,"19.046555, 72.839315"
+Rape,2022696,2022,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022696,"19.272218, 72.868481"
+Drink and Drive,2022700,2023,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022700,"19.050499, 73.056459"
+Robbery,2022706,2024,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022706,"19.114399, 72.939090"
+Suicide,2022767,2023,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022767,"19.196749, 73.084994"
+Murder,2022859,2022,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022859,"19.044985, 72.918052"
+Kidnapping,2022869,2024,12,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022869,"19.036357, 72.941361"
+Murder,2022955,2023,7,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022955,"19.067585, 73.105374"
+Robbery,2022995,2024,11,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2022995,"19.062999, 72.981451"
+Kidnapping,2023014,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023014,"19.014824, 73.028111"
+Murder,2023035,2022,12,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023035,"19.160948, 73.025826"
+Violence,2023053,2022,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023053,"19.148996, 72.813746"
+Kidnapping,2023091,2024,2,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023091,"19.018963, 73.004917"
+Rape,2023097,2022,11,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023097,"19.246765, 73.060525"
+Suicide,2023102,2023,4,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023102,"19.273799, 72.830028"
+Robbery,2023108,2022,11,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023108,"19.199307, 72.965218"
+Murder,2023123,2024,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023123,"19.178455, 73.004606"
+Robbery,2023129,2024,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023129,"19.062053, 72.908446"
+Murder,2023150,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023150,"19.035375, 72.906917"
+Drink and Drive,2023186,2024,7,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023186,"19.126483, 73.087620"
+Rape,2023209,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023209,"19.133376, 72.996040"
+Rape,2023228,2023,3,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023228,"19.244579, 73.002129"
+Drink and Drive,2023307,2023,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023307,"19.295586, 72.879840"
+Robbery,2023326,2023,6,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023326,"19.193462, 72.938352"
+Suicide,2023327,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023327,"19.141241, 73.121067"
+Robbery,2023341,2023,12,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023341,"19.014709, 73.035979"
+Rape,2023342,2024,2,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023342,"19.188140, 72.929880"
+Violence,2023371,2022,5,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023371,"19.090461, 72.982932"
+Suicide,2023439,2023,5,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023439,"19.154644, 72.884057"
+Rape,2023477,2023,5,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023477,"19.310316, 72.873364"
+Murder,2023517,2024,3,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023517,"19.169645, 72.826669"
+Robbery,2023551,2024,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023551,"19.045540, 72.946913"
+Rape,2023575,2022,8,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023575,"19.128891, 72.814080"
+Robbery,2023605,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023605,"19.207562, 73.075107"
+Kidnapping,2023665,2024,3,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023665,"19.087706, 72.933014"
+Suicide,2023672,2024,11,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023672,"19.092102, 72.962572"
+Murder,2023681,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023681,"19.068886, 72.769837"
+Robbery,2023682,2025,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023682,"19.018101, 72.924257"
+Suicide,2023688,2022,9,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023688,"19.067888, 73.013841"
+Violence,2023719,2023,12,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023719,"19.241108, 72.799749"
+Drink and Drive,2023744,2024,5,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023744,"19.152385, 72.835212"
+Kidnapping,2023748,2023,10,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023748,"19.160657, 72.760351"
+Robbery,2023786,2024,1,1055,Solved,Richa Iyer,Inspector,Bhandup,PS019,2023786,"19.127744, 72.944175"
+Rape,2023820,2024,2,1055,Unsolved,Richa Iyer,Inspector,Bhandup,PS019,2023820,"19.166738, 73.010434"
+Rape,2023837,2023,4,1055,Unsolved,Richa Iyer,Inspector,Bhandup,PS019,2023837,"19.076087, 72.875866"
+Drink and Drive,2023856,2024,10,1055,Unsolved,Richa Iyer,Inspector,Bhandup,PS019,2023856,"19.288674, 72.980038"
+Suicide,2023865,2022,10,1055,Unsolved,Richa Iyer,Inspector,Bhandup,PS019,2023865,"19.198194, 72.838055"
+Drink and Drive,2023922,2022,10,1055,Unsolved,Richa Iyer,Inspector,Bhandup,PS019,2023922,"19.283620, 72.959181"
+Robbery,2023963,2023,4,1055,Unsolved,Richa Iyer,Inspector,Bhandup,PS019,2023963,"19.139984, 72.993264"
+Kidnapping,2023976,2025,1,1055,Unsolved,Richa Iyer,Inspector,Bhandup,PS019,2023976,"19.197243, 72.927385"
+Drink and Drive,2022051,2022,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022051,"19.069275, 72.842808"
+Murder,2022061,2022,12,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022061,"19.147821, 72.865021"
+Suicide,2022072,2024,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022072,"19.161485, 72.739272"
+Suicide,2022112,2022,3,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022112,"19.278333, 72.700131"
+Violence,2022131,2023,3,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022131,"19.199690, 72.869917"
+Violence,2022143,2022,7,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022143,"19.079961, 72.945511"
+Kidnapping,2022224,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022224,"19.155891, 72.695676"
+Rape,2022269,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022269,"19.164995, 72.878520"
+Suicide,2022282,2023,2,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022282,"19.264985, 72.941905"
+Rape,2022283,2023,11,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022283,"19.117959, 72.773084"
+Robbery,2022309,2023,4,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022309,"19.270738, 72.939987"
+Drink and Drive,2022310,2024,2,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022310,"19.349543, 72.751088"
+Violence,2022327,2023,5,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022327,"19.307827, 72.713038"
+Violence,2022374,2022,8,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022374,"19.132094, 72.712771"
+Robbery,2022377,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022377,"19.359895, 72.939788"
+Drink and Drive,2022381,2023,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022381,"19.230091, 72.769518"
+Kidnapping,2022406,2022,10,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022406,"19.176187, 72.925965"
+Suicide,2022436,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022436,"19.375386, 72.887355"
+Murder,2022447,2023,5,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022447,"19.198608, 72.982515"
+Violence,2022455,2022,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022455,"19.147784, 73.002083"
+Suicide,2022461,2024,5,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022461,"19.319988, 72.995555"
+Suicide,2022470,2022,8,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022470,"19.312497, 72.962526"
+Kidnapping,2022503,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022503,"19.218083, 72.942475"
+Kidnapping,2022506,2023,11,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022506,"19.153882, 72.795469"
+Murder,2022547,2024,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022547,"19.113553, 72.836122"
+Robbery,2022562,2022,9,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022562,"19.222454, 72.824970"
+Robbery,2022580,2024,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022580,"19.210820, 72.850342"
+Violence,2022606,2022,4,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022606,"19.180122, 72.885553"
+Robbery,2022754,2024,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022754,"19.110694, 72.962771"
+Murder,2022770,2022,11,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022770,"19.143389, 72.900374"
+Drink and Drive,2022771,2022,9,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022771,"19.212860, 72.964339"
+Robbery,2022813,2023,4,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022813,"19.142573, 72.828762"
+Violence,2022841,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022841,"19.258686, 72.671493"
+Violence,2022843,2023,8,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022843,"19.192877, 72.912791"
+Kidnapping,2022912,2023,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022912,"19.160901, 72.873611"
+Murder,2022927,2022,3,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022927,"19.147989, 72.765254"
+Violence,2022936,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022936,"19.136864, 72.962187"
+Kidnapping,2022974,2022,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2022974,"19.359352, 72.732828"
+Kidnapping,2023012,2022,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023012,"19.076983, 72.925985"
+Rape,2023031,2023,11,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023031,"19.101187, 72.843770"
+Robbery,2023048,2024,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023048,"19.186370, 72.917786"
+Robbery,2023060,2023,9,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023060,"19.237898, 72.658282"
+Kidnapping,2023076,2024,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023076,"19.407432, 72.832503"
+Rape,2023089,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023089,"19.276154, 72.919516"
+Kidnapping,2023187,2023,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023187,"19.193871, 72.925281"
+Robbery,2023194,2023,8,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023194,"19.128545, 72.865525"
+Murder,2023229,2024,11,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023229,"19.124270, 72.714108"
+Drink and Drive,2023241,2023,3,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023241,"19.210948, 72.849478"
+Murder,2023273,2022,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023273,"19.360951, 72.913049"
+Kidnapping,2023316,2023,10,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023316,"19.271868, 72.921295"
+Robbery,2023321,2022,5,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023321,"19.238599, 72.708991"
+Kidnapping,2023325,2024,8,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023325,"19.232424, 72.833452"
+Robbery,2023331,2023,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023331,"19.178011, 72.761531"
+Rape,2023350,2023,9,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023350,"19.252285, 72.883767"
+Suicide,2023414,2024,10,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023414,"19.287400, 72.968743"
+Kidnapping,2023440,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023440,"19.127151, 72.748642"
+Violence,2023480,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023480,"19.380359, 72.816972"
+Kidnapping,2023554,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023554,"19.337044, 72.716232"
+Kidnapping,2023568,2022,7,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023568,"19.113858, 72.852093"
+Rape,2023581,2023,10,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023581,"19.362014, 72.971206"
+Suicide,2023586,2023,11,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023586,"19.248901, 72.669380"
+Robbery,2023594,2022,7,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023594,"19.312969, 72.831961"
+Drink and Drive,2023618,2023,10,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023618,"19.314924, 72.701370"
+Rape,2023625,2024,3,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023625,"19.103825, 72.737642"
+Murder,2023636,2023,3,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023636,"19.257277, 72.702684"
+Robbery,2023642,2022,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023642,"19.382112, 72.859700"
+Murder,2023650,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023650,"19.291880, 72.977413"
+Drink and Drive,2023655,2023,11,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023655,"19.309791, 72.802515"
+Drink and Drive,2023697,2024,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023697,"19.065107, 72.779621"
+Suicide,2023709,2023,5,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023709,"19.255007, 72.989374"
+Kidnapping,2023731,2022,5,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023731,"19.241403, 72.751802"
+Drink and Drive,2023749,2024,6,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023749,"19.130579, 72.978177"
+Robbery,2023753,2025,1,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023753,"19.226067, 72.984254"
+Violence,2023768,2024,8,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023768,"19.249518, 72.904615"
+Kidnapping,2023789,2023,5,1025,Solved,Deepak Joshi,Inspector,Borivali,PS009,2023789,"19.231008, 73.037695"
+Suicide,2023804,2025,1,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023804,"19.218068, 72.900086"
+Rape,2023812,2024,2,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023812,"19.056290, 72.879177"
+Kidnapping,2023870,2022,10,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023870,"19.259497, 72.992021"
+Murder,2023881,2024,4,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023881,"19.205595, 72.921960"
+Murder,2023904,2023,7,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023904,"19.322288, 72.861975"
+Murder,2023909,2025,1,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023909,"19.358157, 72.721610"
+Violence,2023958,2023,6,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023958,"19.215726, 72.883388"
+Murder,2023986,2022,8,1025,Unsolved,Deepak Joshi,Inspector,Borivali,PS009,2023986,"19.291133, 72.815261"
+Robbery,2022026,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022026,"19.014333, 72.948682"
+Robbery,2022033,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022033,"18.900806, 72.997248"
+Drink and Drive,2022038,2023,12,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022038,"19.069085, 72.920765"
+Murder,2022064,2022,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022064,"19.064419, 72.907687"
+Rape,2022117,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022117,"19.088368, 72.828773"
+Rape,2022153,2023,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022153,"18.968908, 72.869275"
+Murder,2022208,2024,3,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022208,"18.985314, 72.826967"
+Rape,2022217,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022217,"19.040122, 72.858815"
+Violence,2022242,2024,2,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022242,"19.117641, 72.785117"
+Drink and Drive,2022273,2022,2,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022273,"18.978407, 72.859785"
+Suicide,2022287,2023,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022287,"19.025825, 72.751163"
+Robbery,2022300,2023,6,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022300,"18.863303, 72.839292"
+Murder,2022356,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022356,"19.120397, 72.845592"
+Murder,2022379,2024,6,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022379,"18.949469, 72.932871"
+Suicide,2022441,2024,12,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022441,"18.870343, 72.733780"
+Murder,2022515,2023,3,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022515,"18.871486, 72.880650"
+Murder,2022535,2023,4,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022535,"19.050194, 72.717638"
+Murder,2022553,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022553,"18.874493, 72.777766"
+Rape,2022570,2022,2,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022570,"18.928716, 72.875884"
+Violence,2022584,2023,6,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022584,"19.063443, 72.959864"
+Kidnapping,2022588,2024,2,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022588,"18.989155, 72.910362"
+Robbery,2022674,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022674,"19.142229, 72.839773"
+Murder,2022682,2024,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022682,"18.852956, 72.823581"
+Rape,2022711,2024,11,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022711,"18.984709, 72.882525"
+Robbery,2022723,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022723,"18.868436, 72.795467"
+Robbery,2022729,2023,6,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022729,"19.042757, 72.821086"
+Murder,2022735,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022735,"18.809249, 72.792102"
+Murder,2022775,2022,7,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022775,"18.893791, 72.970866"
+Kidnapping,2022797,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022797,"18.884570, 72.931182"
+Murder,2022812,2022,3,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022812,"18.918955, 72.844699"
+Kidnapping,2022814,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022814,"18.979027, 72.909509"
+Drink and Drive,2022822,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022822,"19.049749, 72.811497"
+Murder,2022824,2024,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022824,"19.134245, 72.920926"
+Robbery,2022838,2023,8,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022838,"19.031921, 72.906794"
+Robbery,2022842,2023,7,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022842,"19.060586, 72.698554"
+Rape,2022910,2024,8,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022910,"19.032605, 72.818735"
+Suicide,2022918,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022918,"18.893128, 72.869044"
+Violence,2022935,2022,3,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022935,"18.932949, 72.898323"
+Violence,2022949,2022,7,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022949,"19.116125, 72.764492"
+Robbery,2022989,2022,12,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2022989,"18.973294, 72.917522"
+Drink and Drive,2023078,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023078,"19.105545, 72.733879"
+Robbery,2023142,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023142,"18.843968, 72.797925"
+Robbery,2023143,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023143,"18.936413, 72.913367"
+Drink and Drive,2023144,2022,7,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023144,"18.931350, 72.931460"
+Robbery,2023146,2023,4,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023146,"18.951031, 72.954000"
+Kidnapping,2023149,2024,4,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023149,"19.103476, 72.700253"
+Murder,2023172,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023172,"19.122336, 72.754004"
+Murder,2023179,2022,11,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023179,"19.126116, 72.787564"
+Suicide,2023191,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023191,"19.108008, 72.804435"
+Drink and Drive,2023235,2024,5,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023235,"19.094109, 72.707932"
+Suicide,2023276,2024,2,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023276,"18.870938, 72.865366"
+Kidnapping,2023358,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023358,"19.115978, 72.719827"
+Drink and Drive,2023363,2022,9,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023363,"19.139456, 72.807790"
+Violence,2023372,2022,9,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023372,"19.026745, 72.864643"
+Violence,2023373,2023,12,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023373,"19.083397, 72.759610"
+Suicide,2023432,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023432,"18.833793, 72.765688"
+Rape,2023452,2023,11,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023452,"18.900442, 72.709056"
+Drink and Drive,2023491,2022,11,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023491,"19.043898, 72.757850"
+Kidnapping,2023492,2023,6,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023492,"19.084725, 72.848509"
+Murder,2023494,2023,9,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023494,"18.909492, 72.836016"
+Robbery,2023504,2023,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023504,"18.861295, 72.917921"
+Robbery,2023507,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023507,"19.041105, 72.834475"
+Violence,2023511,2022,4,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023511,"19.019627, 72.819450"
+Rape,2023520,2022,10,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023520,"19.056175, 72.719576"
+Suicide,2023531,2024,3,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023531,"18.902738, 72.876685"
+Violence,2023537,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023537,"19.113336, 72.931731"
+Violence,2023562,2024,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023562,"18.993417, 72.707279"
+Suicide,2023564,2022,8,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023564,"18.924222, 72.827609"
+Drink and Drive,2023583,2022,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023583,"19.063926, 72.753190"
+Kidnapping,2023614,2023,2,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023614,"18.867284, 72.833579"
+Murder,2023644,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023644,"18.957257, 72.759858"
+Violence,2023678,2022,3,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023678,"19.114015, 72.752975"
+Drink and Drive,2023703,2025,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023703,"19.001723, 72.812782"
+Violence,2023710,2023,9,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023710,"18.846636, 72.884106"
+Suicide,2023713,2024,8,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023713,"19.023924, 72.928941"
+Murder,2023722,2023,5,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023722,"18.866197, 72.748037"
+Violence,2023742,2024,2,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023742,"19.037075, 72.938135"
+Violence,2023757,2023,1,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023757,"18.897634, 72.692012"
+Robbery,2023771,2022,12,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023771,"18.838393, 72.816478"
+Robbery,2023781,2022,11,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023781,"18.985696, 72.868340"
+Kidnapping,2023782,2022,8,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023782,"18.954668, 72.807950"
+Suicide,2023790,2023,11,1043,Solved,Vivek Kapoor,Inspector,Byculla,PS015,2023790,"18.797744, 72.828158"
+Murder,2023805,2023,7,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023805,"18.881747, 72.938546"
+Suicide,2023822,2022,1,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023822,"18.994852, 72.686491"
+Kidnapping,2023842,2023,6,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023842,"19.027074, 72.918718"
+Drink and Drive,2023849,2022,12,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023849,"18.998823, 72.998272"
+Rape,2023857,2022,12,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023857,"19.022603, 72.975361"
+Rape,2023891,2022,4,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023891,"18.866552, 72.730070"
+Kidnapping,2023913,2024,5,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023913,"18.953890, 72.841178"
+Suicide,2023932,2022,7,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023932,"19.110416, 72.823933"
+Suicide,2023943,2023,12,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023943,"18.899396, 72.673248"
+Robbery,2023977,2025,1,1043,Unsolved,Vivek Kapoor,Inspector,Byculla,PS015,2023977,"18.867778, 72.751594"
+Murder,2022015,2022,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022015,"19.052379, 72.973573"
+Drink and Drive,2022023,2022,8,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022023,"19.144856, 72.817477"
+Violence,2022086,2023,11,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022086,"19.043154, 72.995782"
+Robbery,2022125,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022125,"19.097949, 72.993056"
+Murder,2022129,2022,2,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022129,"19.155183, 73.045606"
+Murder,2022161,2023,4,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022161,"19.085142, 72.840954"
+Robbery,2022184,2024,10,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022184,"18.977095, 72.880601"
+Violence,2022189,2022,11,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022189,"19.051826, 73.077120"
+Suicide,2022211,2023,10,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022211,"19.064407, 72.814255"
+Robbery,2022226,2023,7,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022226,"19.035533, 73.048624"
+Violence,2022228,2024,8,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022228,"19.100436, 72.779870"
+Rape,2022232,2023,7,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022232,"19.135739, 72.933120"
+Suicide,2022247,2023,8,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022247,"19.075990, 72.711273"
+Drink and Drive,2022299,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022299,"19.053877, 72.711453"
+Murder,2022348,2024,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022348,"19.064731, 72.839693"
+Kidnapping,2022358,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022358,"18.887879, 72.923923"
+Drink and Drive,2022429,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022429,"19.008696, 72.866332"
+Kidnapping,2022439,2022,11,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022439,"19.171527, 72.835869"
+Murder,2022458,2024,12,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022458,"19.003316, 73.006780"
+Violence,2022475,2024,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022475,"19.018788, 72.924769"
+Robbery,2022477,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022477,"19.166384, 73.019974"
+Drink and Drive,2022502,2022,7,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022502,"19.094423, 72.912927"
+Drink and Drive,2022510,2022,11,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022510,"19.201768, 72.926919"
+Murder,2022513,2022,4,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022513,"19.031022, 72.998897"
+Suicide,2022548,2022,12,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022548,"19.223774, 72.915673"
+Kidnapping,2022560,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022560,"19.050582, 73.029739"
+Kidnapping,2022601,2024,7,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022601,"19.173338, 72.792921"
+Suicide,2022603,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022603,"18.979714, 72.840046"
+Kidnapping,2022644,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022644,"19.031601, 72.830369"
+Kidnapping,2022648,2023,10,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022648,"19.046503, 72.751887"
+Drink and Drive,2022662,2024,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022662,"19.071139, 72.812480"
+Violence,2022705,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022705,"19.102102, 72.816442"
+Kidnapping,2022713,2024,4,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022713,"18.992960, 72.990689"
+Kidnapping,2022727,2022,2,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022727,"19.116285, 72.784797"
+Violence,2022792,2023,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022792,"19.039378, 72.895634"
+Kidnapping,2022815,2023,11,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022815,"18.920914, 72.865207"
+Robbery,2022820,2024,6,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022820,"19.161427, 73.026191"
+Robbery,2022856,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022856,"19.055521, 72.925179"
+Rape,2022872,2022,9,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022872,"19.151003, 72.901177"
+Drink and Drive,2022880,2023,7,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022880,"19.178733, 73.001491"
+Murder,2022884,2023,6,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022884,"19.124192, 73.045131"
+Suicide,2022990,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2022990,"18.913168, 72.909903"
+Rape,2023011,2023,6,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023011,"19.217758, 72.884523"
+Violence,2023033,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023033,"19.138975, 73.013330"
+Suicide,2023039,2022,4,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023039,"19.033275, 73.006299"
+Rape,2023051,2022,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023051,"19.034106, 72.960837"
+Violence,2023063,2022,8,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023063,"19.161987, 72.963612"
+Suicide,2023086,2024,9,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023086,"19.069903, 72.990717"
+Robbery,2023115,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023115,"19.155280, 73.024273"
+Rape,2023136,2023,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023136,"19.215054, 72.883060"
+Rape,2023153,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023153,"19.002251, 72.988472"
+Kidnapping,2023184,2022,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023184,"19.180980, 72.839426"
+Drink and Drive,2023248,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023248,"19.163478, 72.968532"
+Suicide,2023260,2024,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023260,"18.946507, 73.027923"
+Drink and Drive,2023294,2023,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023294,"19.168116, 72.999850"
+Murder,2023304,2022,2,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023304,"19.000988, 73.044373"
+Suicide,2023318,2024,8,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023318,"19.147991, 72.739409"
+Robbery,2023340,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023340,"19.101431, 73.012367"
+Kidnapping,2023385,2024,3,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023385,"19.058836, 72.895021"
+Murder,2023425,2023,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023425,"19.126203, 72.920432"
+Suicide,2023426,2022,2,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023426,"19.069407, 72.930489"
+Robbery,2023446,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023446,"19.124057, 72.749208"
+Kidnapping,2023460,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023460,"19.021329, 72.816747"
+Suicide,2023526,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023526,"19.051382, 72.907562"
+Rape,2023529,2022,4,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023529,"19.208253, 72.879572"
+Robbery,2023530,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023530,"18.897364, 72.871181"
+Suicide,2023539,2022,8,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023539,"19.121598, 72.786392"
+Violence,2023567,2022,12,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023567,"18.995499, 72.942886"
+Robbery,2023613,2023,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023613,"19.001168, 72.795914"
+Kidnapping,2023674,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023674,"19.001407, 72.773888"
+Kidnapping,2023687,2022,5,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023687,"19.063956, 72.753055"
+Robbery,2023696,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023696,"19.116562, 73.056387"
+Kidnapping,2023734,2022,11,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023734,"19.101103, 73.082779"
+Kidnapping,2023738,2025,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023738,"18.991519, 72.978975"
+Drink and Drive,2023759,2022,1,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023759,"19.031737, 72.716874"
+Suicide,2023776,2024,6,1040,Solved,Umesh Yadav,Inspector,Chembur,PS014,2023776,"19.021479, 72.787582"
+Drink and Drive,2023818,2023,4,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023818,"19.152503, 72.983366"
+Kidnapping,2023824,2024,4,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023824,"19.024360, 72.822726"
+Murder,2023841,2024,10,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023841,"18.921464, 72.811667"
+Murder,2023847,2024,7,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023847,"18.961429, 72.792911"
+Violence,2023851,2025,1,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023851,"19.015386, 72.961385"
+Kidnapping,2023868,2023,1,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023868,"19.084201, 72.943641"
+Murder,2023923,2025,1,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023923,"19.157069, 72.818777"
+Suicide,2023925,2025,1,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023925,"19.139118, 73.062240"
+Kidnapping,2023929,2024,5,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023929,"19.126764, 72.850083"
+Violence,2023965,2022,1,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023965,"19.147737, 73.058928"
+Rape,2023988,2022,2,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023988,"19.207202, 72.925240"
+Kidnapping,2023992,2025,1,1040,Unsolved,Umesh Yadav,Inspector,Chembur,PS014,2023992,"18.927665, 72.992500"
+Kidnapping,2022025,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022025,"19.069340, 72.685728"
+Robbery,2022032,2024,7,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022032,"19.107770, 72.951952"
+Robbery,2022103,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022103,"19.140716, 72.875675"
+Rape,2022105,2022,10,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022105,"18.905092, 72.797972"
+Rape,2022173,2024,12,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022173,"19.085895, 72.739679"
+Murder,2022188,2022,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022188,"19.146631, 72.721243"
+Rape,2022229,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022229,"19.183111, 72.811828"
+Kidnapping,2022234,2023,9,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022234,"18.993435, 72.937376"
+Violence,2022248,2023,5,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022248,"19.011161, 72.752391"
+Violence,2022261,2023,2,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022261,"18.850655, 72.821181"
+Murder,2022304,2024,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022304,"18.968833, 72.896826"
+Drink and Drive,2022314,2022,4,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022314,"18.861219, 72.903086"
+Kidnapping,2022316,2022,3,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022316,"19.037495, 72.955285"
+Kidnapping,2022321,2023,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022321,"18.999603, 72.820072"
+Rape,2022326,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022326,"18.984326, 73.027469"
+Suicide,2022334,2022,12,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022334,"19.129555, 72.830829"
+Drink and Drive,2022353,2023,7,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022353,"19.163643, 72.936012"
+Violence,2022364,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022364,"18.933119, 72.968316"
+Kidnapping,2022366,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022366,"18.969203, 72.910949"
+Kidnapping,2022387,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022387,"18.904241, 72.896843"
+Rape,2022394,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022394,"19.142224, 72.880598"
+Murder,2022415,2023,8,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022415,"19.120376, 72.722946"
+Robbery,2022424,2022,11,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022424,"19.000744, 72.920109"
+Kidnapping,2022481,2022,12,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022481,"18.967204, 72.864222"
+Drink and Drive,2022484,2024,10,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022484,"19.047151, 72.775711"
+Violence,2022508,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022508,"19.025724, 72.837510"
+Drink and Drive,2022575,2022,5,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022575,"18.864244, 72.803494"
+Robbery,2022643,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022643,"18.923515, 72.864520"
+Murder,2022647,2022,12,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022647,"19.073159, 72.855935"
+Robbery,2022699,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022699,"18.945631, 72.753181"
+Violence,2022719,2024,3,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022719,"18.959365, 73.012198"
+Suicide,2022752,2024,11,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022752,"19.154309, 72.788511"
+Suicide,2022845,2022,11,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022845,"18.978732, 72.843474"
+Suicide,2022898,2023,11,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022898,"18.992110, 72.801207"
+Robbery,2022915,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022915,"19.028419, 72.727299"
+Suicide,2022951,2024,8,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022951,"19.182034, 72.785390"
+Drink and Drive,2022954,2022,8,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022954,"19.082445, 72.983974"
+Murder,2022967,2024,8,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022967,"18.992709, 72.986856"
+Robbery,2022980,2023,6,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022980,"18.933546, 72.744842"
+Violence,2022983,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022983,"19.104457, 72.700878"
+Murder,2022997,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2022997,"19.086434, 72.728696"
+Violence,2023061,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023061,"19.102398, 72.989994"
+Robbery,2023082,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023082,"18.934258, 72.805947"
+Rape,2023093,2024,8,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023093,"18.863985, 72.813843"
+Rape,2023168,2024,9,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023168,"18.993720, 72.664647"
+Murder,2023174,2023,8,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023174,"18.935828, 72.965370"
+Violence,2023180,2022,3,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023180,"18.962280, 72.810613"
+Rape,2023204,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023204,"18.911367, 72.810044"
+Murder,2023207,2024,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023207,"19.055057, 72.968207"
+Drink and Drive,2023227,2023,7,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023227,"19.064103, 72.984466"
+Murder,2023301,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023301,"19.172037, 72.907878"
+Robbery,2023305,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023305,"19.172527, 72.888990"
+Violence,2023317,2024,6,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023317,"18.992006, 72.831783"
+Robbery,2023336,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023336,"18.976155, 72.986575"
+Drink and Drive,2023345,2023,6,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023345,"19.164573, 72.879535"
+Violence,2023354,2023,2,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023354,"19.138484, 72.949144"
+Drink and Drive,2023366,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023366,"18.929670, 72.887687"
+Murder,2023394,2023,12,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023394,"19.142351, 72.958821"
+Drink and Drive,2023409,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023409,"18.937377, 72.945814"
+Robbery,2023415,2024,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023415,"18.958914, 72.861265"
+Robbery,2023421,2024,4,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023421,"18.994302, 72.999089"
+Murder,2023461,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023461,"18.989178, 72.991713"
+Murder,2023473,2023,4,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023473,"19.022682, 72.874762"
+Murder,2023484,2022,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023484,"19.020588, 72.724923"
+Rape,2023515,2023,3,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023515,"18.992549, 72.727332"
+Violence,2023519,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023519,"19.185601, 72.856503"
+Violence,2023527,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023527,"19.138209, 72.829853"
+Murder,2023542,2023,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023542,"18.961682, 72.782404"
+Drink and Drive,2023546,2023,5,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023546,"18.972120, 72.918292"
+Rape,2023612,2025,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023612,"19.196673, 72.866185"
+Murder,2023628,2022,4,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023628,"18.910937, 72.712829"
+Robbery,2023662,2022,11,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023662,"18.992613, 72.978664"
+Robbery,2023684,2023,10,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023684,"19.018467, 72.841097"
+Suicide,2023698,2024,5,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023698,"19.142748, 72.722820"
+Violence,2023725,2024,1,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023725,"18.863159, 72.925366"
+Murder,2023754,2024,9,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023754,"18.914726, 72.794649"
+Drink and Drive,2023761,2024,8,1016,Solved,Harish Pillai,Inspector,Dadar,PS006,2023761,"18.962547, 72.792192"
+Kidnapping,2023801,2024,3,1016,Unsolved,Harish Pillai,Inspector,Dadar,PS006,2023801,"19.155204, 72.738283"
+Murder,2023811,2024,12,1016,Unsolved,Harish Pillai,Inspector,Dadar,PS006,2023811,"18.982890, 72.823903"
+Kidnapping,2023888,2022,5,1016,Unsolved,Harish Pillai,Inspector,Dadar,PS006,2023888,"18.898087, 72.712733"
+Suicide,2023896,2025,1,1016,Unsolved,Harish Pillai,Inspector,Dadar,PS006,2023896,"18.990888, 72.761494"
+Suicide,2023918,2024,12,1016,Unsolved,Harish Pillai,Inspector,Dadar,PS006,2023918,"18.875635, 72.761815"
+Violence,2023999,2022,7,1016,Unsolved,Harish Pillai,Inspector,Dadar,PS006,2023999,"18.983017, 72.785075"
+Drink and Drive,2022005,2023,8,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022005,"19.138241, 72.962134"
+Murder,2022062,2024,7,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022062,"19.262133, 72.938914"
+Suicide,2022120,2024,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022120,"19.386485, 72.990069"
+Drink and Drive,2022123,2024,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022123,"19.282283, 73.149123"
+Rape,2022160,2022,4,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022160,"19.232643, 73.026573"
+Murder,2022209,2022,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022209,"19.270464, 73.149045"
+Murder,2022253,2023,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022253,"19.146103, 72.931932"
+Rape,2022257,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022257,"19.229073, 73.088517"
+Violence,2022263,2024,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022263,"19.209022, 72.988891"
+Robbery,2022292,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022292,"19.346009, 72.914447"
+Murder,2022360,2023,2,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022360,"19.230736, 73.102835"
+Murder,2022382,2024,7,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022382,"19.264292, 73.155842"
+Kidnapping,2022384,2023,8,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022384,"19.354357, 72.916918"
+Suicide,2022402,2022,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022402,"19.105755, 73.160052"
+Kidnapping,2022420,2022,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022420,"19.075615, 73.008492"
+Drink and Drive,2022434,2022,4,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022434,"19.203045, 73.175639"
+Suicide,2022437,2024,12,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022437,"19.340869, 73.116084"
+Violence,2022464,2023,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022464,"19.408356, 73.035199"
+Robbery,2022474,2023,10,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022474,"19.203172, 73.194299"
+Murder,2022490,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022490,"19.183867, 72.915159"
+Suicide,2022530,2022,5,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022530,"19.082531, 72.930461"
+Robbery,2022564,2022,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022564,"19.332638, 73.179992"
+Robbery,2022618,2024,12,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022618,"19.322915, 72.962018"
+Violence,2022635,2023,4,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022635,"19.222869, 72.852164"
+Suicide,2022810,2023,12,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022810,"19.148513, 72.876033"
+Murder,2022816,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022816,"19.233545, 73.045070"
+Violence,2022817,2024,12,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022817,"19.123929, 73.143490"
+Robbery,2022828,2022,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022828,"19.156599, 73.011091"
+Suicide,2022832,2022,10,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022832,"19.210819, 72.968414"
+Rape,2022877,2023,10,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022877,"19.318629, 73.023863"
+Violence,2022879,2023,4,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022879,"19.348299, 73.122465"
+Murder,2022913,2022,7,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022913,"19.248721, 73.122641"
+Murder,2022933,2023,11,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022933,"19.304210, 73.054955"
+Violence,2022944,2023,5,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022944,"19.282277, 72.871413"
+Murder,2022952,2024,8,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022952,"19.186866, 72.962270"
+Robbery,2022956,2022,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022956,"19.143595, 73.150102"
+Violence,2022978,2022,7,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2022978,"19.286128, 73.193130"
+Robbery,2023111,2024,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023111,"19.290595, 73.129677"
+Drink and Drive,2023181,2024,4,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023181,"19.318771, 73.090311"
+Drink and Drive,2023199,2023,5,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023199,"19.347957, 73.154736"
+Kidnapping,2023216,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023216,"19.080959, 73.074472"
+Violence,2023237,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023237,"19.279180, 72.885543"
+Drink and Drive,2023247,2024,10,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023247,"19.121350, 73.156078"
+Rape,2023265,2022,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023265,"19.198338, 72.957670"
+Robbery,2023298,2023,2,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023298,"19.305203, 72.953383"
+Drink and Drive,2023310,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023310,"19.176824, 72.886490"
+Murder,2023329,2024,5,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023329,"19.083050, 73.008772"
+Murder,2023368,2022,4,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023368,"19.332646, 73.101136"
+Violence,2023379,2022,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023379,"19.092429, 73.047513"
+Rape,2023391,2023,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023391,"19.141176, 73.126200"
+Violence,2023422,2023,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023422,"19.346566, 72.886452"
+Kidnapping,2023468,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023468,"19.328816, 73.180387"
+Murder,2023472,2023,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023472,"19.376825, 73.048497"
+Suicide,2023479,2024,6,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023479,"19.251402, 73.133330"
+Violence,2023481,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023481,"19.219775, 72.896891"
+Robbery,2023485,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023485,"19.070546, 73.078889"
+Violence,2023506,2023,8,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023506,"19.251589, 72.916194"
+Kidnapping,2023516,2024,2,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023516,"19.159192, 73.129498"
+Murder,2023543,2024,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023543,"19.310706, 72.918549"
+Violence,2023607,2024,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023607,"19.274213, 73.101176"
+Suicide,2023631,2023,9,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023631,"19.098913, 72.983363"
+Drink and Drive,2023700,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023700,"19.206392, 73.007662"
+Violence,2023711,2023,3,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023711,"19.192214, 72.972319"
+Murder,2023774,2023,11,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023774,"19.143289, 73.053401"
+Violence,2023796,2025,1,1058,Solved,Manisha Gokhale,Inspector,Dombivli,PS020,2023796,"19.101528, 73.111535"
+Drink and Drive,2023813,2023,12,1058,Unsolved,Manisha Gokhale,Inspector,Dombivli,PS020,2023813,"19.105485, 72.934687"
+Suicide,2023829,2023,3,1058,Unsolved,Manisha Gokhale,Inspector,Dombivli,PS020,2023829,"19.173121, 73.019286"
+Murder,2023872,2023,1,1058,Unsolved,Manisha Gokhale,Inspector,Dombivli,PS020,2023872,"19.372848, 73.099702"
+Drink and Drive,2023919,2025,1,1058,Unsolved,Manisha Gokhale,Inspector,Dombivli,PS020,2023919,"19.256538, 73.215715"
+Drink and Drive,2023933,2025,1,1058,Unsolved,Manisha Gokhale,Inspector,Dombivli,PS020,2023933,"19.216836, 73.162612"
+Murder,2023954,2023,6,1058,Unsolved,Manisha Gokhale,Inspector,Dombivli,PS020,2023954,"19.404428, 73.076769"
+Suicide,2023996,2024,4,1058,Unsolved,Manisha Gokhale,Inspector,Dombivli,PS020,2023996,"19.230765, 73.140075"
+Drink and Drive,2022001,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022001,
+Kidnapping,2022008,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022008,
+Kidnapping,2022022,2022,9,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022022,
+Suicide,2022041,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022041,
+Kidnapping,2022042,2023,8,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022042,
+Murder,2022084,2023,6,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022084,
+Robbery,2022104,2022,3,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022104,
+Rape,2022138,2023,8,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022138,
+Violence,2022146,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022146,
+Kidnapping,2022215,2022,11,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022215,
+Suicide,2022237,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022237,
+Murder,2022280,2022,6,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022280,
+Robbery,2022322,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022322,
+Kidnapping,2022343,2023,2,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022343,
+Rape,2022407,2023,2,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022407,
+Drink and Drive,2022445,2022,4,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022445,
+Rape,2022454,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022454,
+Suicide,2022525,2024,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022525,
+Suicide,2022578,2024,8,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022578,
+Robbery,2022638,2023,8,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022638,
+Violence,2022655,2022,12,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022655,
+Violence,2022656,2022,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022656,
+Rape,2022670,2022,4,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022670,
+Suicide,2022715,2024,12,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022715,
+Drink and Drive,2022746,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022746,
+Murder,2022759,2024,9,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022759,
+Violence,2022763,2022,2,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022763,
+Kidnapping,2022788,2023,3,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022788,
+Suicide,2022794,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022794,
+Violence,2022799,2023,11,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022799,
+Violence,2022830,2024,5,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022830,
+Murder,2022834,2022,7,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022834,
+Violence,2022850,2023,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022850,
+Violence,2022860,2022,4,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022860,
+Robbery,2022892,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022892,
+Suicide,2022894,2023,10,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2022894,
+Suicide,2023043,2023,7,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023043,
+Murder,2023058,2022,9,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023058,
+Suicide,2023117,2022,9,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023117,
+Rape,2023173,2022,7,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023173,
+Drink and Drive,2023213,2023,11,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023213,
+Kidnapping,2023230,2023,12,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023230,
+Suicide,2023253,2022,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023253,
+Robbery,2023292,2023,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023292,
+Violence,2023297,2022,6,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023297,
+Violence,2023315,2024,11,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023315,
+Murder,2023361,2024,7,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023361,
+Robbery,2023411,2024,3,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023411,
+Suicide,2023437,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023437,
+Murder,2023441,2024,4,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023441,
+Kidnapping,2023445,2022,5,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023445,
+Rape,2023476,2024,11,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023476,
+Drink and Drive,2023534,2022,12,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023534,
+Drink and Drive,2023555,2022,4,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023555,
+Drink and Drive,2023580,2022,3,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023580,
+Violence,2023649,2024,4,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023649,
+Rape,2023714,2023,7,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023714,
+Violence,2023751,2025,1,1067,Solved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023751,
+Kidnapping,2023808,2022,12,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023808,
+Rape,2023815,2025,1,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023815,
+Robbery,2023832,2025,1,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023832,
+Suicide,2023848,2025,1,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023848,
+Robbery,2023874,2022,10,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023874,
+Drink and Drive,2023884,2024,6,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023884,
+Kidnapping,2023931,2025,1,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023931,
+Violence,2023955,2022,12,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023955,
+Murder,2023964,2025,1,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023964,
+Drink and Drive,2023990,2022,1,1067,Unsolved,Namrata Joshi,Inspector,Ghatkopar,PS023,2023990,
+Drink and Drive,2022011,2022,9,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022011,
+Suicide,2022019,2024,5,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022019,
+Rape,2022043,2023,9,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022043,
+Kidnapping,2022067,2023,10,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022067,
+Rape,2022073,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022073,
+Rape,2022082,2023,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022082,
+Violence,2022100,2022,8,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022100,
+Rape,2022106,2024,9,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022106,
+Violence,2022132,2022,3,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022132,
+Rape,2022158,2022,5,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022158,
+Violence,2022206,2023,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022206,
+Suicide,2022207,2022,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022207,
+Rape,2022235,2022,11,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022235,
+Murder,2022275,2022,10,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022275,
+Murder,2022302,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022302,
+Robbery,2022336,2024,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022336,
+Murder,2022405,2022,2,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022405,
+Murder,2022442,2023,8,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022442,
+Drink and Drive,2022451,2024,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022451,
+Suicide,2022459,2024,3,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022459,
+Suicide,2022483,2023,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022483,
+Kidnapping,2022543,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022543,
+Suicide,2022597,2024,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022597,
+Murder,2022627,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022627,
+Rape,2022628,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022628,
+Robbery,2022672,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022672,
+Violence,2022686,2023,9,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022686,
+Murder,2022701,2024,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022701,
+Robbery,2022707,2023,2,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022707,
+Drink and Drive,2022712,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022712,
+Kidnapping,2022732,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022732,
+Violence,2022734,2023,5,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022734,
+Kidnapping,2022736,2023,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022736,
+Rape,2022750,2023,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022750,
+Robbery,2022798,2022,8,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022798,
+Kidnapping,2022855,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022855,
+Robbery,2022866,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022866,
+Suicide,2022870,2022,6,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022870,
+Drink and Drive,2022881,2022,3,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022881,
+Rape,2022934,2022,9,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022934,
+Rape,2022942,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022942,
+Rape,2022965,2023,10,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022965,
+Murder,2022984,2022,8,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2022984,
+Violence,2023009,2023,5,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023009,
+Drink and Drive,2023018,2022,5,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023018,
+Murder,2023034,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023034,
+Murder,2023045,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023045,
+Rape,2023088,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023088,
+Murder,2023090,2023,2,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023090,
+Suicide,2023130,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023130,
+Murder,2023148,2022,12,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023148,
+Rape,2023162,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023162,
+Drink and Drive,2023193,2022,3,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023193,
+Robbery,2023195,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023195,
+Rape,2023211,2023,10,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023211,
+Rape,2023271,2024,9,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023271,
+Drink and Drive,2023274,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023274,
+Rape,2023290,2024,8,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023290,
+Suicide,2023296,2024,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023296,
+Rape,2023332,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023332,
+Drink and Drive,2023334,2022,7,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023334,
+Rape,2023383,2022,3,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023383,
+Murder,2023392,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023392,
+Murder,2023398,2023,11,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023398,
+Rape,2023408,2022,5,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023408,
+Suicide,2023417,2024,3,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023417,
+Kidnapping,2023424,2022,7,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023424,
+Robbery,2023463,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023463,
+Violence,2023490,2022,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023490,
+Robbery,2023549,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023549,
+Rape,2023570,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023570,
+Drink and Drive,2023588,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023588,
+Violence,2023595,2023,4,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023595,
+Suicide,2023601,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023601,
+Rape,2023638,2022,11,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023638,
+Murder,2023666,2023,6,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023666,
+Suicide,2023673,2023,10,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023673,
+Robbery,2023745,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023745,
+Violence,2023746,2022,9,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023746,
+Violence,2023770,2022,8,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023770,
+Robbery,2023773,2025,1,1049,Solved,Rohini Nair,Inspector,Jogeshwari,PS017,2023773,
+Murder,2023809,2024,7,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023809,
+Suicide,2023823,2022,6,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023823,
+Rape,2023860,2022,9,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023860,
+Rape,2023880,2025,1,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023880,
+Robbery,2023936,2022,1,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023936,
+Violence,2023939,2025,1,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023939,
+Suicide,2023962,2022,10,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023962,
+Robbery,2023998,2022,7,1049,Unsolved,Rohini Nair,Inspector,Jogeshwari,PS017,2023998,
+Robbery,2022013,2022,10,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022013,
+Robbery,2022055,2023,5,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022055,
+Murder,2022070,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022070,
+Rape,2022076,2022,11,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022076,
+Suicide,2022111,2024,12,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022111,
+Rape,2022137,2024,6,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022137,
+Violence,2022167,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022167,
+Violence,2022169,2024,10,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022169,
+Kidnapping,2022190,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022190,
+Drink and Drive,2022200,2022,6,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022200,
+Murder,2022332,2022,6,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022332,
+Suicide,2022352,2022,9,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022352,
+Rape,2022376,2022,8,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022376,
+Murder,2022398,2022,12,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022398,
+Violence,2022471,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022471,
+Murder,2022476,2023,7,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022476,
+Robbery,2022488,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022488,
+Rape,2022556,2023,5,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022556,
+Drink and Drive,2022571,2023,11,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022571,
+Drink and Drive,2022645,2022,4,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022645,
+Violence,2022651,2023,12,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022651,
+Murder,2022694,2024,4,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022694,
+Murder,2022722,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022722,
+Drink and Drive,2022738,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022738,
+Rape,2022758,2023,7,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022758,
+Suicide,2022805,2023,5,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022805,
+Drink and Drive,2022865,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022865,
+Suicide,2022900,2022,3,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022900,
+Drink and Drive,2022901,2024,7,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022901,
+Murder,2022907,2024,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022907,
+Suicide,2022924,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022924,
+Suicide,2022950,2023,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022950,
+Murder,2022959,2024,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022959,
+Rape,2022986,2022,11,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2022986,
+Drink and Drive,2023024,2023,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023024,
+Rape,2023047,2023,10,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023047,
+Robbery,2023066,2024,4,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023066,
+Violence,2023068,2022,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023068,
+Violence,2023070,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023070,
+Robbery,2023094,2024,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023094,
+Suicide,2023099,2023,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023099,
+Suicide,2023127,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023127,
+Suicide,2023183,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023183,
+Rape,2023214,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023214,
+Suicide,2023264,2023,11,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023264,
+Violence,2023285,2023,3,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023285,
+Murder,2023319,2022,9,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023319,
+Rape,2023324,2023,12,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023324,
+Drink and Drive,2023359,2022,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023359,
+Drink and Drive,2023369,2024,8,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023369,
+Rape,2023378,2024,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023378,
+Robbery,2023403,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023403,
+Rape,2023457,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023457,
+Robbery,2023513,2023,9,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023513,
+Drink and Drive,2023533,2022,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023533,
+Murder,2023544,2022,4,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023544,
+Violence,2023558,2022,5,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023558,
+Rape,2023565,2022,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023565,
+Rape,2023584,2022,8,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023584,
+Robbery,2023587,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023587,
+Robbery,2023611,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023611,
+Violence,2023617,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023617,
+Drink and Drive,2023621,2023,10,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023621,
+Drink and Drive,2023623,2025,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023623,
+Violence,2023653,2022,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023653,
+Rape,2023694,2023,1,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023694,
+Suicide,2023721,2023,7,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023721,
+Violence,2023739,2022,8,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023739,
+Drink and Drive,2023740,2022,9,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023740,
+Drink and Drive,2023767,2023,2,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023767,
+Kidnapping,2023791,2022,4,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023791,
+Violence,2023798,2024,12,1046,Solved,Neeraj Chavan,Inspector,Kalyan,PS016,2023798,
+Suicide,2023850,2025,1,1046,Unsolved,Neeraj Chavan,Inspector,Kalyan,PS016,2023850,
+Murder,2023863,2022,1,1046,Unsolved,Neeraj Chavan,Inspector,Kalyan,PS016,2023863,
+Murder,2023875,2025,1,1046,Unsolved,Neeraj Chavan,Inspector,Kalyan,PS016,2023875,
+Kidnapping,2023876,2023,9,1046,Unsolved,Neeraj Chavan,Inspector,Kalyan,PS016,2023876,
+Violence,2023982,2024,3,1046,Unsolved,Neeraj Chavan,Inspector,Kalyan,PS016,2023982,
+Murder,2022020,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022020,
+Drink and Drive,2022058,2024,4,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022058,
+Rape,2022069,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022069,
+Drink and Drive,2022071,2022,12,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022071,
+Rape,2022081,2024,10,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022081,
+Robbery,2022090,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022090,
+Violence,2022134,2023,9,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022134,
+Kidnapping,2022149,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022149,
+Murder,2022166,2022,9,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022166,
+Suicide,2022182,2023,4,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022182,
+Murder,2022183,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022183,
+Drink and Drive,2022195,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022195,
+Drink and Drive,2022221,2024,4,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022221,
+Rape,2022227,2024,10,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022227,
+Murder,2022236,2023,10,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022236,
+Suicide,2022355,2022,5,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022355,
+Kidnapping,2022388,2022,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022388,
+Murder,2022404,2022,2,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022404,
+Robbery,2022449,2023,3,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022449,
+Robbery,2022473,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022473,
+Rape,2022487,2023,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022487,
+Drink and Drive,2022491,2023,8,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022491,
+Murder,2022493,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022493,
+Drink and Drive,2022495,2024,6,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022495,
+Violence,2022509,2024,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022509,
+Suicide,2022528,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022528,
+Murder,2022532,2024,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022532,
+Murder,2022546,2023,5,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022546,
+Murder,2022554,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022554,
+Robbery,2022568,2022,6,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022568,
+Murder,2022573,2024,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022573,
+Violence,2022585,2024,6,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022585,
+Drink and Drive,2022589,2024,8,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022589,
+Murder,2022607,2023,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022607,
+Rape,2022615,2023,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022615,
+Robbery,2022721,2022,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022721,
+Drink and Drive,2022724,2023,10,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022724,
+Rape,2022737,2023,9,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022737,
+Drink and Drive,2022756,2023,6,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022756,
+Kidnapping,2022776,2022,6,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022776,
+Violence,2022778,2023,9,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022778,
+Kidnapping,2022781,2024,8,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022781,
+Kidnapping,2022801,2024,12,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022801,
+Drink and Drive,2022802,2022,5,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022802,
+Drink and Drive,2022825,2022,2,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022825,
+Drink and Drive,2022836,2023,10,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022836,
+Murder,2022844,2024,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022844,
+Violence,2022906,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022906,
+Robbery,2022919,2022,8,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022919,
+Violence,2022953,2022,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022953,
+Violence,2022968,2023,2,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2022968,
+Murder,2023007,2022,3,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023007,
+Kidnapping,2023019,2023,5,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023019,
+Suicide,2023049,2023,3,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023049,
+Robbery,2023065,2022,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023065,
+Kidnapping,2023069,2024,7,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023069,
+Kidnapping,2023104,2022,4,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023104,
+Robbery,2023120,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023120,
+Suicide,2023125,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023125,
+Kidnapping,2023135,2022,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023135,
+Drink and Drive,2023156,2024,7,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023156,
+Kidnapping,2023182,2023,6,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023182,
+Rape,2023188,2023,12,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023188,
+Suicide,2023280,2023,12,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023280,
+Kidnapping,2023330,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023330,
+Violence,2023347,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023347,
+Drink and Drive,2023355,2024,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023355,
+Murder,2023396,2023,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023396,
+Kidnapping,2023397,2024,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023397,
+Suicide,2023405,2022,6,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023405,
+Drink and Drive,2023435,2024,5,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023435,
+Murder,2023495,2022,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023495,
+Violence,2023498,2022,4,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023498,
+Robbery,2023503,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023503,
+Suicide,2023521,2022,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023521,
+Murder,2023532,2022,5,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023532,
+Suicide,2023572,2022,11,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023572,
+Rape,2023603,2023,9,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023603,
+Violence,2023619,2024,3,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023619,
+Suicide,2023633,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023633,
+Murder,2023661,2024,7,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023661,
+Drink and Drive,2023679,2023,10,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023679,
+Robbery,2023712,2025,1,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023712,
+Drink and Drive,2023716,2022,7,1028,Solved,Jitendra Patel,Inspector,Kandivali,PS010,2023716,
+Violence,2023833,2024,10,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023833,
+Murder,2023861,2023,9,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023861,
+Robbery,2023864,2022,7,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023864,
+Kidnapping,2023885,2024,7,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023885,
+Kidnapping,2023910,2024,1,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023910,
+Rape,2023927,2023,3,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023927,
+Violence,2023942,2022,5,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023942,
+Violence,2023983,2024,12,1028,Unsolved,Jitendra Patel,Inspector,Kandivali,PS010,2023983,
+Kidnapping,2022028,2024,3,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022028,
+Kidnapping,2022102,2022,2,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022102,
+Drink and Drive,2022108,2022,11,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022108,
+Rape,2022109,2023,3,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022109,
+Kidnapping,2022114,2022,3,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022114,
+Robbery,2022124,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022124,
+Murder,2022141,2023,8,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022141,
+Kidnapping,2022148,2024,10,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022148,
+Murder,2022174,2023,8,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022174,
+Murder,2022191,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022191,
+Robbery,2022245,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022245,
+Violence,2022258,2024,4,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022258,
+Rape,2022270,2022,10,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022270,
+Violence,2022290,2023,4,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022290,
+Drink and Drive,2022291,2023,12,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022291,
+Suicide,2022359,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022359,
+Violence,2022410,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022410,
+Murder,2022450,2023,9,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022450,
+Violence,2022479,2022,7,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022479,
+Murder,2022517,2024,4,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022517,
+Violence,2022520,2022,8,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022520,
+Kidnapping,2022523,2022,4,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022523,
+Kidnapping,2022527,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022527,
+Kidnapping,2022536,2023,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022536,
+Suicide,2022563,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022563,
+Rape,2022622,2023,6,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022622,
+Suicide,2022630,2023,2,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022630,
+Kidnapping,2022639,2023,9,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022639,
+Murder,2022693,2022,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022693,
+Robbery,2022695,2022,7,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022695,
+Kidnapping,2022710,2022,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022710,
+Rape,2022731,2022,11,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022731,
+Suicide,2022773,2022,6,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022773,
+Suicide,2022784,2022,11,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022784,
+Suicide,2022785,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022785,
+Suicide,2022787,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022787,
+Kidnapping,2022796,2023,6,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022796,
+Suicide,2022821,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022821,
+Kidnapping,2022851,2022,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022851,
+Suicide,2022885,2022,6,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022885,
+Kidnapping,2022893,2023,2,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022893,
+Suicide,2022895,2024,3,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022895,
+Violence,2022903,2022,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022903,
+Murder,2022938,2024,6,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022938,
+Drink and Drive,2022947,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022947,
+Murder,2022948,2022,12,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022948,
+Murder,2022964,2022,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2022964,
+Violence,2023057,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023057,
+Kidnapping,2023084,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023084,
+Rape,2023110,2024,8,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023110,
+Suicide,2023128,2022,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023128,
+Kidnapping,2023138,2022,7,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023138,
+Robbery,2023145,2022,10,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023145,
+Kidnapping,2023157,2022,10,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023157,
+Drink and Drive,2023170,2022,10,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023170,
+Violence,2023175,2022,2,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023175,
+Kidnapping,2023185,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023185,
+Drink and Drive,2023239,2023,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023239,
+Rape,2023266,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023266,
+Murder,2023281,2024,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023281,
+Rape,2023374,2023,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023374,
+Kidnapping,2023390,2024,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023390,
+Kidnapping,2023393,2022,9,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023393,
+Violence,2023410,2024,4,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023410,
+Violence,2023423,2024,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023423,
+Violence,2023453,2023,2,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023453,
+Rape,2023467,2022,8,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023467,
+Murder,2023522,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023522,
+Suicide,2023540,2025,1,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023540,
+Drink and Drive,2023608,2022,3,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023608,
+Rape,2023624,2022,8,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023624,
+Murder,2023645,2023,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023645,
+Rape,2023691,2024,5,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023691,
+Robbery,2023704,2022,7,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023704,
+Murder,2023718,2022,10,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023718,
+Robbery,2023723,2024,8,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023723,
+Murder,2023743,2023,10,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023743,
+Murder,2023777,2022,2,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023777,
+Suicide,2023778,2024,4,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023778,
+Robbery,2023779,2022,2,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023779,
+Drink and Drive,2023780,2022,7,1061,Solved,Suresh Pandey,Inspector,Malad,PS021,2023780,
+Suicide,2023803,2022,12,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023803,
+Drink and Drive,2023845,2022,3,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023845,
+Rape,2023917,2025,1,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023917,
+Rape,2023952,2023,2,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023952,
+Violence,2023953,2025,1,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023953,
+Drink and Drive,2023971,2022,6,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023971,
+Robbery,2023973,2025,1,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023973,
+Murder,2023978,2025,1,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023978,
+Rape,2023980,2024,8,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023980,
+Drink and Drive,2023991,2023,12,1061,Unsolved,Suresh Pandey,Inspector,Malad,PS021,2023991,
+Suicide,2022014,2023,2,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022014,
+Suicide,2022017,2024,9,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022017,
+Murder,2022049,2023,2,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022049,
+Drink and Drive,2022065,2024,3,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022065,
+Violence,2022093,2022,3,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022093,
+Kidnapping,2022107,2023,9,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022107,
+Murder,2022155,2023,11,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022155,
+Suicide,2022323,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022323,
+Violence,2022335,2022,8,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022335,
+Murder,2022354,2022,8,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022354,
+Rape,2022370,2023,3,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022370,
+Robbery,2022372,2023,5,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022372,
+Rape,2022378,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022378,
+Violence,2022396,2023,3,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022396,
+Rape,2022399,2022,4,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022399,
+Robbery,2022433,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022433,
+Kidnapping,2022463,2024,8,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022463,
+Kidnapping,2022478,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022478,
+Kidnapping,2022541,2023,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022541,
+Rape,2022558,2024,6,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022558,
+Robbery,2022594,2023,12,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022594,
+Violence,2022616,2022,5,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022616,
+Drink and Drive,2022703,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022703,
+Robbery,2022709,2023,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022709,
+Suicide,2022743,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022743,
+Kidnapping,2022774,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022774,
+Rape,2022777,2023,4,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022777,
+Suicide,2022800,2023,4,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022800,
+Violence,2022808,2024,10,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022808,
+Drink and Drive,2022826,2022,4,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022826,
+Violence,2022837,2024,2,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022837,
+Murder,2022853,2022,5,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022853,
+Robbery,2022868,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022868,
+Robbery,2022888,2023,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022888,
+Violence,2022958,2023,7,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022958,
+Suicide,2022963,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022963,
+Murder,2022969,2024,11,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022969,
+Robbery,2022985,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2022985,
+Kidnapping,2023055,2024,7,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023055,
+Violence,2023077,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023077,
+Murder,2023106,2024,4,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023106,
+Kidnapping,2023151,2024,12,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023151,
+Suicide,2023166,2024,8,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023166,
+Drink and Drive,2023189,2024,7,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023189,
+Drink and Drive,2023243,2023,6,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023243,
+Murder,2023252,2023,6,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023252,
+Murder,2023259,2024,8,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023259,
+Drink and Drive,2023375,2023,6,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023375,
+Murder,2023404,2023,3,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023404,
+Rape,2023428,2022,4,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023428,
+Drink and Drive,2023459,2023,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023459,
+Murder,2023561,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023561,
+Drink and Drive,2023576,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023576,
+Violence,2023593,2024,5,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023593,
+Violence,2023609,2023,7,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023609,
+Suicide,2023629,2024,2,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023629,
+Suicide,2023647,2024,5,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023647,
+Murder,2023747,2023,2,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023747,
+Suicide,2023760,2023,4,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023760,
+Violence,2023763,2022,12,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023763,
+Rape,2023764,2022,7,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023764,
+Rape,2023766,2023,2,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023766,
+Murder,2023785,2025,1,1031,Solved,Nilesh Khot,Inspector,Mira Road,PS011,2023785,
+Suicide,2023859,2025,1,1031,Unsolved,Nilesh Khot,Inspector,Mira Road,PS011,2023859,
+Robbery,2023899,2023,1,1031,Unsolved,Nilesh Khot,Inspector,Mira Road,PS011,2023899,
+Drink and Drive,2023926,2024,9,1031,Unsolved,Nilesh Khot,Inspector,Mira Road,PS011,2023926,
+Suicide,2023934,2024,12,1031,Unsolved,Nilesh Khot,Inspector,Mira Road,PS011,2023934,
+Robbery,2023935,2022,11,1031,Unsolved,Nilesh Khot,Inspector,Mira Road,PS011,2023935,
+Robbery,2023949,2023,3,1031,Unsolved,Nilesh Khot,Inspector,Mira Road,PS011,2023949,
+Violence,2023970,2025,1,1031,Unsolved,Nilesh Khot,Inspector,Mira Road,PS011,2023970,
+Robbery,2022006,2024,12,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022006,
+Rape,2022040,2022,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022040,
+Rape,2022059,2022,12,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022059,
+Drink and Drive,2022078,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022078,
+Violence,2022152,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022152,
+Violence,2022210,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022210,
+Kidnapping,2022212,2024,8,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022212,
+Violence,2022284,2024,8,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022284,
+Murder,2022293,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022293,
+Suicide,2022313,2022,3,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022313,
+Kidnapping,2022337,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022337,
+Suicide,2022341,2024,6,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022341,
+Kidnapping,2022365,2023,12,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022365,
+Drink and Drive,2022409,2023,9,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022409,
+Violence,2022411,2023,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022411,
+Murder,2022444,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022444,
+Murder,2022469,2022,5,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022469,
+Suicide,2022504,2023,8,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022504,
+Drink and Drive,2022522,2022,7,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022522,
+Kidnapping,2022565,2023,3,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022565,
+Suicide,2022567,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022567,
+Drink and Drive,2022583,2022,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022583,
+Drink and Drive,2022611,2024,7,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022611,
+Drink and Drive,2022646,2022,2,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022646,
+Suicide,2022654,2023,8,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022654,
+Murder,2022664,2022,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022664,
+Suicide,2022673,2024,7,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022673,
+Rape,2022677,2023,9,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022677,
+Violence,2022728,2022,10,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022728,
+Violence,2022761,2022,12,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022761,
+Murder,2022764,2024,9,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022764,
+Drink and Drive,2022782,2024,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022782,
+Drink and Drive,2022807,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022807,
+Rape,2022819,2023,12,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022819,
+Suicide,2022846,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022846,
+Kidnapping,2022848,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022848,
+Kidnapping,2022849,2024,8,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022849,
+Suicide,2022902,2024,11,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022902,
+Robbery,2022905,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022905,
+Kidnapping,2022922,2022,9,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022922,
+Rape,2022929,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022929,
+Drink and Drive,2022981,2022,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2022981,
+Murder,2023010,2024,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023010,
+Drink and Drive,2023016,2024,11,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023016,
+Rape,2023040,2024,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023040,
+Suicide,2023073,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023073,
+Kidnapping,2023085,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023085,
+Murder,2023095,2024,11,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023095,
+Rape,2023210,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023210,
+Robbery,2023212,2024,6,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023212,
+Kidnapping,2023234,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023234,
+Rape,2023254,2022,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023254,
+Violence,2023269,2024,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023269,
+Kidnapping,2023275,2023,2,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023275,
+Robbery,2023312,2022,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023312,
+Drink and Drive,2023343,2024,5,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023343,
+Kidnapping,2023357,2022,9,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023357,
+Rape,2023362,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023362,
+Kidnapping,2023505,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023505,
+Drink and Drive,2023514,2022,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023514,
+Suicide,2023523,2023,3,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023523,
+Drink and Drive,2023626,2023,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023626,
+Suicide,2023648,2023,4,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023648,
+Rape,2023670,2023,5,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023670,
+Drink and Drive,2023675,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023675,
+Robbery,2023708,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023708,
+Kidnapping,2023715,2025,1,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023715,
+Rape,2023735,2024,8,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023735,
+Drink and Drive,2023769,2024,10,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023769,
+Robbery,2023784,2023,9,1052,Solved,Rajiv Menon,Inspector,Mulund,PS018,2023784,
+Violence,2023834,2022,1,1052,Unsolved,Rajiv Menon,Inspector,Mulund,PS018,2023834,
+Murder,2023878,2025,1,1052,Unsolved,Rajiv Menon,Inspector,Mulund,PS018,2023878,
+Robbery,2023887,2023,1,1052,Unsolved,Rajiv Menon,Inspector,Mulund,PS018,2023887,
+Suicide,2023944,2024,6,1052,Unsolved,Rajiv Menon,Inspector,Mulund,PS018,2023944,
+Drink and Drive,2022052,2024,10,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022052,
+Violence,2022095,2022,3,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022095,
+Violence,2022097,2023,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022097,
+Violence,2022115,2024,10,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022115,
+Robbery,2022122,2024,8,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022122,
+Robbery,2022127,2024,3,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022127,
+Robbery,2022130,2023,10,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022130,
+Murder,2022136,2023,2,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022136,
+Violence,2022249,2023,2,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022249,
+Suicide,2022265,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022265,
+Kidnapping,2022281,2022,9,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022281,
+Rape,2022301,2022,7,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022301,
+Drink and Drive,2022342,2022,12,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022342,
+Suicide,2022412,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022412,
+Murder,2022425,2023,7,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022425,
+Kidnapping,2022472,2024,4,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022472,
+Violence,2022516,2023,6,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022516,
+Drink and Drive,2022538,2022,7,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022538,
+Violence,2022569,2022,5,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022569,
+Violence,2022577,2024,2,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022577,
+Robbery,2022586,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022586,
+Suicide,2022598,2024,2,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022598,
+Murder,2022681,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022681,
+Kidnapping,2022741,2023,3,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022741,
+Violence,2022747,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022747,
+Murder,2022753,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022753,
+Drink and Drive,2022769,2022,8,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022769,
+Suicide,2022772,2024,5,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022772,
+Murder,2022789,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022789,
+Violence,2022811,2022,8,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022811,
+Suicide,2022827,2024,4,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022827,
+Rape,2022835,2022,9,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022835,
+Violence,2022840,2022,10,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022840,
+Suicide,2022852,2024,8,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022852,
+Suicide,2022862,2024,9,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022862,
+Robbery,2022897,2022,3,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022897,
+Rape,2022917,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022917,
+Violence,2022931,2023,6,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022931,
+Violence,2022960,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022960,
+Kidnapping,2022962,2022,12,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022962,
+Drink and Drive,2022970,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022970,
+Violence,2022988,2022,11,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022988,
+Kidnapping,2022991,2023,4,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2022991,
+Rape,2023015,2023,6,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023015,
+Suicide,2023067,2024,12,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023067,
+Rape,2023177,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023177,
+Robbery,2023208,2024,8,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023208,
+Kidnapping,2023263,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023263,
+Rape,2023282,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023282,
+Drink and Drive,2023299,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023299,
+Robbery,2023306,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023306,
+Murder,2023337,2022,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023337,
+Suicide,2023339,2023,7,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023339,
+Kidnapping,2023412,2022,2,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023412,
+Violence,2023431,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023431,
+Rape,2023450,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023450,
+Suicide,2023462,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023462,
+Kidnapping,2023496,2022,6,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023496,
+Drink and Drive,2023571,2024,2,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023571,
+Robbery,2023610,2023,11,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023610,
+Rape,2023627,2025,1,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023627,
+Rape,2023750,2024,8,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023750,
+Robbery,2023792,2022,6,1001,Solved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023792,
+Rape,2023806,2024,2,1001,Unsolved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023806,
+Kidnapping,2023839,2023,7,1001,Unsolved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023839,
+Drink and Drive,2023907,2025,1,1001,Unsolved,Ravi Kumar,Inspector,Mumbai Central,PS001,2023907,
+Robbery,2022000,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022000,
+Murder,2022029,2024,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022029,
+Drink and Drive,2022044,2024,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022044,
+Suicide,2022056,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022056,
+Violence,2022066,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022066,
+Suicide,2022099,2024,10,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022099,
+Suicide,2022128,2024,9,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022128,
+Kidnapping,2022144,2023,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022144,
+Murder,2022186,2023,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022186,
+Kidnapping,2022198,2024,3,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022198,
+Kidnapping,2022231,2024,12,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022231,
+Kidnapping,2022240,2023,9,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022240,
+Murder,2022250,2022,5,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022250,
+Violence,2022260,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022260,
+Kidnapping,2022294,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022294,
+Murder,2022296,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022296,
+Violence,2022307,2024,11,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022307,
+Violence,2022308,2024,2,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022308,
+Suicide,2022319,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022319,
+Violence,2022338,2022,9,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022338,
+Murder,2022386,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022386,
+Robbery,2022393,2024,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022393,
+Kidnapping,2022413,2024,5,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022413,
+Robbery,2022416,2024,8,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022416,
+Drink and Drive,2022418,2023,10,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022418,
+Violence,2022428,2023,2,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022428,
+Violence,2022466,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022466,
+Violence,2022521,2024,5,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022521,
+Robbery,2022620,2023,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022620,
+Violence,2022642,2022,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022642,
+Rape,2022659,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022659,
+Violence,2022714,2023,9,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022714,
+Rape,2022748,2023,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022748,
+Rape,2022779,2023,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022779,
+Murder,2022863,2023,9,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022863,
+Violence,2022925,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022925,
+Robbery,2022943,2023,12,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022943,
+Rape,2022982,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022982,
+Violence,2022999,2024,2,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2022999,
+Drink and Drive,2023005,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023005,
+Suicide,2023025,2022,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023025,
+Rape,2023032,2022,2,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023032,
+Kidnapping,2023038,2023,3,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023038,
+Robbery,2023044,2024,8,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023044,
+Violence,2023062,2024,4,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023062,
+Murder,2023075,2023,11,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023075,
+Murder,2023116,2024,6,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023116,
+Kidnapping,2023137,2022,2,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023137,
+Kidnapping,2023233,2023,3,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023233,
+Suicide,2023262,2023,8,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023262,
+Drink and Drive,2023283,2024,8,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023283,
+Violence,2023291,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023291,
+Violence,2023314,2023,2,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023314,
+Rape,2023367,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023367,
+Drink and Drive,2023443,2023,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023443,
+Violence,2023444,2024,3,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023444,
+Murder,2023447,2022,4,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023447,
+Violence,2023500,2023,3,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023500,
+Robbery,2023508,2023,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023508,
+Kidnapping,2023547,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023547,
+Rape,2023548,2022,5,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023548,
+Kidnapping,2023615,2023,12,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023615,
+Violence,2023622,2024,10,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023622,
+Rape,2023640,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023640,
+Drink and Drive,2023658,2022,5,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023658,
+Robbery,2023668,2024,11,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023668,
+Murder,2023669,2024,5,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023669,
+Kidnapping,2023690,2024,7,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023690,
+Rape,2023724,2023,5,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023724,
+Drink and Drive,2023756,2025,1,1010,Solved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023756,
+Kidnapping,2023858,2025,1,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023858,
+Robbery,2023866,2022,7,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023866,
+Suicide,2023879,2022,7,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023879,
+Rape,2023908,2022,12,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023908,
+Suicide,2023947,2022,2,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023947,
+Suicide,2023951,2025,1,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023951,
+Robbery,2023969,2024,1,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023969,
+Drink and Drive,2023985,2024,9,1010,Unsolved,Kiran Shetty,Inspector,Navi Mumbai,PS004,2023985,
+Suicide,2022046,2022,4,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022046,
+Robbery,2022053,2022,2,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022053,
+Kidnapping,2022068,2023,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022068,
+Rape,2022126,2024,2,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022126,
+Kidnapping,2022194,2023,9,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022194,
+Rape,2022225,2023,4,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022225,
+Kidnapping,2022241,2023,8,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022241,
+Robbery,2022255,2023,9,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022255,
+Kidnapping,2022278,2022,2,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022278,
+Robbery,2022303,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022303,
+Drink and Drive,2022306,2022,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022306,
+Kidnapping,2022324,2023,6,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022324,
+Murder,2022346,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022346,
+Suicide,2022371,2023,10,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022371,
+Murder,2022422,2022,6,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022422,
+Robbery,2022427,2023,4,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022427,
+Drink and Drive,2022456,2022,4,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022456,
+Suicide,2022480,2023,9,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022480,
+Drink and Drive,2022492,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022492,
+Rape,2022505,2023,12,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022505,
+Rape,2022550,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022550,
+Drink and Drive,2022605,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022605,
+Violence,2022609,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022609,
+Rape,2022613,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022613,
+Suicide,2022623,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022623,
+Robbery,2022649,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022649,
+Suicide,2022660,2024,5,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022660,
+Kidnapping,2022829,2024,12,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022829,
+Robbery,2022854,2022,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022854,
+Rape,2022876,2024,12,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022876,
+Murder,2022882,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022882,
+Kidnapping,2022921,2022,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022921,
+Suicide,2022941,2022,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022941,
+Suicide,2022957,2023,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022957,
+Kidnapping,2022971,2023,10,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022971,
+Kidnapping,2022973,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022973,
+Kidnapping,2022977,2023,3,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2022977,
+Rape,2023002,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023002,
+Rape,2023021,2022,12,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023021,
+Robbery,2023052,2022,9,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023052,
+Robbery,2023101,2023,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023101,
+Drink and Drive,2023122,2024,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023122,
+Kidnapping,2023147,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023147,
+Kidnapping,2023159,2022,11,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023159,
+Drink and Drive,2023161,2024,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023161,
+Drink and Drive,2023206,2024,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023206,
+Kidnapping,2023224,2023,10,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023224,
+Rape,2023249,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023249,
+Kidnapping,2023251,2023,5,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023251,
+Robbery,2023261,2024,3,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023261,
+Kidnapping,2023272,2024,12,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023272,
+Murder,2023344,2023,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023344,
+Violence,2023349,2024,11,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023349,
+Suicide,2023388,2023,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023388,
+Robbery,2023402,2022,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023402,
+Murder,2023427,2023,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023427,
+Murder,2023464,2023,4,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023464,
+Drink and Drive,2023466,2023,12,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023466,
+Rape,2023489,2022,6,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023489,
+Murder,2023535,2022,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023535,
+Violence,2023553,2023,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023553,
+Suicide,2023560,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023560,
+Suicide,2023574,2022,9,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023574,
+Drink and Drive,2023656,2025,1,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023656,
+Suicide,2023676,2023,3,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023676,
+Murder,2023726,2023,7,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023726,
+Suicide,2023728,2022,11,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023728,
+Rape,2023783,2024,6,1037,Solved,Ravindra Purohit,Inspector,Panvel,PS013,2023783,
+Violence,2023827,2025,1,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023827,
+Drink and Drive,2023836,2022,7,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023836,
+Murder,2023869,2022,12,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023869,
+Robbery,2023898,2025,1,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023898,
+Rape,2023906,2024,11,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023906,
+Suicide,2023920,2023,9,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023920,
+Suicide,2023921,2022,11,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023921,
+Robbery,2023948,2023,8,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023948,
+Rape,2023997,2025,1,1037,Unsolved,Ravindra Purohit,Inspector,Panvel,PS013,2023997,
+Murder,2022007,2022,11,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022007,
+Drink and Drive,2022024,2023,4,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022024,
+Kidnapping,2022057,2022,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022057,
+Suicide,2022075,2023,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022075,
+Rape,2022116,2024,5,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022116,
+Robbery,2022119,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022119,
+Rape,2022164,2024,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022164,
+Violence,2022171,2024,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022171,
+Drink and Drive,2022214,2024,7,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022214,
+Drink and Drive,2022220,2023,8,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022220,
+Kidnapping,2022251,2023,10,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022251,
+Murder,2022259,2024,8,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022259,
+Rape,2022267,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022267,
+Rape,2022311,2023,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022311,
+Kidnapping,2022333,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022333,
+Violence,2022357,2022,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022357,
+Murder,2022380,2023,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022380,
+Rape,2022421,2022,11,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022421,
+Drink and Drive,2022438,2022,11,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022438,
+Rape,2022500,2023,5,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022500,
+Robbery,2022582,2024,11,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022582,
+Drink and Drive,2022591,2023,8,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022591,
+Kidnapping,2022592,2024,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022592,
+Robbery,2022610,2022,3,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022610,
+Rape,2022636,2023,5,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022636,
+Rape,2022663,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022663,
+Robbery,2022680,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022680,
+Rape,2022730,2023,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022730,
+Drink and Drive,2022742,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022742,
+Drink and Drive,2022786,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022786,
+Robbery,2022847,2024,8,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022847,
+Suicide,2022864,2023,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022864,
+Kidnapping,2022889,2022,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022889,
+Violence,2022890,2024,4,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022890,
+Violence,2022911,2023,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022911,
+Suicide,2022914,2022,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022914,
+Drink and Drive,2022926,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022926,
+Rape,2022994,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022994,
+Rape,2022998,2023,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2022998,
+Violence,2023079,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023079,
+Drink and Drive,2023124,2022,11,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023124,
+Murder,2023141,2022,7,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023141,
+Robbery,2023160,2023,10,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023160,
+Suicide,2023196,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023196,
+Violence,2023200,2023,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023200,
+Rape,2023215,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023215,
+Rape,2023246,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023246,
+Violence,2023256,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023256,
+Robbery,2023257,2022,2,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023257,
+Rape,2023277,2022,5,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023277,
+Murder,2023289,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023289,
+Violence,2023308,2022,2,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023308,
+Drink and Drive,2023348,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023348,
+Drink and Drive,2023352,2023,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023352,
+Kidnapping,2023376,2022,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023376,
+Violence,2023381,2022,2,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023381,
+Murder,2023395,2022,9,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023395,
+Rape,2023420,2022,8,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023420,
+Murder,2023478,2022,10,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023478,
+Suicide,2023497,2022,7,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023497,
+Robbery,2023502,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023502,
+Suicide,2023509,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023509,
+Suicide,2023518,2022,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023518,
+Rape,2023538,2024,7,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023538,
+Robbery,2023579,2022,3,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023579,
+Drink and Drive,2023582,2022,5,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023582,
+Suicide,2023592,2025,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023592,
+Kidnapping,2023600,2022,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023600,
+Violence,2023606,2023,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023606,
+Drink and Drive,2023620,2023,5,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023620,
+Kidnapping,2023639,2024,1,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023639,
+Robbery,2023659,2022,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023659,
+Kidnapping,2023683,2022,3,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023683,
+Drink and Drive,2023699,2022,3,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023699,
+Robbery,2023788,2022,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023788,
+Murder,2023793,2022,6,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023793,
+Suicide,2023797,2023,12,1019,Solved,Sandeep Chauhan,Inspector,Powai,PS007,2023797,
+Suicide,2023810,2024,7,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023810,
+Drink and Drive,2023828,2024,11,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023828,
+Kidnapping,2023831,2022,6,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023831,
+Murder,2023852,2024,4,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023852,
+Suicide,2023855,2024,11,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023855,
+Drink and Drive,2023862,2025,1,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023862,
+Robbery,2023883,2024,12,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023883,
+Drink and Drive,2023903,2024,1,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023903,
+Suicide,2023984,2022,4,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023984,
+Violence,2023989,2024,4,1019,Unsolved,Sandeep Chauhan,Inspector,Powai,PS007,2023989,
+Violence,2022002,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022002,
+Violence,2022079,2024,12,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022079,
+Robbery,2022121,2024,3,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022121,
+Drink and Drive,2022139,2022,8,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022139,
+Murder,2022150,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022150,
+Murder,2022154,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022154,
+Drink and Drive,2022159,2024,7,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022159,
+Rape,2022219,2024,2,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022219,
+Robbery,2022315,2024,4,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022315,
+Murder,2022329,2022,2,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022329,
+Violence,2022331,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022331,
+Robbery,2022351,2024,10,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022351,
+Violence,2022369,2022,11,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022369,
+Violence,2022395,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022395,
+Kidnapping,2022408,2024,10,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022408,
+Kidnapping,2022432,2022,12,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022432,
+Robbery,2022494,2023,6,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022494,
+Robbery,2022512,2022,5,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022512,
+Suicide,2022526,2022,6,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022526,
+Rape,2022540,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022540,
+Rape,2022542,2022,2,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022542,
+Robbery,2022551,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022551,
+Suicide,2022602,2022,12,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022602,
+Rape,2022637,2022,10,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022637,
+Kidnapping,2022658,2023,8,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022658,
+Robbery,2022690,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022690,
+Murder,2022720,2023,10,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022720,
+Robbery,2022744,2023,12,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022744,
+Drink and Drive,2022760,2023,10,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022760,
+Rape,2022790,2022,4,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022790,
+Robbery,2022804,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022804,
+Robbery,2022831,2024,3,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022831,
+Violence,2022833,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022833,
+Violence,2022867,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022867,
+Suicide,2022916,2023,2,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022916,
+Kidnapping,2022932,2022,9,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022932,
+Suicide,2022946,2022,8,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022946,
+Violence,2022979,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022979,
+Drink and Drive,2022993,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2022993,
+Violence,2023003,2022,2,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023003,
+Rape,2023004,2024,9,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023004,
+Suicide,2023050,2024,5,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023050,
+Drink and Drive,2023074,2024,5,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023074,
+Murder,2023098,2023,8,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023098,
+Robbery,2023140,2023,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023140,
+Rape,2023192,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023192,
+Rape,2023231,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023231,
+Robbery,2023240,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023240,
+Kidnapping,2023270,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023270,
+Drink and Drive,2023287,2023,7,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023287,
+Violence,2023293,2024,3,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023293,
+Suicide,2023303,2023,7,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023303,
+Murder,2023311,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023311,
+Drink and Drive,2023364,2023,7,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023364,
+Murder,2023377,2024,3,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023377,
+Kidnapping,2023406,2022,4,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023406,
+Rape,2023433,2024,10,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023433,
+Violence,2023436,2022,7,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023436,
+Robbery,2023493,2022,6,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023493,
+Violence,2023528,2024,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023528,
+Rape,2023566,2023,4,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023566,
+Murder,2023597,2022,6,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023597,
+Kidnapping,2023632,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023632,
+Robbery,2023643,2022,9,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023643,
+Suicide,2023702,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023702,
+Rape,2023775,2025,1,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023775,
+Drink and Drive,2023794,2023,5,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023794,
+Robbery,2023795,2022,10,1070,Solved,Snehal Shetty,Inspector,Sion,PS024,2023795,
+Drink and Drive,2023807,2022,9,1070,Unsolved,Snehal Shetty,Inspector,Sion,PS024,2023807,
+Violence,2023889,2025,1,1070,Unsolved,Snehal Shetty,Inspector,Sion,PS024,2023889,
+Suicide,2023894,2022,6,1070,Unsolved,Snehal Shetty,Inspector,Sion,PS024,2023894,
+Violence,2023897,2023,7,1070,Unsolved,Snehal Shetty,Inspector,Sion,PS024,2023897,
+Kidnapping,2023938,2022,12,1070,Unsolved,Snehal Shetty,Inspector,Sion,PS024,2023938,
+Drink and Drive,2023961,2023,12,1070,Unsolved,Snehal Shetty,Inspector,Sion,PS024,2023961,
+Suicide,2023981,2025,1,1070,Unsolved,Snehal Shetty,Inspector,Sion,PS024,2023981,
+Murder,2022003,2023,3,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022003,
+Drink and Drive,2022031,2022,12,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022031,
+Kidnapping,2022050,2023,12,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022050,
+Violence,2022060,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022060,
+Drink and Drive,2022077,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022077,
+Murder,2022089,2024,5,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022089,
+Rape,2022113,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022113,
+Violence,2022170,2024,12,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022170,
+Kidnapping,2022192,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022192,
+Drink and Drive,2022193,2022,11,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022193,
+Suicide,2022222,2024,7,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022222,
+Robbery,2022246,2023,11,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022246,
+Violence,2022274,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022274,
+Suicide,2022285,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022285,
+Drink and Drive,2022318,2024,7,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022318,
+Drink and Drive,2022385,2024,10,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022385,
+Kidnapping,2022397,2024,6,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022397,
+Suicide,2022549,2024,11,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022549,
+Robbery,2022599,2024,6,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022599,
+Murder,2022614,2023,5,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022614,
+Kidnapping,2022631,2023,4,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022631,
+Kidnapping,2022665,2023,6,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022665,
+Drink and Drive,2022666,2022,9,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022666,
+Robbery,2022683,2023,10,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022683,
+Suicide,2022685,2024,7,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022685,
+Kidnapping,2022704,2023,11,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022704,
+Kidnapping,2022708,2022,8,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022708,
+Suicide,2022757,2023,10,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022757,
+Rape,2022780,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022780,
+Robbery,2022795,2023,8,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022795,
+Violence,2022871,2024,10,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022871,
+Kidnapping,2022883,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022883,
+Rape,2022908,2023,6,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2022908,
+Violence,2023017,2022,2,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023017,
+Robbery,2023036,2022,7,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023036,
+Rape,2023054,2024,9,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023054,
+Suicide,2023081,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023081,
+Drink and Drive,2023083,2022,9,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023083,
+Murder,2023087,2023,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023087,
+Drink and Drive,2023118,2024,4,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023118,
+Suicide,2023134,2023,10,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023134,
+Kidnapping,2023155,2023,12,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023155,
+Drink and Drive,2023164,2024,11,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023164,
+Kidnapping,2023232,2024,4,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023232,
+Murder,2023244,2023,4,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023244,
+Violence,2023250,2022,2,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023250,
+Murder,2023267,2022,7,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023267,
+Robbery,2023333,2024,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023333,
+Kidnapping,2023351,2022,8,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023351,
+Rape,2023353,2023,5,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023353,
+Drink and Drive,2023400,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023400,
+Murder,2023416,2023,5,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023416,
+Robbery,2023474,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023474,
+Kidnapping,2023482,2023,4,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023482,
+Rape,2023524,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023524,
+Robbery,2023525,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023525,
+Violence,2023585,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023585,
+Violence,2023637,2022,5,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023637,
+Drink and Drive,2023692,2023,10,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023692,
+Rape,2023695,2024,6,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023695,
+Kidnapping,2023717,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023717,
+Drink and Drive,2023733,2023,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023733,
+Violence,2023752,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023752,
+Robbery,2023762,2024,7,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023762,
+Drink and Drive,2023772,2025,1,1013,Solved,Dinesh Menon,Inspector,Thane West,PS005,2023772,
+Suicide,2023821,2022,5,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023821,
+Violence,2023830,2023,10,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023830,
+Rape,2023844,2025,1,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023844,
+Robbery,2023854,2023,8,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023854,
+Suicide,2023890,2024,4,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023890,
+Rape,2023905,2024,7,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023905,
+Robbery,2023956,2024,2,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023956,
+Violence,2023975,2024,7,1013,Unsolved,Dinesh Menon,Inspector,Thane West,PS005,2023975,
+Kidnapping,2022016,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022016,
+Drink and Drive,2022047,2024,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022047,
+Murder,2022054,2024,9,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022054,
+Robbery,2022096,2024,3,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022096,
+Violence,2022135,2022,3,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022135,
+Suicide,2022168,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022168,
+Suicide,2022180,2024,6,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022180,
+Rape,2022196,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022196,
+Robbery,2022202,2024,8,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022202,
+Kidnapping,2022238,2024,8,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022238,
+Murder,2022244,2024,9,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022244,
+Violence,2022264,2022,8,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022264,
+Rape,2022286,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022286,
+Murder,2022361,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022361,
+Suicide,2022414,2024,4,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022414,
+Drink and Drive,2022440,2023,2,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022440,
+Robbery,2022486,2024,5,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022486,
+Violence,2022497,2022,3,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022497,
+Suicide,2022507,2022,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022507,
+Robbery,2022559,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022559,
+Robbery,2022574,2023,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022574,
+Drink and Drive,2022576,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022576,
+Kidnapping,2022595,2024,4,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022595,
+Suicide,2022604,2023,12,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022604,
+Suicide,2022617,2022,6,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022617,
+Murder,2022650,2023,4,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022650,
+Drink and Drive,2022653,2022,6,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022653,
+Drink and Drive,2022667,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022667,
+Murder,2022684,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022684,
+Robbery,2022687,2022,12,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022687,
+Suicide,2022691,2024,6,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022691,
+Violence,2022739,2024,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022739,
+Murder,2022749,2022,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022749,
+Rape,2022766,2022,3,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022766,
+Violence,2022809,2023,6,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022809,
+Kidnapping,2022861,2024,5,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022861,
+Kidnapping,2022928,2022,3,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022928,
+Murder,2022937,2022,3,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022937,
+Robbery,2022966,2022,4,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022966,
+Violence,2022976,2024,2,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2022976,
+Suicide,2023008,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023008,
+Suicide,2023028,2024,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023028,
+Robbery,2023029,2023,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023029,
+Robbery,2023030,2022,6,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023030,
+Murder,2023037,2024,4,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023037,
+Murder,2023071,2024,3,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023071,
+Drink and Drive,2023072,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023072,
+Drink and Drive,2023103,2024,9,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023103,
+Kidnapping,2023154,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023154,
+Suicide,2023178,2024,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023178,
+Kidnapping,2023198,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023198,
+Rape,2023242,2023,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023242,
+Suicide,2023295,2022,9,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023295,
+Suicide,2023338,2022,7,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023338,
+Rape,2023360,2022,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023360,
+Robbery,2023384,2022,2,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023384,
+Suicide,2023387,2024,5,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023387,
+Violence,2023407,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023407,
+Suicide,2023419,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023419,
+Drink and Drive,2023429,2022,10,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023429,
+Violence,2023438,2024,8,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023438,
+Kidnapping,2023442,2022,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023442,
+Suicide,2023469,2022,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023469,
+Robbery,2023501,2024,4,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023501,
+Violence,2023510,2022,2,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023510,
+Robbery,2023569,2022,4,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023569,
+Murder,2023573,2024,11,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023573,
+Murder,2023589,2024,5,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023589,
+Kidnapping,2023596,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023596,
+Kidnapping,2023602,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023602,
+Murder,2023635,2024,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023635,
+Rape,2023657,2022,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023657,
+Kidnapping,2023663,2023,12,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023663,
+Murder,2023686,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023686,
+Robbery,2023706,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023706,
+Suicide,2023736,2025,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023736,
+Drink and Drive,2023737,2023,1,1073,Solved,Jagdish Pillai,Inspector,Trombay,PS025,2023737,
+Suicide,2023802,2023,11,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023802,
+Suicide,2023867,2025,1,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023867,
+Violence,2023871,2022,5,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023871,
+Drink and Drive,2023900,2023,10,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023900,
+Murder,2023924,2023,7,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023924,
+Violence,2023930,2022,12,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023930,
+Suicide,2023937,2022,9,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023937,
+Drink and Drive,2023945,2024,2,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023945,
+Kidnapping,2023950,2023,1,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023950,
+Rape,2023957,2023,11,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023957,
+Rape,2023993,2024,2,1073,Unsolved,Jagdish Pillai,Inspector,Trombay,PS025,2023993,
+Murder,2022027,2022,10,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022027,
+Violence,2022048,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022048,
+Robbery,2022083,2022,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022083,
+Rape,2022087,2024,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022087,
+Suicide,2022156,2022,12,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022156,
+Kidnapping,2022205,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022205,
+Violence,2022213,2022,2,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022213,
+Murder,2022268,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022268,
+Rape,2022277,2022,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022277,
+Violence,2022317,2023,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022317,
+Robbery,2022325,2023,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022325,
+Suicide,2022349,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022349,
+Violence,2022362,2024,5,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022362,
+Rape,2022368,2022,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022368,
+Violence,2022375,2023,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022375,
+Kidnapping,2022389,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022389,
+Suicide,2022419,2024,11,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022419,
+Suicide,2022435,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022435,
+Suicide,2022453,2024,8,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022453,
+Drink and Drive,2022499,2024,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022499,
+Murder,2022514,2022,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022514,
+Rape,2022518,2024,7,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022518,
+Suicide,2022566,2024,5,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022566,
+Violence,2022572,2024,5,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022572,
+Drink and Drive,2022587,2023,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022587,
+Violence,2022619,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022619,
+Robbery,2022621,2024,4,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022621,
+Kidnapping,2022675,2022,10,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022675,
+Rape,2022726,2023,5,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022726,
+Violence,2022740,2022,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022740,
+Suicide,2022783,2022,7,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022783,
+Kidnapping,2022793,2022,2,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022793,
+Violence,2022857,2024,12,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022857,
+Robbery,2022875,2023,7,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022875,
+Robbery,2022887,2022,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022887,
+Suicide,2022891,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022891,
+Rape,2022904,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022904,
+Suicide,2022909,2023,8,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022909,
+Murder,2022987,2022,2,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022987,
+Kidnapping,2022992,2024,7,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2022992,
+Drink and Drive,2023013,2022,12,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023013,
+Murder,2023026,2023,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023026,
+Rape,2023042,2024,6,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023042,
+Suicide,2023096,2023,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023096,
+Robbery,2023100,2024,11,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023100,
+Kidnapping,2023109,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023109,
+Murder,2023119,2023,8,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023119,
+Drink and Drive,2023131,2024,10,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023131,
+Robbery,2023163,2022,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023163,
+Kidnapping,2023197,2024,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023197,
+Kidnapping,2023201,2024,7,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023201,
+Drink and Drive,2023202,2023,12,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023202,
+Robbery,2023223,2024,10,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023223,
+Rape,2023238,2023,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023238,
+Kidnapping,2023279,2022,5,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023279,
+Suicide,2023322,2023,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023322,
+Murder,2023346,2022,5,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023346,
+Robbery,2023399,2024,10,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023399,
+Kidnapping,2023451,2022,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023451,
+Robbery,2023458,2023,8,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023458,
+Robbery,2023465,2022,11,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023465,
+Kidnapping,2023486,2024,6,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023486,
+Drink and Drive,2023536,2023,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023536,
+Kidnapping,2023563,2022,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023563,
+Rape,2023577,2023,9,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023577,
+Robbery,2023634,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023634,
+Drink and Drive,2023664,2023,2,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023664,
+Suicide,2023677,2022,3,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023677,
+Drink and Drive,2023732,2025,1,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023732,
+Rape,2023741,2022,7,1022,Solved,Sneha Nair,Inspector,Vashi,PS008,2023741,
+Violence,2023800,2023,1,1022,Unsolved,Sneha Nair,Inspector,Vashi,PS008,2023800,
+Suicide,2023853,2023,11,1022,Unsolved,Sneha Nair,Inspector,Vashi,PS008,2023853,
+Violence,2023895,2025,1,1022,Unsolved,Sneha Nair,Inspector,Vashi,PS008,2023895,
+Violence,2023912,2023,6,1022,Unsolved,Sneha Nair,Inspector,Vashi,PS008,2023912,
+Kidnapping,2023928,2025,1,1022,Unsolved,Sneha Nair,Inspector,Vashi,PS008,2023928,
+Murder,2023940,2022,10,1022,Unsolved,Sneha Nair,Inspector,Vashi,PS008,2023940,
+Murder,2022012,2023,8,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022012,
+Robbery,2022030,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022030,
+Violence,2022034,2022,3,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022034,
+Violence,2022037,2022,5,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022037,
+Robbery,2022074,2023,5,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022074,
+Violence,2022091,2024,11,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022091,
+Murder,2022142,2022,5,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022142,
+Drink and Drive,2022216,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022216,
+Violence,2022230,2024,2,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022230,
+Rape,2022233,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022233,
+Rape,2022243,2022,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022243,
+Murder,2022262,2023,2,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022262,
+Kidnapping,2022266,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022266,
+Rape,2022276,2022,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022276,
+Suicide,2022288,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022288,
+Kidnapping,2022339,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022339,
+Murder,2022401,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022401,
+Rape,2022403,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022403,
+Murder,2022452,2023,9,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022452,
+Suicide,2022467,2024,6,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022467,
+Kidnapping,2022496,2024,8,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022496,
+Murder,2022498,2024,9,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022498,
+Rape,2022511,2024,4,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022511,
+Murder,2022524,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022524,
+Kidnapping,2022529,2024,5,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022529,
+Robbery,2022552,2023,9,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022552,
+Robbery,2022590,2023,11,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022590,
+Robbery,2022612,2023,8,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022612,
+Drink and Drive,2022625,2023,9,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022625,
+Robbery,2022634,2022,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022634,
+Robbery,2022652,2022,10,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022652,
+Violence,2022657,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022657,
+Murder,2022689,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022689,
+Suicide,2022702,2023,12,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022702,
+Robbery,2022718,2023,10,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022718,
+Suicide,2022755,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022755,
+Murder,2022818,2023,7,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022818,
+Kidnapping,2022874,2022,11,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022874,
+Violence,2022899,2024,8,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022899,
+Robbery,2022972,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2022972,
+Drink and Drive,2023027,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023027,
+Kidnapping,2023046,2024,2,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023046,
+Kidnapping,2023056,2023,3,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023056,
+Drink and Drive,2023064,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023064,
+Drink and Drive,2023092,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023092,
+Robbery,2023105,2023,7,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023105,
+Violence,2023132,2024,5,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023132,
+Murder,2023158,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023158,
+Drink and Drive,2023217,2024,7,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023217,
+Suicide,2023219,2024,4,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023219,
+Suicide,2023220,2022,9,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023220,
+Suicide,2023222,2024,8,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023222,
+Suicide,2023255,2024,9,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023255,
+Violence,2023286,2024,12,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023286,
+Murder,2023302,2024,3,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023302,
+Murder,2023309,2023,7,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023309,
+Suicide,2023313,2024,6,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023313,
+Murder,2023370,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023370,
+Murder,2023401,2023,4,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023401,
+Drink and Drive,2023449,2023,3,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023449,
+Robbery,2023454,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023454,
+Kidnapping,2023455,2023,8,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023455,
+Murder,2023541,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023541,
+Rape,2023550,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023550,
+Kidnapping,2023556,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023556,
+Kidnapping,2023557,2023,6,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023557,
+Kidnapping,2023559,2024,9,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023559,
+Suicide,2023630,2024,7,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023630,
+Murder,2023660,2023,5,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023660,
+Violence,2023693,2024,3,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023693,
+Robbery,2023729,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023729,
+Violence,2023765,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023765,
+Violence,2023787,2025,1,1064,Solved,Sarita Yadav,Inspector,Vikhroli,PS022,2023787,
+Kidnapping,2023817,2025,1,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023817,
+Suicide,2023826,2022,10,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023826,
+Kidnapping,2023838,2025,1,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023838,
+Violence,2023840,2025,1,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023840,
+Violence,2023886,2024,9,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023886,
+Suicide,2023941,2023,4,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023941,
+Rape,2023959,2023,4,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023959,
+Drink and Drive,2023966,2022,4,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023966,
+Drink and Drive,2023974,2024,2,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023974,
+Violence,2023979,2024,5,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023979,
+Kidnapping,2023994,2022,6,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023994,
+Robbery,2023995,2024,2,1064,Unsolved,Sarita Yadav,Inspector,Vikhroli,PS022,2023995,
+Rape,2022036,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022036,
+Suicide,2022039,2022,12,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022039,
+Suicide,2022080,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022080,
+Robbery,2022088,2023,5,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022088,
+Drink and Drive,2022118,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022118,
+Violence,2022145,2023,2,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022145,
+Rape,2022162,2024,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022162,
+Kidnapping,2022271,2024,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022271,
+Murder,2022289,2022,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022289,
+Violence,2022330,2022,3,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022330,
+Drink and Drive,2022340,2023,3,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022340,
+Murder,2022344,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022344,
+Drink and Drive,2022367,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022367,
+Murder,2022443,2023,10,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022443,
+Rape,2022457,2022,2,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022457,
+Rape,2022465,2024,12,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022465,
+Rape,2022468,2022,2,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022468,
+Drink and Drive,2022489,2023,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022489,
+Violence,2022534,2023,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022534,
+Suicide,2022539,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022539,
+Kidnapping,2022593,2023,2,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022593,
+Drink and Drive,2022640,2024,5,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022640,
+Suicide,2022661,2023,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022661,
+Murder,2022697,2022,10,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022697,
+Rape,2022716,2024,10,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022716,
+Suicide,2022733,2024,7,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022733,
+Violence,2022762,2022,8,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022762,
+Kidnapping,2022791,2022,2,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022791,
+Rape,2022803,2024,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022803,
+Drink and Drive,2022823,2022,7,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022823,
+Violence,2022873,2023,12,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022873,
+Murder,2022878,2024,2,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022878,
+Suicide,2022920,2023,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022920,
+Robbery,2022939,2022,10,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2022939,
+Suicide,2023001,2024,9,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023001,
+Kidnapping,2023112,2024,4,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023112,
+Murder,2023113,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023113,
+Murder,2023114,2024,7,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023114,
+Kidnapping,2023121,2024,3,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023121,
+Drink and Drive,2023133,2024,4,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023133,
+Rape,2023139,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023139,
+Kidnapping,2023165,2022,9,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023165,
+Robbery,2023176,2024,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023176,
+Rape,2023218,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023218,
+Kidnapping,2023221,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023221,
+Murder,2023225,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023225,
+Rape,2023258,2024,4,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023258,
+Violence,2023284,2023,6,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023284,
+Violence,2023320,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023320,
+Robbery,2023323,2024,2,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023323,
+Murder,2023328,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023328,
+Kidnapping,2023356,2024,7,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023356,
+Murder,2023382,2023,12,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023382,
+Murder,2023430,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023430,
+Murder,2023434,2023,6,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023434,
+Drink and Drive,2023471,2023,9,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023471,
+Drink and Drive,2023487,2024,6,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023487,
+Murder,2023488,2024,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023488,
+Murder,2023545,2022,5,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023545,
+Drink and Drive,2023591,2024,10,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023591,
+Rape,2023680,2023,11,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023680,
+Murder,2023720,2022,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023720,
+Robbery,2023727,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023727,
+Violence,2023755,2025,1,1034,Solved,Manoj Khanna,Inspector,Virar,PS012,2023755,
+Kidnapping,2023835,2025,1,1034,Unsolved,Manoj Khanna,Inspector,Virar,PS012,2023835,
+Robbery,2023882,2025,1,1034,Unsolved,Manoj Khanna,Inspector,Virar,PS012,2023882,
+Rape,2023902,2025,1,1034,Unsolved,Manoj Khanna,Inspector,Virar,PS012,2023902,
+Kidnapping,2023914,2023,6,1034,Unsolved,Manoj Khanna,Inspector,Virar,PS012,2023914,
+Robbery,2023916,2025,1,1034,Unsolved,Manoj Khanna,Inspector,Virar,PS012,2023916,
+Murder,2023960,2025,1,1034,Unsolved,Manoj Khanna,Inspector,Virar,PS012,2023960,

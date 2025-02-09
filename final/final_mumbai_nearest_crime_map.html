@@ -1,0 +1,3374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_93a4e2805bda1317f837f0b20a275da4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_93a4e2805bda1317f837f0b20a275da4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_93a4e2805bda1317f837f0b20a275da4 = L.map(
+                "map_93a4e2805bda1317f837f0b20a275da4",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5b57a50da45f568ba5cc7672ae15eb30 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5b57a50da45f568ba5cc7672ae15eb30.addTo(map_93a4e2805bda1317f837f0b20a275da4);
+        
+    
+            var marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_41d3a5607d61d541453b3f8e3d9553d3 = L.marker(
+                [18.984928, 72.875279],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_fd182209dea65428e5a92fc4c9639c36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_41d3a5607d61d541453b3f8e3d9553d3.setIcon(icon_fd182209dea65428e5a92fc4c9639c36);
+        
+    
+        var popup_bdf25cd08d625df4074f967311581595 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3943c8423a2f9d7a28ce44e52d983d5e = $(`<div id="html_3943c8423a2f9d7a28ce44e52d983d5e" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Kiran Shetty<br>         <b>Case ID:</b> 2022000<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_bdf25cd08d625df4074f967311581595.setContent(html_3943c8423a2f9d7a28ce44e52d983d5e);
+            
+        
+
+        marker_41d3a5607d61d541453b3f8e3d9553d3.bindPopup(popup_bdf25cd08d625df4074f967311581595)
+        ;
+
+        
+    
+    
+            var marker_c73c616aa73de1655faa987075a2b2fa = L.marker(
+                [19.021808, 72.824203],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_8b1235cd33eb5e15fd92ff4d1e8d96c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c73c616aa73de1655faa987075a2b2fa.setIcon(icon_8b1235cd33eb5e15fd92ff4d1e8d96c9);
+        
+    
+        var popup_7c54ac70c7e90d3b1d2dad5cb41885f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cfa7f7af97479464808fc397e07d0ae = $(`<div id="html_6cfa7f7af97479464808fc397e07d0ae" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Manisha Gokhale<br>         <b>Case ID:</b> 2023954<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_7c54ac70c7e90d3b1d2dad5cb41885f3.setContent(html_6cfa7f7af97479464808fc397e07d0ae);
+            
+        
+
+        marker_c73c616aa73de1655faa987075a2b2fa.bindPopup(popup_7c54ac70c7e90d3b1d2dad5cb41885f3)
+        ;
+
+        
+    
+    
+            var marker_ac6021eefc9db0b898e6ec4aa8d60072 = L.marker(
+                [19.134659, 72.885825],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_c003c3b61895f9333bb6a3432f116cbb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ac6021eefc9db0b898e6ec4aa8d60072.setIcon(icon_c003c3b61895f9333bb6a3432f116cbb);
+        
+    
+        var popup_77847f872bffe88a8b7413d9520a208d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2de75f0d278a85334b6093c950bf1b95 = $(`<div id="html_2de75f0d278a85334b6093c950bf1b95" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Namrata Joshi<br>         <b>Case ID:</b> 2023955<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_77847f872bffe88a8b7413d9520a208d.setContent(html_2de75f0d278a85334b6093c950bf1b95);
+            
+        
+
+        marker_ac6021eefc9db0b898e6ec4aa8d60072.bindPopup(popup_77847f872bffe88a8b7413d9520a208d)
+        ;
+
+        
+    
+    
+            var marker_655793cf25d58878b0108d9dacd83014 = L.marker(
+                [19.013639, 72.884235],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_633146101fb355ef5b52d30bdbf36a88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_655793cf25d58878b0108d9dacd83014.setIcon(icon_633146101fb355ef5b52d30bdbf36a88);
+        
+    
+        var popup_78666b0dbf830993abb3388e8984f11c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5925e502290d7b557d1b6c89a6a20b38 = $(`<div id="html_5925e502290d7b557d1b6c89a6a20b38" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Dinesh Menon<br>         <b>Case ID:</b> 2023956<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_78666b0dbf830993abb3388e8984f11c.setContent(html_5925e502290d7b557d1b6c89a6a20b38);
+            
+        
+
+        marker_655793cf25d58878b0108d9dacd83014.bindPopup(popup_78666b0dbf830993abb3388e8984f11c)
+        ;
+
+        
+    
+    
+            var marker_bf879e5a395eddcb3b94db9c0e02455d = L.marker(
+                [19.142741, 72.880723],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_4703ed806882d8e4141cf7b69fe99425 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf879e5a395eddcb3b94db9c0e02455d.setIcon(icon_4703ed806882d8e4141cf7b69fe99425);
+        
+    
+        var popup_f620e078aa1bb90a1924faffc7438173 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eeeea9944ad9570660c145cbc09a8488 = $(`<div id="html_eeeea9944ad9570660c145cbc09a8488" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Jagdish Pillai<br>         <b>Case ID:</b> 2023957<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_f620e078aa1bb90a1924faffc7438173.setContent(html_eeeea9944ad9570660c145cbc09a8488);
+            
+        
+
+        marker_bf879e5a395eddcb3b94db9c0e02455d.bindPopup(popup_f620e078aa1bb90a1924faffc7438173)
+        ;
+
+        
+    
+    
+            var marker_7c5e5dd6196c3bc54b2ea2cdb28c75a4 = L.marker(
+                [19.155577, 72.88309],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_26875fd69b63041c5343ac3b0966ea47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7c5e5dd6196c3bc54b2ea2cdb28c75a4.setIcon(icon_26875fd69b63041c5343ac3b0966ea47);
+        
+    
+        var popup_0498ed09266411fc5db29d2c3aa89a62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee0507d66a17572a654cdd058fd78101 = $(`<div id="html_ee0507d66a17572a654cdd058fd78101" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Deepak Joshi<br>         <b>Case ID:</b> 2023958<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_0498ed09266411fc5db29d2c3aa89a62.setContent(html_ee0507d66a17572a654cdd058fd78101);
+            
+        
+
+        marker_7c5e5dd6196c3bc54b2ea2cdb28c75a4.bindPopup(popup_0498ed09266411fc5db29d2c3aa89a62)
+        ;
+
+        
+    
+    
+            var marker_d158639289c64c87f31cd522cc287d0a = L.marker(
+                [18.980747, 72.863821],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_9a6bfbed53bb9db76439f7fcbed590c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d158639289c64c87f31cd522cc287d0a.setIcon(icon_9a6bfbed53bb9db76439f7fcbed590c6);
+        
+    
+        var popup_12491390538353b9793c24ce8d4fb968 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b335e7be735ba2f6233b6fbe6c078a1b = $(`<div id="html_b335e7be735ba2f6233b6fbe6c078a1b" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Sarita Yadav<br>         <b>Case ID:</b> 2023959<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_12491390538353b9793c24ce8d4fb968.setContent(html_b335e7be735ba2f6233b6fbe6c078a1b);
+            
+        
+
+        marker_d158639289c64c87f31cd522cc287d0a.bindPopup(popup_12491390538353b9793c24ce8d4fb968)
+        ;
+
+        
+    
+    
+            var marker_abbb8ed7d189df440598cf4cbbfc2677 = L.marker(
+                [18.973275, 72.867376],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_e9557e4a4d34d1b3bd936c4180ea0081 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_abbb8ed7d189df440598cf4cbbfc2677.setIcon(icon_e9557e4a4d34d1b3bd936c4180ea0081);
+        
+    
+        var popup_be4fd3a8ea540a23287aa533f8ea32e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae877003717048e7fb7f226ceea891e2 = $(`<div id="html_ae877003717048e7fb7f226ceea891e2" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Manoj Khanna<br>         <b>Case ID:</b> 2023960<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_be4fd3a8ea540a23287aa533f8ea32e3.setContent(html_ae877003717048e7fb7f226ceea891e2);
+            
+        
+
+        marker_abbb8ed7d189df440598cf4cbbfc2677.bindPopup(popup_be4fd3a8ea540a23287aa533f8ea32e3)
+        ;
+
+        
+    
+    
+            var marker_5bc79b437bfb6af0ca88a4960c54d979 = L.marker(
+                [19.155988, 72.932674],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_32f502e7587f549a6ce4b38449b27349 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5bc79b437bfb6af0ca88a4960c54d979.setIcon(icon_32f502e7587f549a6ce4b38449b27349);
+        
+    
+        var popup_1bb148fcd156abfdf33040775428317d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7ce7d3ec671cff8a513072b0e037739 = $(`<div id="html_d7ce7d3ec671cff8a513072b0e037739" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Snehal Shetty<br>         <b>Case ID:</b> 2023961<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_1bb148fcd156abfdf33040775428317d.setContent(html_d7ce7d3ec671cff8a513072b0e037739);
+            
+        
+
+        marker_5bc79b437bfb6af0ca88a4960c54d979.bindPopup(popup_1bb148fcd156abfdf33040775428317d)
+        ;
+
+        
+    
+    
+            var marker_d15508cd31aa4856b61b247a3cd7d577 = L.marker(
+                [19.075319, 72.930106],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_7135981ee99d05364da857fd3ddf7a3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d15508cd31aa4856b61b247a3cd7d577.setIcon(icon_7135981ee99d05364da857fd3ddf7a3c);
+        
+    
+        var popup_bec5850836f87b7c7cef667bccef4596 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f260a07a3f70c8a3b75838bb69e68cfc = $(`<div id="html_f260a07a3f70c8a3b75838bb69e68cfc" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Rohini Nair<br>         <b>Case ID:</b> 2023962<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_bec5850836f87b7c7cef667bccef4596.setContent(html_f260a07a3f70c8a3b75838bb69e68cfc);
+            
+        
+
+        marker_d15508cd31aa4856b61b247a3cd7d577.bindPopup(popup_bec5850836f87b7c7cef667bccef4596)
+        ;
+
+        
+    
+    
+            var marker_8639dd451b433aead24ef159de2a9ce0 = L.marker(
+                [19.159086, 72.894854],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_ca2cf608823a4ecdbd75b5a8d3795785 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8639dd451b433aead24ef159de2a9ce0.setIcon(icon_ca2cf608823a4ecdbd75b5a8d3795785);
+        
+    
+        var popup_f646f7310c6e3536d77f11e27fefbee4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0abd8e57e14b85f08eb6136c6bb78f40 = $(`<div id="html_0abd8e57e14b85f08eb6136c6bb78f40" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Richa Iyer<br>         <b>Case ID:</b> 2023963<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_f646f7310c6e3536d77f11e27fefbee4.setContent(html_0abd8e57e14b85f08eb6136c6bb78f40);
+            
+        
+
+        marker_8639dd451b433aead24ef159de2a9ce0.bindPopup(popup_f646f7310c6e3536d77f11e27fefbee4)
+        ;
+
+        
+    
+    
+            var marker_226231a40e6327aee70146653fdb1f4a = L.marker(
+                [19.172457, 72.827071],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_415c38c4b2b808f1fa5763de5dcd11c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_226231a40e6327aee70146653fdb1f4a.setIcon(icon_415c38c4b2b808f1fa5763de5dcd11c0);
+        
+    
+        var popup_8bbf19b5985df64930c67e6ffaef444d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6fa9c583fdce74bd977a8364961793a = $(`<div id="html_d6fa9c583fdce74bd977a8364961793a" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Namrata Joshi<br>         <b>Case ID:</b> 2023964<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_8bbf19b5985df64930c67e6ffaef444d.setContent(html_d6fa9c583fdce74bd977a8364961793a);
+            
+        
+
+        marker_226231a40e6327aee70146653fdb1f4a.bindPopup(popup_8bbf19b5985df64930c67e6ffaef444d)
+        ;
+
+        
+    
+    
+            var marker_afac2ea70dad1b02a890993e4030c15d = L.marker(
+                [19.114249, 72.865584],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_1e78053932a24c696c6b1792ceeab96a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_afac2ea70dad1b02a890993e4030c15d.setIcon(icon_1e78053932a24c696c6b1792ceeab96a);
+        
+    
+        var popup_b663774141c6388fd0c6965c05cd22f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3dd26b08057fd448e5923f2a1e17d76 = $(`<div id="html_b3dd26b08057fd448e5923f2a1e17d76" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Umesh Yadav<br>         <b>Case ID:</b> 2023965<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_b663774141c6388fd0c6965c05cd22f4.setContent(html_b3dd26b08057fd448e5923f2a1e17d76);
+            
+        
+
+        marker_afac2ea70dad1b02a890993e4030c15d.bindPopup(popup_b663774141c6388fd0c6965c05cd22f4)
+        ;
+
+        
+    
+    
+            var marker_24759957d2db433b1f4e918e99d036ab = L.marker(
+                [19.075563, 72.88244],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_95312100442d67aa8142767c8def7dbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_24759957d2db433b1f4e918e99d036ab.setIcon(icon_95312100442d67aa8142767c8def7dbe);
+        
+    
+        var popup_6e58fa30072a7ce84fab52b485ebaac6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b441cedb99fc3593dd0234e2b26f6fd = $(`<div id="html_1b441cedb99fc3593dd0234e2b26f6fd" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Sarita Yadav<br>         <b>Case ID:</b> 2023966<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_6e58fa30072a7ce84fab52b485ebaac6.setContent(html_1b441cedb99fc3593dd0234e2b26f6fd);
+            
+        
+
+        marker_24759957d2db433b1f4e918e99d036ab.bindPopup(popup_6e58fa30072a7ce84fab52b485ebaac6)
+        ;
+
+        
+    
+    
+            var marker_19cab89e7bfac6ee3ec8b435f06d7805 = L.marker(
+                [19.187617, 72.883247],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_66ade7214b9e911fc1b78d4e1eb32305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_19cab89e7bfac6ee3ec8b435f06d7805.setIcon(icon_66ade7214b9e911fc1b78d4e1eb32305);
+        
+    
+        var popup_4acaa48ad067e4cb1aea87e9d98eba72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_636cf813aba441f392a14fc9f7c47c32 = $(`<div id="html_636cf813aba441f392a14fc9f7c47c32" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Sunil Patil<br>         <b>Case ID:</b> 2023967<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_4acaa48ad067e4cb1aea87e9d98eba72.setContent(html_636cf813aba441f392a14fc9f7c47c32);
+            
+        
+
+        marker_19cab89e7bfac6ee3ec8b435f06d7805.bindPopup(popup_4acaa48ad067e4cb1aea87e9d98eba72)
+        ;
+
+        
+    
+    
+            var marker_b29efe55f1ba08434359aeec18fd6c0b = L.marker(
+                [19.033206, 72.853914],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_c3de3bbb8ba49d44b28aab810a10bc19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b29efe55f1ba08434359aeec18fd6c0b.setIcon(icon_c3de3bbb8ba49d44b28aab810a10bc19);
+        
+    
+        var popup_d2a0d1c72fed860f8c7203037781031d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1230ce03d151cd4488a048a11c499da2 = $(`<div id="html_1230ce03d151cd4488a048a11c499da2" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Vikram Singh<br>         <b>Case ID:</b> 2023968<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_d2a0d1c72fed860f8c7203037781031d.setContent(html_1230ce03d151cd4488a048a11c499da2);
+            
+        
+
+        marker_b29efe55f1ba08434359aeec18fd6c0b.bindPopup(popup_d2a0d1c72fed860f8c7203037781031d)
+        ;
+
+        
+    
+    
+            var marker_f302578bda7901db935aa4fd58774919 = L.marker(
+                [19.020146, 72.856218],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_d20ccf37f2eb5873824393e4ec97f85c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f302578bda7901db935aa4fd58774919.setIcon(icon_d20ccf37f2eb5873824393e4ec97f85c);
+        
+    
+        var popup_f0307ea5eddc9864aef9767b9c744af2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aecd8a4a39313dd7a7f0e4273d5e45a3 = $(`<div id="html_aecd8a4a39313dd7a7f0e4273d5e45a3" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Kiran Shetty<br>         <b>Case ID:</b> 2023969<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_f0307ea5eddc9864aef9767b9c744af2.setContent(html_aecd8a4a39313dd7a7f0e4273d5e45a3);
+            
+        
+
+        marker_f302578bda7901db935aa4fd58774919.bindPopup(popup_f0307ea5eddc9864aef9767b9c744af2)
+        ;
+
+        
+    
+    
+            var marker_a7eee2d980779a89baa234be26f7a42e = L.marker(
+                [19.036151, 72.896303],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_e7296bd7e62431132f682b8c7cf64d8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a7eee2d980779a89baa234be26f7a42e.setIcon(icon_e7296bd7e62431132f682b8c7cf64d8e);
+        
+    
+        var popup_fe63246e132ee65b91af3e2ecb7b4575 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_945d3fcdbd191a4c188854639b4e0ffb = $(`<div id="html_945d3fcdbd191a4c188854639b4e0ffb" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Nilesh Khot<br>         <b>Case ID:</b> 2023970<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_fe63246e132ee65b91af3e2ecb7b4575.setContent(html_945d3fcdbd191a4c188854639b4e0ffb);
+            
+        
+
+        marker_a7eee2d980779a89baa234be26f7a42e.bindPopup(popup_fe63246e132ee65b91af3e2ecb7b4575)
+        ;
+
+        
+    
+    
+            var marker_8266b444bec552ce05f21184283f0939 = L.marker(
+                [19.108248, 72.902765],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_5c2b391d9c1f6e2ca2e970bab78f8bdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8266b444bec552ce05f21184283f0939.setIcon(icon_5c2b391d9c1f6e2ca2e970bab78f8bdf);
+        
+    
+        var popup_61a78face72e7ec268bc6320ea67a9f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_721502f67acebd8ef65ba2fdbc307101 = $(`<div id="html_721502f67acebd8ef65ba2fdbc307101" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Suresh Pandey<br>         <b>Case ID:</b> 2023971<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_61a78face72e7ec268bc6320ea67a9f2.setContent(html_721502f67acebd8ef65ba2fdbc307101);
+            
+        
+
+        marker_8266b444bec552ce05f21184283f0939.bindPopup(popup_61a78face72e7ec268bc6320ea67a9f2)
+        ;
+
+        
+    
+    
+            var marker_86de868150a84f43864276408efac369 = L.marker(
+                [19.154668, 72.931232],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_c38ac4b1964e8a55fca62c455921769c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_86de868150a84f43864276408efac369.setIcon(icon_c38ac4b1964e8a55fca62c455921769c);
+        
+    
+        var popup_2dadb66f2e5be8c5a5ee0e32ff8b4a9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b333c563d9762bec104dc9a00ce8184e = $(`<div id="html_b333c563d9762bec104dc9a00ce8184e" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Sunil Patil<br>         <b>Case ID:</b> 2023972<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_2dadb66f2e5be8c5a5ee0e32ff8b4a9b.setContent(html_b333c563d9762bec104dc9a00ce8184e);
+            
+        
+
+        marker_86de868150a84f43864276408efac369.bindPopup(popup_2dadb66f2e5be8c5a5ee0e32ff8b4a9b)
+        ;
+
+        
+    
+    
+            var marker_1a5d061b474d4b221ea11e6cdf94e261 = L.marker(
+                [19.010267, 72.87844],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_a0a7cdf9c589dbf651a464c2c300f093 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1a5d061b474d4b221ea11e6cdf94e261.setIcon(icon_a0a7cdf9c589dbf651a464c2c300f093);
+        
+    
+        var popup_c328f00b4a083d314df9adfc62fe75cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91e5dc3e4ff448131fd14d83a7f6160c = $(`<div id="html_91e5dc3e4ff448131fd14d83a7f6160c" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Suresh Pandey<br>         <b>Case ID:</b> 2023973<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_c328f00b4a083d314df9adfc62fe75cc.setContent(html_91e5dc3e4ff448131fd14d83a7f6160c);
+            
+        
+
+        marker_1a5d061b474d4b221ea11e6cdf94e261.bindPopup(popup_c328f00b4a083d314df9adfc62fe75cc)
+        ;
+
+        
+    
+    
+            var marker_a3f57f8e2e799ccb0d8788da8f50c444 = L.marker(
+                [19.059995, 72.850756],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_c306dd180b361d3b562105d2b2444e79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3f57f8e2e799ccb0d8788da8f50c444.setIcon(icon_c306dd180b361d3b562105d2b2444e79);
+        
+    
+        var popup_fc54271d005bd46acd430a5b7c404484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49d643396e967d9ed451b9b9653744f1 = $(`<div id="html_49d643396e967d9ed451b9b9653744f1" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Sarita Yadav<br>         <b>Case ID:</b> 2023974<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_fc54271d005bd46acd430a5b7c404484.setContent(html_49d643396e967d9ed451b9b9653744f1);
+            
+        
+
+        marker_a3f57f8e2e799ccb0d8788da8f50c444.bindPopup(popup_fc54271d005bd46acd430a5b7c404484)
+        ;
+
+        
+    
+    
+            var marker_17ba25fb0196c5f844d7a14ad002f570 = L.marker(
+                [19.096832, 72.889797],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_d1d0e63ee8f887f5ac89aa46349803eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_17ba25fb0196c5f844d7a14ad002f570.setIcon(icon_d1d0e63ee8f887f5ac89aa46349803eb);
+        
+    
+        var popup_6813edf0a8d5c513b6190291f50ad869 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d16374da5c8dc4186d315e35015346e9 = $(`<div id="html_d16374da5c8dc4186d315e35015346e9" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Dinesh Menon<br>         <b>Case ID:</b> 2023975<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_6813edf0a8d5c513b6190291f50ad869.setContent(html_d16374da5c8dc4186d315e35015346e9);
+            
+        
+
+        marker_17ba25fb0196c5f844d7a14ad002f570.bindPopup(popup_6813edf0a8d5c513b6190291f50ad869)
+        ;
+
+        
+    
+    
+            var marker_1e7767e3079cf88e9961b3e74b6e5ebc = L.marker(
+                [18.999163, 72.853556],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_000d8b81c7fc7b54d7980e02f486cc9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1e7767e3079cf88e9961b3e74b6e5ebc.setIcon(icon_000d8b81c7fc7b54d7980e02f486cc9e);
+        
+    
+        var popup_cfca21762c466562a581e1c96c28faee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b8936e58c73c516ce5aa302e2416bf3 = $(`<div id="html_4b8936e58c73c516ce5aa302e2416bf3" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Richa Iyer<br>         <b>Case ID:</b> 2023976<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_cfca21762c466562a581e1c96c28faee.setContent(html_4b8936e58c73c516ce5aa302e2416bf3);
+            
+        
+
+        marker_1e7767e3079cf88e9961b3e74b6e5ebc.bindPopup(popup_cfca21762c466562a581e1c96c28faee)
+        ;
+
+        
+    
+    
+            var marker_e662882770dfae69eece5301f26955a6 = L.marker(
+                [19.04042, 72.836391],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_cdfbecc0de848b4bc52e9342ce550734 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e662882770dfae69eece5301f26955a6.setIcon(icon_cdfbecc0de848b4bc52e9342ce550734);
+        
+    
+        var popup_cb6882be5d7daeac2693196f647de9e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0aa4e8e031b643a258a27ec77d36314a = $(`<div id="html_0aa4e8e031b643a258a27ec77d36314a" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Suresh Pandey<br>         <b>Case ID:</b> 2023978<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_cb6882be5d7daeac2693196f647de9e2.setContent(html_0aa4e8e031b643a258a27ec77d36314a);
+            
+        
+
+        marker_e662882770dfae69eece5301f26955a6.bindPopup(popup_cb6882be5d7daeac2693196f647de9e2)
+        ;
+
+        
+    
+    
+            var marker_461e516a270740e4bc1cb96899ecded2 = L.marker(
+                [19.020779, 72.902822],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_eb77939048ea921ed902c919413f0c99 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_461e516a270740e4bc1cb96899ecded2.setIcon(icon_eb77939048ea921ed902c919413f0c99);
+        
+    
+        var popup_05295821dfb1047b7eef8ef6fdfc6b82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a48ffff2b8ce763b41882887022f478c = $(`<div id="html_a48ffff2b8ce763b41882887022f478c" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Sarita Yadav<br>         <b>Case ID:</b> 2023979<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_05295821dfb1047b7eef8ef6fdfc6b82.setContent(html_a48ffff2b8ce763b41882887022f478c);
+            
+        
+
+        marker_461e516a270740e4bc1cb96899ecded2.bindPopup(popup_05295821dfb1047b7eef8ef6fdfc6b82)
+        ;
+
+        
+    
+    
+            var marker_27b91f6411ff5c05f5a4737886be567b = L.marker(
+                [18.976729, 72.876873],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_731d2c16818f4ca725b81cb9c093c09b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_27b91f6411ff5c05f5a4737886be567b.setIcon(icon_731d2c16818f4ca725b81cb9c093c09b);
+        
+    
+        var popup_355fcd46f3a4576b5027e31e86171db5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d85a5fd63358144ae5d1d1059e1e0d6f = $(`<div id="html_d85a5fd63358144ae5d1d1059e1e0d6f" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Suresh Pandey<br>         <b>Case ID:</b> 2023980<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_355fcd46f3a4576b5027e31e86171db5.setContent(html_d85a5fd63358144ae5d1d1059e1e0d6f);
+            
+        
+
+        marker_27b91f6411ff5c05f5a4737886be567b.bindPopup(popup_355fcd46f3a4576b5027e31e86171db5)
+        ;
+
+        
+    
+    
+            var marker_b777fc7c9a6643c0e0efd63bc362e089 = L.marker(
+                [19.057574, 72.924603],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_2ce564b0dee99cf5644797673819b916 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b777fc7c9a6643c0e0efd63bc362e089.setIcon(icon_2ce564b0dee99cf5644797673819b916);
+        
+    
+        var popup_b5c72f1033bd8bec31f10a58461c44c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a23f244901ef00e92e265876c25e90a4 = $(`<div id="html_a23f244901ef00e92e265876c25e90a4" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Snehal Shetty<br>         <b>Case ID:</b> 2023981<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_b5c72f1033bd8bec31f10a58461c44c8.setContent(html_a23f244901ef00e92e265876c25e90a4);
+            
+        
+
+        marker_b777fc7c9a6643c0e0efd63bc362e089.bindPopup(popup_b5c72f1033bd8bec31f10a58461c44c8)
+        ;
+
+        
+    
+    
+            var marker_0461e67ab0e872e2bc0aadef86bc6e7a = L.marker(
+                [19.050991, 72.90055],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_7a29fa73727b3b1a634a59baa23ac5b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0461e67ab0e872e2bc0aadef86bc6e7a.setIcon(icon_7a29fa73727b3b1a634a59baa23ac5b6);
+        
+    
+        var popup_68b2bd1a07f44c2924d11ab5f317c3c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9456d2ad7d0bfc0b2f45355ce983eb6a = $(`<div id="html_9456d2ad7d0bfc0b2f45355ce983eb6a" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Neeraj Chavan<br>         <b>Case ID:</b> 2023982<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_68b2bd1a07f44c2924d11ab5f317c3c3.setContent(html_9456d2ad7d0bfc0b2f45355ce983eb6a);
+            
+        
+
+        marker_0461e67ab0e872e2bc0aadef86bc6e7a.bindPopup(popup_68b2bd1a07f44c2924d11ab5f317c3c3)
+        ;
+
+        
+    
+    
+            var marker_ee498f1c58ab2598dffc4fcbfa2a559a = L.marker(
+                [18.984795, 72.908495],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_dbfbca500f06fb466e4de693d210eb60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee498f1c58ab2598dffc4fcbfa2a559a.setIcon(icon_dbfbca500f06fb466e4de693d210eb60);
+        
+    
+        var popup_3863ab5155c66e4e7c3bbb25524fa41c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_612f4241aee5a87768cb23d7195699a6 = $(`<div id="html_612f4241aee5a87768cb23d7195699a6" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Jitendra Patel<br>         <b>Case ID:</b> 2023983<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_3863ab5155c66e4e7c3bbb25524fa41c.setContent(html_612f4241aee5a87768cb23d7195699a6);
+            
+        
+
+        marker_ee498f1c58ab2598dffc4fcbfa2a559a.bindPopup(popup_3863ab5155c66e4e7c3bbb25524fa41c)
+        ;
+
+        
+    
+    
+            var marker_0622e2ddad6582f633c21b1798f923c7 = L.marker(
+                [19.177744, 72.868991],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_8724ab1a5a424094b54d15eefbe8ec9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0622e2ddad6582f633c21b1798f923c7.setIcon(icon_8724ab1a5a424094b54d15eefbe8ec9b);
+        
+    
+        var popup_e943777687e63f436aeaa9db85e2ed4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d0f243a27a2ca55acd9205afdfc1785 = $(`<div id="html_9d0f243a27a2ca55acd9205afdfc1785" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Unsolved<br>         <b>Officer:</b> Sandeep Chauhan<br>         <b>Case ID:</b> 2023984<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_e943777687e63f436aeaa9db85e2ed4b.setContent(html_9d0f243a27a2ca55acd9205afdfc1785);
+            
+        
+
+        marker_0622e2ddad6582f633c21b1798f923c7.bindPopup(popup_e943777687e63f436aeaa9db85e2ed4b)
+        ;
+
+        
+    
+    
+            var marker_27ef5183d42ed8d587ed42d9259c18a9 = L.marker(
+                [19.127678, 72.84455],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_5764d8c836065b01f012069b3b0db556 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_27ef5183d42ed8d587ed42d9259c18a9.setIcon(icon_5764d8c836065b01f012069b3b0db556);
+        
+    
+        var popup_97f7c255b57b5741c592726714d28beb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a2cde76bec3901bb605b71db1584422 = $(`<div id="html_6a2cde76bec3901bb605b71db1584422" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Namrata Joshi<br>         <b>Case ID:</b> 2022001<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_97f7c255b57b5741c592726714d28beb.setContent(html_6a2cde76bec3901bb605b71db1584422);
+            
+        
+
+        marker_27ef5183d42ed8d587ed42d9259c18a9.bindPopup(popup_97f7c255b57b5741c592726714d28beb)
+        ;
+
+        
+    
+    
+            var marker_2aa1ac6f26e52a23ec7708d802a494d8 = L.marker(
+                [19.189635, 72.929793],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_06c311d7841e5b518ed34aaa99f1cd4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2aa1ac6f26e52a23ec7708d802a494d8.setIcon(icon_06c311d7841e5b518ed34aaa99f1cd4a);
+        
+    
+        var popup_78c8465b2ce019e9fb949dbae849e5ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf44adc09e19878a2d3fd1dec7271b10 = $(`<div id="html_bf44adc09e19878a2d3fd1dec7271b10" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Snehal Shetty<br>         <b>Case ID:</b> 2022002<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_78c8465b2ce019e9fb949dbae849e5ba.setContent(html_bf44adc09e19878a2d3fd1dec7271b10);
+            
+        
+
+        marker_2aa1ac6f26e52a23ec7708d802a494d8.bindPopup(popup_78c8465b2ce019e9fb949dbae849e5ba)
+        ;
+
+        
+    
+    
+            var marker_8e0a919e1b35ecd3fd88cebbc4ff852d = L.marker(
+                [19.10319, 72.850927],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_c2f0c4131865c09f8a189d6ee3e7ca8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8e0a919e1b35ecd3fd88cebbc4ff852d.setIcon(icon_c2f0c4131865c09f8a189d6ee3e7ca8b);
+        
+    
+        var popup_a7c1c358da54e0ba99b79adeb3be56bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_452a696e2aaa6839489ea23b4b2f5f12 = $(`<div id="html_452a696e2aaa6839489ea23b4b2f5f12" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Dinesh Menon<br>         <b>Case ID:</b> 2022003<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_a7c1c358da54e0ba99b79adeb3be56bd.setContent(html_452a696e2aaa6839489ea23b4b2f5f12);
+            
+        
+
+        marker_8e0a919e1b35ecd3fd88cebbc4ff852d.bindPopup(popup_a7c1c358da54e0ba99b79adeb3be56bd)
+        ;
+
+        
+    
+    
+            var marker_dc008d96869ef927acf3210d3f8c4364 = L.marker(
+                [19.160648, 72.874046],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_cb91611e62bb2f60dc76a6fe5023bea7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dc008d96869ef927acf3210d3f8c4364.setIcon(icon_cb91611e62bb2f60dc76a6fe5023bea7);
+        
+    
+        var popup_913f57e0a11c29fe4a3a1e25d34e030d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d499f93441533ea43eeff486939f470d = $(`<div id="html_d499f93441533ea43eeff486939f470d" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Richa Iyer<br>         <b>Case ID:</b> 2022004<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_913f57e0a11c29fe4a3a1e25d34e030d.setContent(html_d499f93441533ea43eeff486939f470d);
+            
+        
+
+        marker_dc008d96869ef927acf3210d3f8c4364.bindPopup(popup_913f57e0a11c29fe4a3a1e25d34e030d)
+        ;
+
+        
+    
+    
+            var marker_7b35582401b0d0960804e5a863e2e1b5 = L.marker(
+                [19.137801, 72.87589],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_a4859ad072793420e29563620f1810e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7b35582401b0d0960804e5a863e2e1b5.setIcon(icon_a4859ad072793420e29563620f1810e8);
+        
+    
+        var popup_ed592bd92b078b44793954e5c9ae2077 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1549e775ae15a4b50b1df8fbedd7a421 = $(`<div id="html_1549e775ae15a4b50b1df8fbedd7a421" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Manisha Gokhale<br>         <b>Case ID:</b> 2022005<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_ed592bd92b078b44793954e5c9ae2077.setContent(html_1549e775ae15a4b50b1df8fbedd7a421);
+            
+        
+
+        marker_7b35582401b0d0960804e5a863e2e1b5.bindPopup(popup_ed592bd92b078b44793954e5c9ae2077)
+        ;
+
+        
+    
+    
+            var marker_86be7049091def67747813825ecb6c25 = L.marker(
+                [19.047969, 72.915267],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_1e690055eb4a70f0dfb12045ade8d155 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_86be7049091def67747813825ecb6c25.setIcon(icon_1e690055eb4a70f0dfb12045ade8d155);
+        
+    
+        var popup_7e3c8b9a3e446528d43f30c3cab49d22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9282541643db5baac00c1070b55ffbd = $(`<div id="html_f9282541643db5baac00c1070b55ffbd" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Rajiv Menon<br>         <b>Case ID:</b> 2022006<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_7e3c8b9a3e446528d43f30c3cab49d22.setContent(html_f9282541643db5baac00c1070b55ffbd);
+            
+        
+
+        marker_86be7049091def67747813825ecb6c25.bindPopup(popup_7e3c8b9a3e446528d43f30c3cab49d22)
+        ;
+
+        
+    
+    
+            var marker_15af15879edb5ad9bd838c9ec3980a09 = L.marker(
+                [19.160493, 72.837637],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_c7c239d4ff8a0f335e01842a4670214e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_15af15879edb5ad9bd838c9ec3980a09.setIcon(icon_c7c239d4ff8a0f335e01842a4670214e);
+        
+    
+        var popup_c14d1b7f0b99e245f0c91fe6ec25bae6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88a34c1c023b1c734736f6a9683da91e = $(`<div id="html_88a34c1c023b1c734736f6a9683da91e" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sandeep Chauhan<br>         <b>Case ID:</b> 2022007<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_c14d1b7f0b99e245f0c91fe6ec25bae6.setContent(html_88a34c1c023b1c734736f6a9683da91e);
+            
+        
+
+        marker_15af15879edb5ad9bd838c9ec3980a09.bindPopup(popup_c14d1b7f0b99e245f0c91fe6ec25bae6)
+        ;
+
+        
+    
+    
+            var marker_20fc9a9977e28761ffd1b22f3782917a = L.marker(
+                [18.984403, 72.883753],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_2b9cc784e566d94257cbbd9cdea338f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_20fc9a9977e28761ffd1b22f3782917a.setIcon(icon_2b9cc784e566d94257cbbd9cdea338f6);
+        
+    
+        var popup_c6f854b3d38b95314c3649d824b6e610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d61c73be2e2a3539046818a5b1fe239 = $(`<div id="html_7d61c73be2e2a3539046818a5b1fe239" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Namrata Joshi<br>         <b>Case ID:</b> 2022008<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_c6f854b3d38b95314c3649d824b6e610.setContent(html_7d61c73be2e2a3539046818a5b1fe239);
+            
+        
+
+        marker_20fc9a9977e28761ffd1b22f3782917a.bindPopup(popup_c6f854b3d38b95314c3649d824b6e610)
+        ;
+
+        
+    
+    
+            var marker_3a69de82912340587a8daa80c98abaaa = L.marker(
+                [19.083873, 72.935879],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_a3d1158767cfa67334d8efcea5ca0953 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a69de82912340587a8daa80c98abaaa.setIcon(icon_a3d1158767cfa67334d8efcea5ca0953);
+        
+    
+        var popup_39de57ecc303ab700e192e4ca0adda1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f04c1f24c457061b31efa22b0ffc2b0e = $(`<div id="html_f04c1f24c457061b31efa22b0ffc2b0e" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Vikram Singh<br>         <b>Case ID:</b> 2022009<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_39de57ecc303ab700e192e4ca0adda1c.setContent(html_f04c1f24c457061b31efa22b0ffc2b0e);
+            
+        
+
+        marker_3a69de82912340587a8daa80c98abaaa.bindPopup(popup_39de57ecc303ab700e192e4ca0adda1c)
+        ;
+
+        
+    
+    
+            var marker_f41f9bcf3e09c206e5ca06af472dd280 = L.marker(
+                [19.031023, 72.863793],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_7324e7e6a51c059fee6da4bc18fc5745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f41f9bcf3e09c206e5ca06af472dd280.setIcon(icon_7324e7e6a51c059fee6da4bc18fc5745);
+        
+    
+        var popup_98ac27e4bf0f1b682384d452a2dd30a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_252bafafad55cf91ebad583cd846ed8f = $(`<div id="html_252bafafad55cf91ebad583cd846ed8f" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Richa Iyer<br>         <b>Case ID:</b> 2022010<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_98ac27e4bf0f1b682384d452a2dd30a3.setContent(html_252bafafad55cf91ebad583cd846ed8f);
+            
+        
+
+        marker_f41f9bcf3e09c206e5ca06af472dd280.bindPopup(popup_98ac27e4bf0f1b682384d452a2dd30a3)
+        ;
+
+        
+    
+    
+            var marker_5f388d2f9ecd17cab4724b680caa8703 = L.marker(
+                [19.085695, 72.832814],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_ed2fcc104418b782bb202e3d0b8a186d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5f388d2f9ecd17cab4724b680caa8703.setIcon(icon_ed2fcc104418b782bb202e3d0b8a186d);
+        
+    
+        var popup_ba266ff5c5ae52bf985d0c3b0cc5305f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_962e1e4364b77d0f9202cc2188fd48dc = $(`<div id="html_962e1e4364b77d0f9202cc2188fd48dc" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Rohini Nair<br>         <b>Case ID:</b> 2022011<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_ba266ff5c5ae52bf985d0c3b0cc5305f.setContent(html_962e1e4364b77d0f9202cc2188fd48dc);
+            
+        
+
+        marker_5f388d2f9ecd17cab4724b680caa8703.bindPopup(popup_ba266ff5c5ae52bf985d0c3b0cc5305f)
+        ;
+
+        
+    
+    
+            var marker_f36ebb95c116fdb0ade23f2e3c97dbdb = L.marker(
+                [18.983274, 72.878651],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_5d855e546436069901d72bd0c20e9ba3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f36ebb95c116fdb0ade23f2e3c97dbdb.setIcon(icon_5d855e546436069901d72bd0c20e9ba3);
+        
+    
+        var popup_643f3e8d8b41c72fdfeb226f45acbef9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02e48a6727e7373e40c1566b2ffdeaa1 = $(`<div id="html_02e48a6727e7373e40c1566b2ffdeaa1" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sarita Yadav<br>         <b>Case ID:</b> 2022012<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_643f3e8d8b41c72fdfeb226f45acbef9.setContent(html_02e48a6727e7373e40c1566b2ffdeaa1);
+            
+        
+
+        marker_f36ebb95c116fdb0ade23f2e3c97dbdb.bindPopup(popup_643f3e8d8b41c72fdfeb226f45acbef9)
+        ;
+
+        
+    
+    
+            var marker_de9715491efba55d23c15c51f8c23f55 = L.marker(
+                [19.175809, 72.821119],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_36bc1d2f6ea582441c52abbd6420fc89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de9715491efba55d23c15c51f8c23f55.setIcon(icon_36bc1d2f6ea582441c52abbd6420fc89);
+        
+    
+        var popup_6636c82114af57e2719552269f006a06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9e545abeffac5da691b06c9c43f971f = $(`<div id="html_a9e545abeffac5da691b06c9c43f971f" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Neeraj Chavan<br>         <b>Case ID:</b> 2022013<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_6636c82114af57e2719552269f006a06.setContent(html_a9e545abeffac5da691b06c9c43f971f);
+            
+        
+
+        marker_de9715491efba55d23c15c51f8c23f55.bindPopup(popup_6636c82114af57e2719552269f006a06)
+        ;
+
+        
+    
+    
+            var marker_306bee867f1a106013d5807a7cbe3b9a = L.marker(
+                [19.054029, 72.906565],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_e8f4dd9f62582c9bfc8c15c9afcedeb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_306bee867f1a106013d5807a7cbe3b9a.setIcon(icon_e8f4dd9f62582c9bfc8c15c9afcedeb3);
+        
+    
+        var popup_13229b491764100336326e7454224913 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61057b276ee5b109e4d6a1b26e85e23c = $(`<div id="html_61057b276ee5b109e4d6a1b26e85e23c" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Nilesh Khot<br>         <b>Case ID:</b> 2022014<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_13229b491764100336326e7454224913.setContent(html_61057b276ee5b109e4d6a1b26e85e23c);
+            
+        
+
+        marker_306bee867f1a106013d5807a7cbe3b9a.bindPopup(popup_13229b491764100336326e7454224913)
+        ;
+
+        
+    
+    
+            var marker_ab3441f1fef72dd0b2c14ef938b23b3e = L.marker(
+                [18.991188, 72.824161],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_a6f1fbc602e97c527ca262de4c9b6cdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab3441f1fef72dd0b2c14ef938b23b3e.setIcon(icon_a6f1fbc602e97c527ca262de4c9b6cdf);
+        
+    
+        var popup_a888b1e1ed2275407ae44ed66ccaec9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f33f1a17e6e46c10a2cdcd28b49a14ce = $(`<div id="html_f33f1a17e6e46c10a2cdcd28b49a14ce" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Umesh Yadav<br>         <b>Case ID:</b> 2022015<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_a888b1e1ed2275407ae44ed66ccaec9d.setContent(html_f33f1a17e6e46c10a2cdcd28b49a14ce);
+            
+        
+
+        marker_ab3441f1fef72dd0b2c14ef938b23b3e.bindPopup(popup_a888b1e1ed2275407ae44ed66ccaec9d)
+        ;
+
+        
+    
+    
+            var marker_40d11e09ed3944f344def50ecec94b0b = L.marker(
+                [18.971358, 72.880533],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_581cad3b24ef342d079f882cea74974d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_40d11e09ed3944f344def50ecec94b0b.setIcon(icon_581cad3b24ef342d079f882cea74974d);
+        
+    
+        var popup_b0811fc46f8ce61bceaa5ce1645723a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e345a8cfa04b8e23a76ffae1394f448 = $(`<div id="html_3e345a8cfa04b8e23a76ffae1394f448" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Jagdish Pillai<br>         <b>Case ID:</b> 2022016<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_b0811fc46f8ce61bceaa5ce1645723a0.setContent(html_3e345a8cfa04b8e23a76ffae1394f448);
+            
+        
+
+        marker_40d11e09ed3944f344def50ecec94b0b.bindPopup(popup_b0811fc46f8ce61bceaa5ce1645723a0)
+        ;
+
+        
+    
+    
+            var marker_4ce1204f70ed13f2192cc61ca58abf29 = L.marker(
+                [19.115619, 72.863876],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_f5dd601e58fb323e7455c3c4a308db04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4ce1204f70ed13f2192cc61ca58abf29.setIcon(icon_f5dd601e58fb323e7455c3c4a308db04);
+        
+    
+        var popup_81b88919c3b90f49fa2de4e1a00fd836 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8cd619e90f4be6590fb2d91a34052ba = $(`<div id="html_a8cd619e90f4be6590fb2d91a34052ba" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Nilesh Khot<br>         <b>Case ID:</b> 2022017<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_81b88919c3b90f49fa2de4e1a00fd836.setContent(html_a8cd619e90f4be6590fb2d91a34052ba);
+            
+        
+
+        marker_4ce1204f70ed13f2192cc61ca58abf29.bindPopup(popup_81b88919c3b90f49fa2de4e1a00fd836)
+        ;
+
+        
+    
+    
+            var marker_49d6f9a04dc0d4dc071a623606ed86fa = L.marker(
+                [18.979072, 72.896908],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_0d588910e029e79c388ae8ae78683bf3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_49d6f9a04dc0d4dc071a623606ed86fa.setIcon(icon_0d588910e029e79c388ae8ae78683bf3);
+        
+    
+        var popup_380ac3ef5f5266e22ea787074da6a655 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a65498461db5e8a48d34daee0f9ddbe5 = $(`<div id="html_a65498461db5e8a48d34daee0f9ddbe5" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Richa Iyer<br>         <b>Case ID:</b> 2022018<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_380ac3ef5f5266e22ea787074da6a655.setContent(html_a65498461db5e8a48d34daee0f9ddbe5);
+            
+        
+
+        marker_49d6f9a04dc0d4dc071a623606ed86fa.bindPopup(popup_380ac3ef5f5266e22ea787074da6a655)
+        ;
+
+        
+    
+    
+            var marker_71dbae533d06b7ea3d7ed22912e4a736 = L.marker(
+                [18.998281, 72.93779],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_e62fa73fc21d832812c69070139a1708 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_71dbae533d06b7ea3d7ed22912e4a736.setIcon(icon_e62fa73fc21d832812c69070139a1708);
+        
+    
+        var popup_2b602b51d17f1a8ef1f9f83da427445e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6af509a6566c303fa2a06bfcabef0e12 = $(`<div id="html_6af509a6566c303fa2a06bfcabef0e12" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Rohini Nair<br>         <b>Case ID:</b> 2022019<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_2b602b51d17f1a8ef1f9f83da427445e.setContent(html_6af509a6566c303fa2a06bfcabef0e12);
+            
+        
+
+        marker_71dbae533d06b7ea3d7ed22912e4a736.bindPopup(popup_2b602b51d17f1a8ef1f9f83da427445e)
+        ;
+
+        
+    
+    
+            var marker_659cd44c2e18abcf82293e1209c77f86 = L.marker(
+                [18.975779, 72.85439],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_e29920f86b1de3aaf7e325a7435861db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_659cd44c2e18abcf82293e1209c77f86.setIcon(icon_e29920f86b1de3aaf7e325a7435861db);
+        
+    
+        var popup_f5132846975b1919bdde7ee144a7bdc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb1d899f4bbf5c463b5b6c44ea7338f0 = $(`<div id="html_bb1d899f4bbf5c463b5b6c44ea7338f0" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Jitendra Patel<br>         <b>Case ID:</b> 2022020<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_f5132846975b1919bdde7ee144a7bdc7.setContent(html_bb1d899f4bbf5c463b5b6c44ea7338f0);
+            
+        
+
+        marker_659cd44c2e18abcf82293e1209c77f86.bindPopup(popup_f5132846975b1919bdde7ee144a7bdc7)
+        ;
+
+        
+    
+    
+            var marker_71d25ee90e6d370037331bd6369adaa4 = L.marker(
+                [19.161114, 72.823995],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_39fa84e8b873154d05b89bf23708afba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_71d25ee90e6d370037331bd6369adaa4.setIcon(icon_39fa84e8b873154d05b89bf23708afba);
+        
+    
+        var popup_dbbc45a9ec9346f83d679777b81c9f15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6312e58f11ca31c2c9ddab3cbd20203a = $(`<div id="html_6312e58f11ca31c2c9ddab3cbd20203a" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Richa Iyer<br>         <b>Case ID:</b> 2022021<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_dbbc45a9ec9346f83d679777b81c9f15.setContent(html_6312e58f11ca31c2c9ddab3cbd20203a);
+            
+        
+
+        marker_71d25ee90e6d370037331bd6369adaa4.bindPopup(popup_dbbc45a9ec9346f83d679777b81c9f15)
+        ;
+
+        
+    
+    
+            var marker_d0f2faab3eef6b436c06687c1ae6430c = L.marker(
+                [19.064063, 72.906211],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_5e858af7eaefc134e970a4d673d9fbca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d0f2faab3eef6b436c06687c1ae6430c.setIcon(icon_5e858af7eaefc134e970a4d673d9fbca);
+        
+    
+        var popup_35d0d7cf248a115a7e4da491a1bb177e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85acd8f994797582d37c26cd25a9f6df = $(`<div id="html_85acd8f994797582d37c26cd25a9f6df" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Namrata Joshi<br>         <b>Case ID:</b> 2022022<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_35d0d7cf248a115a7e4da491a1bb177e.setContent(html_85acd8f994797582d37c26cd25a9f6df);
+            
+        
+
+        marker_d0f2faab3eef6b436c06687c1ae6430c.bindPopup(popup_35d0d7cf248a115a7e4da491a1bb177e)
+        ;
+
+        
+    
+    
+            var marker_e8e99675ad7808b8327cd6ef0efe29d0 = L.marker(
+                [19.06549, 72.881364],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_32799d7a297be1dace7c9a8895143a75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e8e99675ad7808b8327cd6ef0efe29d0.setIcon(icon_32799d7a297be1dace7c9a8895143a75);
+        
+    
+        var popup_5708090a87c327b6209357a134e9a003 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2bdec3db38dc41c30dcce0b1cf1df19 = $(`<div id="html_b2bdec3db38dc41c30dcce0b1cf1df19" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Umesh Yadav<br>         <b>Case ID:</b> 2022023<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_5708090a87c327b6209357a134e9a003.setContent(html_b2bdec3db38dc41c30dcce0b1cf1df19);
+            
+        
+
+        marker_e8e99675ad7808b8327cd6ef0efe29d0.bindPopup(popup_5708090a87c327b6209357a134e9a003)
+        ;
+
+        
+    
+    
+            var marker_5033794768e66ca343c4684c3cc651b4 = L.marker(
+                [19.008173, 72.915339],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_de2d4530f52a23860d5715fd93cdab7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5033794768e66ca343c4684c3cc651b4.setIcon(icon_de2d4530f52a23860d5715fd93cdab7b);
+        
+    
+        var popup_5a71ffd6aac8479188a1b9284cab6369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcf486d41160de03f773322ae98b0071 = $(`<div id="html_dcf486d41160de03f773322ae98b0071" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sandeep Chauhan<br>         <b>Case ID:</b> 2022024<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_5a71ffd6aac8479188a1b9284cab6369.setContent(html_dcf486d41160de03f773322ae98b0071);
+            
+        
+
+        marker_5033794768e66ca343c4684c3cc651b4.bindPopup(popup_5a71ffd6aac8479188a1b9284cab6369)
+        ;
+
+        
+    
+    
+            var marker_b5a369e66de8be1a71b9516a2d269a14 = L.marker(
+                [19.167171, 72.853635],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_91f33dd5d2e2be10f1f060ee8d3d17db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b5a369e66de8be1a71b9516a2d269a14.setIcon(icon_91f33dd5d2e2be10f1f060ee8d3d17db);
+        
+    
+        var popup_f527a13e9dadfcf4624101d1e53b1f0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67a6e9ec863b8c6f238451831866d0c6 = $(`<div id="html_67a6e9ec863b8c6f238451831866d0c6" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Harish Pillai<br>         <b>Case ID:</b> 2022025<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_f527a13e9dadfcf4624101d1e53b1f0a.setContent(html_67a6e9ec863b8c6f238451831866d0c6);
+            
+        
+
+        marker_b5a369e66de8be1a71b9516a2d269a14.bindPopup(popup_f527a13e9dadfcf4624101d1e53b1f0a)
+        ;
+
+        
+    
+    
+            var marker_63f29f3ac90b86aaafa20e8816bfcf8d = L.marker(
+                [19.046884, 72.899448],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_3a9d972939af188466a7aacb1bd71020 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_63f29f3ac90b86aaafa20e8816bfcf8d.setIcon(icon_3a9d972939af188466a7aacb1bd71020);
+        
+    
+        var popup_feecf081636d9bd1bcefc8fc05cc6db2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3e368ff88688da37bf5413285ef0aa3 = $(`<div id="html_a3e368ff88688da37bf5413285ef0aa3" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Vivek Kapoor<br>         <b>Case ID:</b> 2022026<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_feecf081636d9bd1bcefc8fc05cc6db2.setContent(html_a3e368ff88688da37bf5413285ef0aa3);
+            
+        
+
+        marker_63f29f3ac90b86aaafa20e8816bfcf8d.bindPopup(popup_feecf081636d9bd1bcefc8fc05cc6db2)
+        ;
+
+        
+    
+    
+            var marker_8e1ae3144de055dbbe0688362f6431db = L.marker(
+                [19.150537, 72.857333],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_e0583879f28f455fb160fa9ea556b6dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8e1ae3144de055dbbe0688362f6431db.setIcon(icon_e0583879f28f455fb160fa9ea556b6dc);
+        
+    
+        var popup_35f3191fab3a6c85fa1380bf5f37770e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b85ffcb57fcadc04906df2ecd73e9a8 = $(`<div id="html_8b85ffcb57fcadc04906df2ecd73e9a8" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sneha Nair<br>         <b>Case ID:</b> 2022027<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_35f3191fab3a6c85fa1380bf5f37770e.setContent(html_8b85ffcb57fcadc04906df2ecd73e9a8);
+            
+        
+
+        marker_8e1ae3144de055dbbe0688362f6431db.bindPopup(popup_35f3191fab3a6c85fa1380bf5f37770e)
+        ;
+
+        
+    
+    
+            var marker_15e8ddee41ea255d5df9623ec55eac95 = L.marker(
+                [19.151888, 72.928271],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_928bd4430d34bb822002970e04abaf3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_15e8ddee41ea255d5df9623ec55eac95.setIcon(icon_928bd4430d34bb822002970e04abaf3e);
+        
+    
+        var popup_bd88dddd9a4fcd79437e9761b65c22bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bef20b9dc4a48bab119045013298f0d = $(`<div id="html_5bef20b9dc4a48bab119045013298f0d" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Suresh Pandey<br>         <b>Case ID:</b> 2022028<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_bd88dddd9a4fcd79437e9761b65c22bb.setContent(html_5bef20b9dc4a48bab119045013298f0d);
+            
+        
+
+        marker_15e8ddee41ea255d5df9623ec55eac95.bindPopup(popup_bd88dddd9a4fcd79437e9761b65c22bb)
+        ;
+
+        
+    
+    
+            var marker_4cae6d89c73637f4cc8ab74724d73f88 = L.marker(
+                [19.173342, 72.893629],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_8ce3878acb54c52fd87a6a0352f9e8ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4cae6d89c73637f4cc8ab74724d73f88.setIcon(icon_8ce3878acb54c52fd87a6a0352f9e8ac);
+        
+    
+        var popup_629debd20fbae640e08270d8acce4e5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_444e6aa8c5e69e7aea24a8642281a736 = $(`<div id="html_444e6aa8c5e69e7aea24a8642281a736" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sarita Yadav<br>         <b>Case ID:</b> 2022034<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_629debd20fbae640e08270d8acce4e5f.setContent(html_444e6aa8c5e69e7aea24a8642281a736);
+            
+        
+
+        marker_4cae6d89c73637f4cc8ab74724d73f88.bindPopup(popup_629debd20fbae640e08270d8acce4e5f)
+        ;
+
+        
+    
+    
+            var marker_20850b2b7984fa9cfb0d6437b782f9d6 = L.marker(
+                [19.033267, 72.890343],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_52b16cdda3a77337d122171b28c56856 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_20850b2b7984fa9cfb0d6437b782f9d6.setIcon(icon_52b16cdda3a77337d122171b28c56856);
+        
+    
+        var popup_165f7162a2987082d0c8d4f2e3b85d11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfab965aced6813b080bb2ff5d43836a = $(`<div id="html_bfab965aced6813b080bb2ff5d43836a" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Vikram Singh<br>         <b>Case ID:</b> 2022035<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_165f7162a2987082d0c8d4f2e3b85d11.setContent(html_bfab965aced6813b080bb2ff5d43836a);
+            
+        
+
+        marker_20850b2b7984fa9cfb0d6437b782f9d6.bindPopup(popup_165f7162a2987082d0c8d4f2e3b85d11)
+        ;
+
+        
+    
+    
+            var marker_f50c5273316333bdbd35dc20990bbe2b = L.marker(
+                [19.058651, 72.894302],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_cef4e20803744b01682266c0decb3ff5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f50c5273316333bdbd35dc20990bbe2b.setIcon(icon_cef4e20803744b01682266c0decb3ff5);
+        
+    
+        var popup_40ac04ad3c98800dde1e8e5f7f193fb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bca378140acf48b7a64f454b6ee2c6bc = $(`<div id="html_bca378140acf48b7a64f454b6ee2c6bc" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Manoj Khanna<br>         <b>Case ID:</b> 2022036<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_40ac04ad3c98800dde1e8e5f7f193fb9.setContent(html_bca378140acf48b7a64f454b6ee2c6bc);
+            
+        
+
+        marker_f50c5273316333bdbd35dc20990bbe2b.bindPopup(popup_40ac04ad3c98800dde1e8e5f7f193fb9)
+        ;
+
+        
+    
+    
+            var marker_9327dd05f28548b9b28bc80391811158 = L.marker(
+                [19.064434, 72.849617],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_1a5632bb750ea6ec86fc0f2bfb74476e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9327dd05f28548b9b28bc80391811158.setIcon(icon_1a5632bb750ea6ec86fc0f2bfb74476e);
+        
+    
+        var popup_f4b08122949d1672e13cfdb2c80d8565 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eedf2742fdb7bf7a8281f0b4a63fcd22 = $(`<div id="html_eedf2742fdb7bf7a8281f0b4a63fcd22" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sarita Yadav<br>         <b>Case ID:</b> 2022037<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_f4b08122949d1672e13cfdb2c80d8565.setContent(html_eedf2742fdb7bf7a8281f0b4a63fcd22);
+            
+        
+
+        marker_9327dd05f28548b9b28bc80391811158.bindPopup(popup_f4b08122949d1672e13cfdb2c80d8565)
+        ;
+
+        
+    
+    
+            var marker_335f5fb70e09867b5ac01d9eb34bd052 = L.marker(
+                [19.111366, 72.895386],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_bd53dab00512b0782e660d1e8d6bc6b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_335f5fb70e09867b5ac01d9eb34bd052.setIcon(icon_bd53dab00512b0782e660d1e8d6bc6b6);
+        
+    
+        var popup_ca585af134aba764a21b848797c8e935 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f2caeb4814047d020e91f50b1346aa9 = $(`<div id="html_4f2caeb4814047d020e91f50b1346aa9" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Vivek Kapoor<br>         <b>Case ID:</b> 2022038<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_ca585af134aba764a21b848797c8e935.setContent(html_4f2caeb4814047d020e91f50b1346aa9);
+            
+        
+
+        marker_335f5fb70e09867b5ac01d9eb34bd052.bindPopup(popup_ca585af134aba764a21b848797c8e935)
+        ;
+
+        
+    
+    
+            var marker_2cab451c2663a1b3b0984571a68d2ab8 = L.marker(
+                [19.148898, 72.840443],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_8d0ac3affe47da163b5e3dd52271d0a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2cab451c2663a1b3b0984571a68d2ab8.setIcon(icon_8d0ac3affe47da163b5e3dd52271d0a4);
+        
+    
+        var popup_e568a497e9ea0eba42f82e7469d31975 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d46fbeca3afc0e550e4395b7624ad3b = $(`<div id="html_2d46fbeca3afc0e550e4395b7624ad3b" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Manoj Khanna<br>         <b>Case ID:</b> 2022039<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_e568a497e9ea0eba42f82e7469d31975.setContent(html_2d46fbeca3afc0e550e4395b7624ad3b);
+            
+        
+
+        marker_2cab451c2663a1b3b0984571a68d2ab8.bindPopup(popup_e568a497e9ea0eba42f82e7469d31975)
+        ;
+
+        
+    
+    
+            var marker_18fb96183fb2b011a7b0a8b20e10efea = L.marker(
+                [18.995983, 72.867057],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_beaf7d5fa89b1f33539155bea1368080 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18fb96183fb2b011a7b0a8b20e10efea.setIcon(icon_beaf7d5fa89b1f33539155bea1368080);
+        
+    
+        var popup_7b89414ffe52ac406c4cf8d7663b2f8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eef363f61f365cf6214a29eaf0867a80 = $(`<div id="html_eef363f61f365cf6214a29eaf0867a80" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Rajiv Menon<br>         <b>Case ID:</b> 2022040<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_7b89414ffe52ac406c4cf8d7663b2f8d.setContent(html_eef363f61f365cf6214a29eaf0867a80);
+            
+        
+
+        marker_18fb96183fb2b011a7b0a8b20e10efea.bindPopup(popup_7b89414ffe52ac406c4cf8d7663b2f8d)
+        ;
+
+        
+    
+    
+            var marker_e8a1b19d2f3173a7adb350042d63b009 = L.marker(
+                [19.126625, 72.878575],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_ef602a5f8a34910fb984b0123bf4a7a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e8a1b19d2f3173a7adb350042d63b009.setIcon(icon_ef602a5f8a34910fb984b0123bf4a7a2);
+        
+    
+        var popup_cc65d8fd313c4ded2fb4d416a9ba3af5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44a7be3bd39da42cb6978d624390403a = $(`<div id="html_44a7be3bd39da42cb6978d624390403a" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Namrata Joshi<br>         <b>Case ID:</b> 2022041<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_cc65d8fd313c4ded2fb4d416a9ba3af5.setContent(html_44a7be3bd39da42cb6978d624390403a);
+            
+        
+
+        marker_e8a1b19d2f3173a7adb350042d63b009.bindPopup(popup_cc65d8fd313c4ded2fb4d416a9ba3af5)
+        ;
+
+        
+    
+    
+            var marker_22d10d57035ebfafb9cc638d0e346446 = L.marker(
+                [19.051694, 72.91043],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_5ba14843755a0a1d837a8ecd585fbfab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_22d10d57035ebfafb9cc638d0e346446.setIcon(icon_5ba14843755a0a1d837a8ecd585fbfab);
+        
+    
+        var popup_982ffdbb9bc95d18ecbcd19b4fee611a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79884eadb3260d68a7229b9538234761 = $(`<div id="html_79884eadb3260d68a7229b9538234761" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Namrata Joshi<br>         <b>Case ID:</b> 2022042<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_982ffdbb9bc95d18ecbcd19b4fee611a.setContent(html_79884eadb3260d68a7229b9538234761);
+            
+        
+
+        marker_22d10d57035ebfafb9cc638d0e346446.bindPopup(popup_982ffdbb9bc95d18ecbcd19b4fee611a)
+        ;
+
+        
+    
+    
+            var marker_227a998aeb0947fe6947d5ba7a56e666 = L.marker(
+                [19.139049, 72.855441],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_0e9e87a5b741feb2341a6e8d067a107a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_227a998aeb0947fe6947d5ba7a56e666.setIcon(icon_0e9e87a5b741feb2341a6e8d067a107a);
+        
+    
+        var popup_e71be96ae7cde0bdd7a8716591e93c75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d94ffc448e37097a5c6bc508d20aef11 = $(`<div id="html_d94ffc448e37097a5c6bc508d20aef11" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Rohini Nair<br>         <b>Case ID:</b> 2022043<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_e71be96ae7cde0bdd7a8716591e93c75.setContent(html_d94ffc448e37097a5c6bc508d20aef11);
+            
+        
+
+        marker_227a998aeb0947fe6947d5ba7a56e666.bindPopup(popup_e71be96ae7cde0bdd7a8716591e93c75)
+        ;
+
+        
+    
+    
+            var marker_b87d472f72db74303d883cf17a3a8f86 = L.marker(
+                [19.062822, 72.870359],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_093c4d8b3b39595139196380f4d9d460 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b87d472f72db74303d883cf17a3a8f86.setIcon(icon_093c4d8b3b39595139196380f4d9d460);
+        
+    
+        var popup_daa389a22f04a971a3001659d32cb47f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96be59f032d202a5b4664bdb3166293d = $(`<div id="html_96be59f032d202a5b4664bdb3166293d" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Kiran Shetty<br>         <b>Case ID:</b> 2022044<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_daa389a22f04a971a3001659d32cb47f.setContent(html_96be59f032d202a5b4664bdb3166293d);
+            
+        
+
+        marker_b87d472f72db74303d883cf17a3a8f86.bindPopup(popup_daa389a22f04a971a3001659d32cb47f)
+        ;
+
+        
+    
+    
+            var marker_227bb3300d09642e4b3cf3444a7dddcc = L.marker(
+                [19.161475, 72.849838],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_48bdd36f37b0e99ce90374a4e8ed5b3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_227bb3300d09642e4b3cf3444a7dddcc.setIcon(icon_48bdd36f37b0e99ce90374a4e8ed5b3b);
+        
+    
+        var popup_0a07461c01347f670dbcef53a5458ace = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66e3a782c84d16b3c05f143dce2208d0 = $(`<div id="html_66e3a782c84d16b3c05f143dce2208d0" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Vikram Singh<br>         <b>Case ID:</b> 2022045<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_0a07461c01347f670dbcef53a5458ace.setContent(html_66e3a782c84d16b3c05f143dce2208d0);
+            
+        
+
+        marker_227bb3300d09642e4b3cf3444a7dddcc.bindPopup(popup_0a07461c01347f670dbcef53a5458ace)
+        ;
+
+        
+    
+    
+            var marker_4b6cd7e2c55bb7860289e6faf08978b6 = L.marker(
+                [19.041059, 72.923685],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_12ec496c4e245fc5b76353ac6bc832b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4b6cd7e2c55bb7860289e6faf08978b6.setIcon(icon_12ec496c4e245fc5b76353ac6bc832b0);
+        
+    
+        var popup_7967bdf947393a71a6049a90792cfbf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_909e2d76694853beb387695573a338da = $(`<div id="html_909e2d76694853beb387695573a338da" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Ravindra Purohit<br>         <b>Case ID:</b> 2022046<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_7967bdf947393a71a6049a90792cfbf1.setContent(html_909e2d76694853beb387695573a338da);
+            
+        
+
+        marker_4b6cd7e2c55bb7860289e6faf08978b6.bindPopup(popup_7967bdf947393a71a6049a90792cfbf1)
+        ;
+
+        
+    
+    
+            var marker_fc3b69a0d8258bd5b3fe0eaf62c4137d = L.marker(
+                [19.053113, 72.822986],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_9d3c96971ae06266c5fb69dac67a05aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc3b69a0d8258bd5b3fe0eaf62c4137d.setIcon(icon_9d3c96971ae06266c5fb69dac67a05aa);
+        
+    
+        var popup_e57ad19e7d7d6207f03ba82077506201 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_329f75daddbd95e31b582b4a0425565e = $(`<div id="html_329f75daddbd95e31b582b4a0425565e" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Jagdish Pillai<br>         <b>Case ID:</b> 2022047<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_e57ad19e7d7d6207f03ba82077506201.setContent(html_329f75daddbd95e31b582b4a0425565e);
+            
+        
+
+        marker_fc3b69a0d8258bd5b3fe0eaf62c4137d.bindPopup(popup_e57ad19e7d7d6207f03ba82077506201)
+        ;
+
+        
+    
+    
+            var marker_25be1c1411b7a246ba75a5933b4bfcbf = L.marker(
+                [18.978872, 72.910293],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_b3dda23315a39dbbca096cab521d5da8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_25be1c1411b7a246ba75a5933b4bfcbf.setIcon(icon_b3dda23315a39dbbca096cab521d5da8);
+        
+    
+        var popup_7db456c28e044641fd637c23fa7ab711 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eec192590e02569b819b24703460cf5 = $(`<div id="html_0eec192590e02569b819b24703460cf5" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sneha Nair<br>         <b>Case ID:</b> 2022048<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_7db456c28e044641fd637c23fa7ab711.setContent(html_0eec192590e02569b819b24703460cf5);
+            
+        
+
+        marker_25be1c1411b7a246ba75a5933b4bfcbf.bindPopup(popup_7db456c28e044641fd637c23fa7ab711)
+        ;
+
+        
+    
+    
+            var marker_2ea53671e2d09ad43f0462930571713f = L.marker(
+                [19.100194, 72.858232],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_6b5c7007422b70253f45d7fee9f47441 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2ea53671e2d09ad43f0462930571713f.setIcon(icon_6b5c7007422b70253f45d7fee9f47441);
+        
+    
+        var popup_787867f561599cd644c1ddf377fed9c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcd158e480b844d27b3b8d9dc8941493 = $(`<div id="html_dcd158e480b844d27b3b8d9dc8941493" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Nilesh Khot<br>         <b>Case ID:</b> 2022049<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_787867f561599cd644c1ddf377fed9c9.setContent(html_dcd158e480b844d27b3b8d9dc8941493);
+            
+        
+
+        marker_2ea53671e2d09ad43f0462930571713f.bindPopup(popup_787867f561599cd644c1ddf377fed9c9)
+        ;
+
+        
+    
+    
+            var marker_66b2bfae0e03e64000e1b807839c8bb4 = L.marker(
+                [19.100197, 72.889745],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_1f2f57652f88f0f25c67d4d98c031ea8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_66b2bfae0e03e64000e1b807839c8bb4.setIcon(icon_1f2f57652f88f0f25c67d4d98c031ea8);
+        
+    
+        var popup_b6c4f5448ba755986e1b071196162f9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d943a01a00def4d27a28a073e9563805 = $(`<div id="html_d943a01a00def4d27a28a073e9563805" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Dinesh Menon<br>         <b>Case ID:</b> 2022050<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_b6c4f5448ba755986e1b071196162f9a.setContent(html_d943a01a00def4d27a28a073e9563805);
+            
+        
+
+        marker_66b2bfae0e03e64000e1b807839c8bb4.bindPopup(popup_b6c4f5448ba755986e1b071196162f9a)
+        ;
+
+        
+    
+    
+            var marker_14e54f6d576557b262a69a11cbcc3d52 = L.marker(
+                [19.086265, 72.900575],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_980ad2128a797a11000026a443f0606d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14e54f6d576557b262a69a11cbcc3d52.setIcon(icon_980ad2128a797a11000026a443f0606d);
+        
+    
+        var popup_f96a0a6c004389d67b37d0e9d05911fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7742e5ab2d20df18e870984024b11bd9 = $(`<div id="html_7742e5ab2d20df18e870984024b11bd9" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Deepak Joshi<br>         <b>Case ID:</b> 2022051<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_f96a0a6c004389d67b37d0e9d05911fb.setContent(html_7742e5ab2d20df18e870984024b11bd9);
+            
+        
+
+        marker_14e54f6d576557b262a69a11cbcc3d52.bindPopup(popup_f96a0a6c004389d67b37d0e9d05911fb)
+        ;
+
+        
+    
+    
+            var marker_f13efb93a45c5e2529aac355e537c4bf = L.marker(
+                [19.082043, 72.877685],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_dcbe2a1e8b3bac239e8c27aa7cea438e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f13efb93a45c5e2529aac355e537c4bf.setIcon(icon_dcbe2a1e8b3bac239e8c27aa7cea438e);
+        
+    
+        var popup_fd9d5051dd1cf914c9bc946f19a6cc0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caf41f13889e0419d4198171d611198f = $(`<div id="html_caf41f13889e0419d4198171d611198f" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Ravi Kumar<br>         <b>Case ID:</b> 2022052<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_fd9d5051dd1cf914c9bc946f19a6cc0e.setContent(html_caf41f13889e0419d4198171d611198f);
+            
+        
+
+        marker_f13efb93a45c5e2529aac355e537c4bf.bindPopup(popup_fd9d5051dd1cf914c9bc946f19a6cc0e)
+        ;
+
+        
+    
+    
+            var marker_2099495d9fa7475a54f9459789d7997b = L.marker(
+                [19.177186, 72.866338],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_202245c2acc612272c3ccab90a873399 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2099495d9fa7475a54f9459789d7997b.setIcon(icon_202245c2acc612272c3ccab90a873399);
+        
+    
+        var popup_a41c6ed2762f8e6dc204cd8fa02912c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de1f609c8ed264c46314a0b672258b4a = $(`<div id="html_de1f609c8ed264c46314a0b672258b4a" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Ravindra Purohit<br>         <b>Case ID:</b> 2022053<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_a41c6ed2762f8e6dc204cd8fa02912c3.setContent(html_de1f609c8ed264c46314a0b672258b4a);
+            
+        
+
+        marker_2099495d9fa7475a54f9459789d7997b.bindPopup(popup_a41c6ed2762f8e6dc204cd8fa02912c3)
+        ;
+
+        
+    
+    
+            var marker_fddb8cbd7bb4ef7cb81f7093c63d7539 = L.marker(
+                [19.001711, 72.907944],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_5f2745052b6e594cf0a43c4cf2ff3c0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fddb8cbd7bb4ef7cb81f7093c63d7539.setIcon(icon_5f2745052b6e594cf0a43c4cf2ff3c0d);
+        
+    
+        var popup_eb7026ac811b285a6cc338a18aa3ba70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e228f89e5dbaaaf0fe9f509b3001ba64 = $(`<div id="html_e228f89e5dbaaaf0fe9f509b3001ba64" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Jagdish Pillai<br>         <b>Case ID:</b> 2022054<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_eb7026ac811b285a6cc338a18aa3ba70.setContent(html_e228f89e5dbaaaf0fe9f509b3001ba64);
+            
+        
+
+        marker_fddb8cbd7bb4ef7cb81f7093c63d7539.bindPopup(popup_eb7026ac811b285a6cc338a18aa3ba70)
+        ;
+
+        
+    
+    
+            var marker_b3e37eaec2a8560a2e00fc16da804943 = L.marker(
+                [18.996526, 72.890654],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_ca8c5bf82c1d395ff47efd09821416a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b3e37eaec2a8560a2e00fc16da804943.setIcon(icon_ca8c5bf82c1d395ff47efd09821416a0);
+        
+    
+        var popup_9db249ca7e35c4fc422c045b08818ee2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c56a9c1feb46644b416df9935093f742 = $(`<div id="html_c56a9c1feb46644b416df9935093f742" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Robbery<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Neeraj Chavan<br>         <b>Case ID:</b> 2022055<br>         <b>Year:</b> 2023<br>     </div>`)[0];
+                popup_9db249ca7e35c4fc422c045b08818ee2.setContent(html_c56a9c1feb46644b416df9935093f742);
+            
+        
+
+        marker_b3e37eaec2a8560a2e00fc16da804943.bindPopup(popup_9db249ca7e35c4fc422c045b08818ee2)
+        ;
+
+        
+    
+    
+            var marker_62c9ea99dd5fc89ca23c3051ccd0a05c = L.marker(
+                [19.018828, 72.902362],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_30a85e4ba882831327bd9c42074367bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_62c9ea99dd5fc89ca23c3051ccd0a05c.setIcon(icon_30a85e4ba882831327bd9c42074367bc);
+        
+    
+        var popup_f1907d38b1e918c5166ef11cab5400de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27a06dad62edc1d4829be797bb364ccb = $(`<div id="html_27a06dad62edc1d4829be797bb364ccb" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Suicide<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Kiran Shetty<br>         <b>Case ID:</b> 2022056<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_f1907d38b1e918c5166ef11cab5400de.setContent(html_27a06dad62edc1d4829be797bb364ccb);
+            
+        
+
+        marker_62c9ea99dd5fc89ca23c3051ccd0a05c.bindPopup(popup_f1907d38b1e918c5166ef11cab5400de)
+        ;
+
+        
+    
+    
+            var marker_a57c30a9f8a9842a8e742f0a7effef4d = L.marker(
+                [19.082454, 72.844859],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_2013d4d14290eaff8e3ca7583b597975 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a57c30a9f8a9842a8e742f0a7effef4d.setIcon(icon_2013d4d14290eaff8e3ca7583b597975);
+        
+    
+        var popup_6a756d1d04bef924ac05ad681192d105 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc9d0f7cd197c1fb31bd8a6c55b0aeaa = $(`<div id="html_bc9d0f7cd197c1fb31bd8a6c55b0aeaa" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Kidnapping<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sandeep Chauhan<br>         <b>Case ID:</b> 2022057<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_6a756d1d04bef924ac05ad681192d105.setContent(html_bc9d0f7cd197c1fb31bd8a6c55b0aeaa);
+            
+        
+
+        marker_a57c30a9f8a9842a8e742f0a7effef4d.bindPopup(popup_6a756d1d04bef924ac05ad681192d105)
+        ;
+
+        
+    
+    
+            var marker_d1e12332313ccf6481c472bc1cbb7d7d = L.marker(
+                [19.046659, 72.881023],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_2b9efaa6b7f8c758d65ec66f89fb320d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d1e12332313ccf6481c472bc1cbb7d7d.setIcon(icon_2b9efaa6b7f8c758d65ec66f89fb320d);
+        
+    
+        var popup_959d1d5a4e8651b85ea81f044e121893 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5a4095698beb7b2190a0188f5e932cf = $(`<div id="html_b5a4095698beb7b2190a0188f5e932cf" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Jitendra Patel<br>         <b>Case ID:</b> 2022058<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_959d1d5a4e8651b85ea81f044e121893.setContent(html_b5a4095698beb7b2190a0188f5e932cf);
+            
+        
+
+        marker_d1e12332313ccf6481c472bc1cbb7d7d.bindPopup(popup_959d1d5a4e8651b85ea81f044e121893)
+        ;
+
+        
+    
+    
+            var marker_115f7c52a863ee6f971747bf508733a3 = L.marker(
+                [19.010794, 72.93626],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_6c5f2c81b5ef780e57feabd8a2de7702 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_115f7c52a863ee6f971747bf508733a3.setIcon(icon_6c5f2c81b5ef780e57feabd8a2de7702);
+        
+    
+        var popup_1add282e4db3c3ec145dd854f076a973 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57858c0f12933780767947ff4f864d23 = $(`<div id="html_57858c0f12933780767947ff4f864d23" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Rape<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Rajiv Menon<br>         <b>Case ID:</b> 2022059<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_1add282e4db3c3ec145dd854f076a973.setContent(html_57858c0f12933780767947ff4f864d23);
+            
+        
+
+        marker_115f7c52a863ee6f971747bf508733a3.bindPopup(popup_1add282e4db3c3ec145dd854f076a973)
+        ;
+
+        
+    
+    
+            var marker_e78bdbfc79449dd3a1a3859030e5f77c = L.marker(
+                [19.098724, 72.891041],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_0683f9208a2fd89d6ba742815099ddc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e78bdbfc79449dd3a1a3859030e5f77c.setIcon(icon_0683f9208a2fd89d6ba742815099ddc6);
+        
+    
+        var popup_39129c5359ce7e819640ffc00df5711a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_948a32674908e8751983e3ae510ccc10 = $(`<div id="html_948a32674908e8751983e3ae510ccc10" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Violence<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Dinesh Menon<br>         <b>Case ID:</b> 2022060<br>         <b>Year:</b> 2025<br>     </div>`)[0];
+                popup_39129c5359ce7e819640ffc00df5711a.setContent(html_948a32674908e8751983e3ae510ccc10);
+            
+        
+
+        marker_e78bdbfc79449dd3a1a3859030e5f77c.bindPopup(popup_39129c5359ce7e819640ffc00df5711a)
+        ;
+
+        
+    
+    
+            var marker_8a6acc725ef88451cc968c89b2ad2e9e = L.marker(
+                [19.009418, 72.872865],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_dbfbdb70a8301075ce100be0412f91ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8a6acc725ef88451cc968c89b2ad2e9e.setIcon(icon_dbfbdb70a8301075ce100be0412f91ac);
+        
+    
+        var popup_a5d7c8568d4313d840fb00d1179eaab3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d79c49e0c55108c0df8b900b1d1ceac = $(`<div id="html_1d79c49e0c55108c0df8b900b1d1ceac" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Deepak Joshi<br>         <b>Case ID:</b> 2022061<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_a5d7c8568d4313d840fb00d1179eaab3.setContent(html_1d79c49e0c55108c0df8b900b1d1ceac);
+            
+        
+
+        marker_8a6acc725ef88451cc968c89b2ad2e9e.bindPopup(popup_a5d7c8568d4313d840fb00d1179eaab3)
+        ;
+
+        
+    
+    
+            var marker_eabdcf63431d25b8e5755993d8b2b550 = L.marker(
+                [19.062587, 72.911387],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_71f4da9791d9a927d4bf36034db808dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eabdcf63431d25b8e5755993d8b2b550.setIcon(icon_71f4da9791d9a927d4bf36034db808dd);
+        
+    
+        var popup_3519a227a95fd44c198d42be8bc56c93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d1531d2ba862ab6982e244f352792f8 = $(`<div id="html_9d1531d2ba862ab6982e244f352792f8" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Manisha Gokhale<br>         <b>Case ID:</b> 2022062<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_3519a227a95fd44c198d42be8bc56c93.setContent(html_9d1531d2ba862ab6982e244f352792f8);
+            
+        
+
+        marker_eabdcf63431d25b8e5755993d8b2b550.bindPopup(popup_3519a227a95fd44c198d42be8bc56c93)
+        ;
+
+        
+    
+    
+            var marker_e3b99efc2f8e2113c554745dd6f5496f = L.marker(
+                [18.981563, 72.88325],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_1825064bad3011100e4cd274514ab59e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e3b99efc2f8e2113c554745dd6f5496f.setIcon(icon_1825064bad3011100e4cd274514ab59e);
+        
+    
+        var popup_5e5b3171be44c49110bb325da9ba2b9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60be92040829d8619fcb8edaf976adb6 = $(`<div id="html_60be92040829d8619fcb8edaf976adb6" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Sunil Patil<br>         <b>Case ID:</b> 2022063<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_5e5b3171be44c49110bb325da9ba2b9a.setContent(html_60be92040829d8619fcb8edaf976adb6);
+            
+        
+
+        marker_e3b99efc2f8e2113c554745dd6f5496f.bindPopup(popup_5e5b3171be44c49110bb325da9ba2b9a)
+        ;
+
+        
+    
+    
+            var marker_982633c4c7a9343310bcfe0ba9bc0ce1 = L.marker(
+                [19.174355, 72.889486],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_b0e660f824b55e7c7770831946d94308 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_982633c4c7a9343310bcfe0ba9bc0ce1.setIcon(icon_b0e660f824b55e7c7770831946d94308);
+        
+    
+        var popup_6ccb5c54abe8d73f38e92b718603a3f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b25efbafbc49ab03c35e807d2a43ef8c = $(`<div id="html_b25efbafbc49ab03c35e807d2a43ef8c" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Murder<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Vivek Kapoor<br>         <b>Case ID:</b> 2022064<br>         <b>Year:</b> 2022<br>     </div>`)[0];
+                popup_6ccb5c54abe8d73f38e92b718603a3f5.setContent(html_b25efbafbc49ab03c35e807d2a43ef8c);
+            
+        
+
+        marker_982633c4c7a9343310bcfe0ba9bc0ce1.bindPopup(popup_6ccb5c54abe8d73f38e92b718603a3f5)
+        ;
+
+        
+    
+    
+            var marker_5baca8ecc67eb35ab3f4c92bfe915ea9 = L.marker(
+                [19.05357, 72.912411],
+                {
+}
+            ).addTo(marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee);
+        
+    
+            var icon_e549423e234f98a9712fd0a71072c069 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5baca8ecc67eb35ab3f4c92bfe915ea9.setIcon(icon_e549423e234f98a9712fd0a71072c069);
+        
+    
+        var popup_ba2d644bb4a4be8d67e68070cd7f5b21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_682683ae67ed871480e4a365bd007ab1 = $(`<div id="html_682683ae67ed871480e4a365bd007ab1" style="width: 100.0%; height: 100.0%;">         <b>Crime Type:</b> Drink and Drive<br>         <b>Status:</b> Solved<br>         <b>Officer:</b> Nilesh Khot<br>         <b>Case ID:</b> 2022065<br>         <b>Year:</b> 2024<br>     </div>`)[0];
+                popup_ba2d644bb4a4be8d67e68070cd7f5b21.setContent(html_682683ae67ed871480e4a365bd007ab1);
+            
+        
+
+        marker_5baca8ecc67eb35ab3f4c92bfe915ea9.bindPopup(popup_ba2d644bb4a4be8d67e68070cd7f5b21)
+        ;
+
+        
+    
+    
+            marker_cluster_63eea0d5eb88759d86b2c78211aaa3ee.addTo(map_93a4e2805bda1317f837f0b20a275da4);
+        
+</script>
+</html>

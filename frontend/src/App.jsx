@@ -65,7 +65,6 @@ function App() {
           <Route path="/user/signup" element={<UserSignup />} />
           <Route path="/user/login" element={<LoginPage role="CITIZEN" />} />
           <Route path="/user/home" element={<UserHome />} />
-
           <Route path="/login" element={<LoginPage role="POLICEPEOPLE" />} />
           <Route path="/register" element={<Register />} />
           <Route path="*" element={<Navigate to="/" />} />

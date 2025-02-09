@@ -16,7 +16,8 @@ import {
   LocateOffIcon,
   LucideRollerCoaster,
   Briefcase,
-  Calendar,AlertTriangle,
+  Calendar,
+  AlertTriangle,
   PinOff,
   MapPin,
   GuitarIcon,
@@ -96,11 +97,11 @@ export function Sidebar({ className }) {
           isExpanded={isExpanded}
         />
         <NavItem
-        to="/crime-loc"
-        icon={AlertTriangle}
-        label="Hotspots"
-        isExpanded={isExpanded}
-      />
+          to="/hotspots"
+          icon={AlertTriangle}
+          label="Hotspots"
+          isExpanded={isExpanded}
+        />
       </nav>
       <div className="border-t pt-4">
         <NavItem
