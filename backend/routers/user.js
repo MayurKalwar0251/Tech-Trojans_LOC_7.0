@@ -5,8 +5,10 @@ const {
   loginPolicePeople,
   loginPoliceStation,
   loginCitizen,
+  getCitizenDetails,
 } = require("../controllers/user.js");
 const isAuthenticated = require("../middleware/authentication.js");
+const citizenAuthen = require("../middleware/citizenAuthen.js");
 
 const userRouter = express.Router();
 
@@ -20,13 +22,15 @@ userRouter.post("/login/police-people", loginPolicePeople);
 userRouter.post("/login/police-station", loginPoliceStation);
 
 // for loging citizen
-userRouter.post("/login/citizen", loginCitizen);
+userRouter.post("/login/", loginCitizen);
 
 // // for updating user infos
 // userRouter.put("/update/:id", isAuthenticated, updateUser);
 
 // for getting user infos
 userRouter.get("/", isAuthenticated, getUserDetails);
+// for getting user infos
+userRouter.get("/citizen/", citizenAuthen, getCitizenDetails);
 
 // // for getting user infos
 // userRouter.get("/search", isAuthenticated, searchUserChats);

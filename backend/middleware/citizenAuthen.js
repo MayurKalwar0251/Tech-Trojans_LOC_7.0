@@ -1,8 +1,7 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/user");
-const PoliceMember = require("../models/policeMember");
 
-const isAuthenticated = async (req, res, next) => {
+const citizenAuthen = async (req, res, next) => {
   try {
     // Extract token from Authorization header
     const authHeader = req.headers.authorization;
@@ -19,7 +18,7 @@ const isAuthenticated = async (req, res, next) => {
     // Verify token
     const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
 
-    const user = await PoliceMember.findOne({
+    const user = await User.findOne({
       email: decodedToken.email,
     }).select("-password"); // Exclude password field
 
@@ -40,4 +39,4 @@ const isAuthenticated = async (req, res, next) => {
   }
 };
 
-module.exports = isAuthenticated;
+module.exports = citizenAuthen;

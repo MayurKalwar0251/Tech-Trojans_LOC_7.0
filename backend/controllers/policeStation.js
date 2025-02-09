@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const PoliceStation = require("../models/policeStationSchema");
 const PoliceMember = require("../models/policeMember");
-const bcrypt = require("bcrypt");
 const PoliceCase = require("../models/policeCase");
 
 const createPoliceStation = async (req, res) => {
@@ -31,8 +30,6 @@ const createPoliceStation = async (req, res) => {
         .json({ success: false, message: "All fields are required" });
     }
 
-    const hashPass = await bcrypt.hash(password, 10);
-
     // Create a new police station
     const newStation = new PoliceStation({
       name,
@@ -41,7 +38,7 @@ const createPoliceStation = async (req, res) => {
       latitude,
       contactNumber,
       email,
-      password: hashPass,
+      password,
     });
 
     await newStation.save();
@@ -157,9 +154,10 @@ const getCasesByStation = async (req, res) => {
     }
 
     // Find all cases linked to this police station
-    const cases = await PoliceCase.find({ policeStation: stationId })
-      .populate("assignedInspector", "name badgeNumber role") // Fetch inspector details
-      .select("caseNumber title description status crimeDate suspects"); // Select specific fields
+    const cases = await PoliceCase.find({ policeStation: stationId }).populate(
+      "assignedInspector",
+      "name badgeNumber role"
+    ); // Fetch inspector details
 
     return res
       .status(200)

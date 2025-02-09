@@ -27,8 +27,6 @@ const createUser = async (req, res) => {
       });
     }
 
-    const hashPass = await bcrypt.hash(password, 10);
-
     const token = jwt.sign({ email }, process.env.JWT_SECRET, {
       expiresIn: "7d",
     });
@@ -36,7 +34,7 @@ const createUser = async (req, res) => {
     user = await User.create({
       name,
       email,
-      password: hashPass,
+      password,
       phoneNo,
       profilePicture,
       role,
@@ -73,7 +71,7 @@ const loginPoliceStation = async (req, res) => {
     });
   }
 
-  const comparePass = await bcrypt.compare(password, user.password);
+  const comparePass = password == user.password;
 
   if (!comparePass) {
     return res.status(500).json({
@@ -113,7 +111,7 @@ const loginPolicePeople = async (req, res) => {
     });
   }
 
-  const comparePass = await bcrypt.compare(password, user.password);
+  const comparePass = password == user.password;
 
   if (!comparePass) {
     return res.status(500).json({
@@ -153,7 +151,7 @@ const loginCitizen = async (req, res) => {
     });
   }
 
-  const comparePass = await bcrypt.compare(password, user.password);
+  const comparePass = password == user.password;
 
   if (!comparePass) {
     return res.status(500).json({
@@ -186,6 +184,27 @@ const getUserDetails = async (req, res) => {
   try {
     const myId = req.user._id;
 
+    const user = await PoliceMember.findById(myId);
+
+    return res.status(200).json({
+      success: true,
+      user,
+    });
+  } catch (error) {
+    console.log(error);
+
+    return res.status(300).json({
+      success: false,
+      message: error.message,
+      error,
+    });
+  }
+};
+
+const getCitizenDetails = async (req, res) => {
+  try {
+    const myId = req.user._id;
+
     const user = await User.findById(myId);
 
     return res.status(200).json({
@@ -209,4 +228,5 @@ module.exports = {
   loginPolicePeople,
   loginPoliceStation,
   loginCitizen,
+  getCitizenDetails
 };

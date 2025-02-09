@@ -17,6 +17,7 @@ const createCase = async (req, res) => {
       crimeLocation,
       crimeCoordinates,
       casePriority,
+      status,
     } = req.body;
     console.log("WEAREHERE");
 
@@ -29,7 +30,8 @@ const createCase = async (req, res) => {
       !assignedInspector ||
       !crimeDate ||
       !crimeLocation ||
-      !crimeCoordinates
+      !crimeCoordinates ||
+      !status
     ) {
       return res
         .status(400)
@@ -63,6 +65,7 @@ const createCase = async (req, res) => {
       crimeLocation,
       crimeCoordinates,
       casePriority,
+      status,
     });
 
     await newCase.save();
@@ -188,7 +191,9 @@ const getCaseDetails = async (req, res) => {
       .select("-__v"); // Exclude unnecessary fields
 
     if (!policeCase) {
-      return res.status(404).json({ success: false, message: "Case not found" });
+      return res
+        .status(404)
+        .json({ success: false, message: "Case not found" });
     }
 
     return res.status(200).json({ success: true, case: policeCase });
@@ -198,4 +203,10 @@ const getCaseDetails = async (req, res) => {
   }
 };
 
-module.exports = { createCase, updateCase, addSuspect, uploadEvidence,getCaseDetails };
+module.exports = {
+  createCase,
+  updateCase,
+  addSuspect,
+  uploadEvidence,
+  getCaseDetails,
+};

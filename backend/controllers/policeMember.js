@@ -1,4 +1,3 @@
-const bcrypt = require("bcrypt");
 const PoliceMember = require("../models/policeMember");
 const PoliceStation = require("../models/policeStationSchema");
 
@@ -63,7 +62,6 @@ const createPoliceMember = async (req, res) => {
     }
 
     // Hash the password before saving
-    const hashedPassword = await bcrypt.hash(password, process.env.SALT);
 
     // Create new police member
     const newPoliceMember = new PoliceMember({
@@ -73,7 +71,7 @@ const createPoliceMember = async (req, res) => {
       policeStation,
       contactNumber,
       email,
-      password: hashedPassword,
+      password,
     });
 
     await newPoliceMember.save();
@@ -88,4 +86,40 @@ const createPoliceMember = async (req, res) => {
   }
 };
 
-module.exports = { createPoliceMember };
+// 📌 Search Police Member by Email
+const searchPoliceMember = async (req, res) => {
+  try {
+    const { email } = req.body;
+    console.log("email", email);
+
+    // Validate email input
+    if (!email) {
+      return res
+        .status(400)
+        .json({ success: false, message: "Email is required" });
+    }
+
+    // Search for all police members matching the email
+    const policeMembers = await PoliceMember.find({
+      email: { $regex: email, $options: "i" },
+    }) // Case-insensitive search
+      .select("-password -__v"); // Exclude password for security
+
+    if (policeMembers.length === 0) {
+      return res
+        .status(404)
+        .json({ success: false, message: "No matching police members found" });
+    }
+
+    return res.status(200).json({
+      success: true,
+      total: policeMembers.length,
+      members: policeMembers,
+    });
+  } catch (error) {
+    console.error("Error searching police members:", error);
+    return res.status(500).json({ success: false, message: "Server error" });
+  }
+};
+
+module.exports = { createPoliceMember, searchPoliceMember };
