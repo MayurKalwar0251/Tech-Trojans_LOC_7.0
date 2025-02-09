@@ -17,6 +17,13 @@ import HomePage from "./pages/HomePage";
 import UserSignup from "./pages/SignUps/UserSignUp";
 import UserHome from "./pages/SignUps/UserHome";
 import CrimesAtLocation from "./pages/CrimesAtLocation";
+import ScheduleManager from "./pages/pages/Schedule";
+import MainInspectorPage from "./pages/MainInspectorPage";
+import Personnel from "./pages/Personel";
+import PoliceCaseDashboard from "./pages/PoliceCaseDashboard";
+import CaseMl from "./pages/CasesMl";
+import MapFor3 from "./pages/MapFor3";
+import CrimeMapViewer from "./pages/PythonMl";
 
 function App() {
   const { setUser, user, setIsAuthen, setLoading, setError, setIsAgent } =
@@ -52,7 +59,7 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={user ? <PoliceDashboard /> : <LoginPage />}
+            element={user ? <MainInspectorPage /> : <LoginPage />}
           />
 
           <Route path="/user/signup" element={<UserSignup />} />
@@ -67,6 +74,12 @@ function App() {
           <Route path="/chat" element={<HomePage />} />
           <Route path="/crime-loc" element={<HomePage />} />
           <Route path="/location" element={<PoliceLocator />} />
+          <Route path="/schedule" element={<ScheduleManager />} />
+          <Route path="/personel" element={<Personnel />} />
+          <Route path="/case-dashboard" element={<PoliceCaseDashboard />} />
+          <Route path="/cases-ml" element={<CaseMl />} />
+          <Route path="/map-3" element={<MapFor3 />} />
+          <Route path="/hotspots" element={<CrimeMapViewer />} />
         </Routes>
       </div>
     </div>

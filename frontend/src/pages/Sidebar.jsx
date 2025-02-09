@@ -1,6 +1,26 @@
 import React, { useState } from "react";
 import { useLocation, Link } from "react-router-dom";
-import { Bell, Home, LogOut, MessageSquare, Settings, User, Newspaper, HelpCircle, Upload, LucideLocate, LocateIcon, LocateFixedIcon, LocateOffIcon, LucideRollerCoaster, PinOff, MapPin, GuitarIcon } from 'lucide-react';
+import {
+  Bell,
+  Home,
+  LogOut,
+  MessageSquare,
+  Settings,
+  User,
+  Newspaper,
+  HelpCircle,
+  Upload,
+  LucideLocate,
+  LocateIcon,
+  LocateFixedIcon,
+  LocateOffIcon,
+  LucideRollerCoaster,
+  Briefcase,
+  Calendar,AlertTriangle,
+  PinOff,
+  MapPin,
+  GuitarIcon,
+} from "lucide-react";
 import { cn } from "./Utils";
 
 export function Sidebar({ className }) {
@@ -39,15 +59,62 @@ export function Sidebar({ className }) {
 
       <nav className="flex flex-1 flex-col gap-2">
         <NavItem to="/" icon={Home} label="Home" isExpanded={isExpanded} />
-        <NavItem to="/dashboard" icon={Newspaper} label="Dashboard" isExpanded={isExpanded} />
-        <NavItem to="/location" icon={MapPin} label="Location" isExpanded={isExpanded} />
-        <NavItem to="/crimes" icon={Upload} label="Upload" isExpanded={isExpanded} />
-        <NavItem to="/chat" icon={MessageSquare} label="Chats" isExpanded={isExpanded} />
-        <NavItem to="/crime-loc" icon={GuitarIcon} label="Crime Location" isExpanded={isExpanded} />
+        <NavItem
+          to="/dashboard"
+          icon={Briefcase}
+          label="Manage Cases"
+          isExpanded={isExpanded}
+        />
+        <NavItem
+          to="/crimes"
+          icon={Upload}
+          label="Upload"
+          isExpanded={isExpanded}
+        />
+        <NavItem
+          to="/chat"
+          icon={MessageSquare}
+          label="Chats"
+          isExpanded={isExpanded}
+        />
+        <NavItem
+          to="/crime-loc"
+          icon={MapPin}
+          label="Crime Location"
+          isExpanded={isExpanded}
+        />
+        <NavItem
+          to="/case-dashboard"
+          icon={Newspaper}
+          label="Dashboard"
+          isExpanded={isExpanded}
+        />
+        <NavItem
+          to="/schedule"
+          icon={Calendar}
+          label="Schedule"
+          isExpanded={isExpanded}
+        />
+        <NavItem
+        to="/crime-loc"
+        icon={AlertTriangle}
+        label="Hotspots"
+        isExpanded={isExpanded}
+      />
       </nav>
       <div className="border-t pt-4">
-        <NavItem to="/profile" icon={User} label="Profile" isExpanded={isExpanded} />
-        <NavItem to="/settings" icon={Settings} label="Settings" isExpanded={isExpanded} />
+        <NavItem
+          to="/profile"
+          icon={User}
+          label="Profile"
+          isExpanded={isExpanded}
+        />
+        <NavItem
+          to="/settings"
+          icon={Settings}
+          label="Settings"
+          isExpanded={isExpanded}
+        />
         <NavItem
           to="/logout"
           icon={LogOut}
@@ -75,7 +142,9 @@ function NavItem({ icon: Icon, label, count, isExpanded, className, to }) {
         title={!isExpanded ? label : undefined}
       >
         <Icon className="h-6 w-6" />
-        {isExpanded && <span className="ml-2 text-base font-medium flex-1">{label}</span>}
+        {isExpanded && (
+          <span className="ml-2 text-base font-medium flex-1">{label}</span>
+        )}
         {count && isExpanded && (
           <span className="ml-auto rounded-full bg-purple-100 px-2 py-0.5 text-sm font-medium text-purple-600">
             {count}

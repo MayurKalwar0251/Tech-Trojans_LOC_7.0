@@ -180,6 +180,29 @@ const uploadEvidence = async (req, res) => {
 };
 
 // 📌 Get case details by Case ID
+// const getCaseDetails = async (req, res) => {
+//   try {
+//     const { caseId } = req.params;
+
+//     // Find the case by ID
+//     const policeCase = await PoliceCase.findById(caseId)
+//       .populate("policeStation", "name location") // Fetch police station details
+//       .populate("assignedInspector", "name badgeNumber role") // Fetch inspector details
+//       .select("-__v"); // Exclude unnecessary fields
+
+//     if (!policeCase) {
+//       return res
+//         .status(404)
+//         .json({ success: false, message: "Case not found" });
+//     }
+
+//     return res.status(200).json({ success: true, case: policeCase });
+//   } catch (error) {
+//     console.error("Error fetching case details:", error);
+//     return res.status(500).json({ success: false, message: "Server error" });
+//   }
+// };
+
 const getCaseDetails = async (req, res) => {
   try {
     const { caseId } = req.params;
@@ -196,7 +219,46 @@ const getCaseDetails = async (req, res) => {
         .json({ success: false, message: "Case not found" });
     }
 
-    return res.status(200).json({ success: true, case: policeCase });
+    // Process evidence files to include full URLs
+    const processedCase = policeCase.toObject();
+    console.log(processedCase);
+
+    return;
+
+    // Check if evidences array exists
+    if (processedCase.evidences && processedCase.evidences.length > 0) {
+      // Map through evidences array to add full URLs and file information
+      processedCase.evidences = processedCase.evidences.map((evidencePath) => {
+        // Get the filename from the path
+        const filename = evidencePath.split("/").pop();
+
+        // Get file extension
+        const fileExtension = filename.split(".").pop().toLowerCase();
+
+        // Determine file type
+        let fileType = "unknown";
+        if (["jpg", "jpeg", "png", "gif"].includes(fileExtension)) {
+          fileType = "image";
+        } else if (["pdf"].includes(fileExtension)) {
+          fileType = "document";
+        } else if (["mp4", "avi", "mov"].includes(fileExtension)) {
+          fileType = "video";
+        }
+
+        return {
+          path: evidencePath,
+          url: `${req.protocol}://${req.get("host")}/${evidencePath}`, // Full URL
+          filename: filename,
+          fileType: fileType,
+          fileExtension: fileExtension,
+        };
+      });
+    }
+
+    return res.status(200).json({
+      success: true,
+      case: processedCase,
+    });
   } catch (error) {
     console.error("Error fetching case details:", error);
     return res.status(500).json({ success: false, message: "Server error" });

@@ -110,7 +110,7 @@ const ChatPage = () => {
   };
 
   const handleSearch = async (query) => {
-    if (user.role !== "INSPECTOR") return;
+    if (user.role !== "inspector") return;
 
     try {
       const response = await axios.post(
@@ -124,7 +124,7 @@ const ChatPage = () => {
   };
 
   const handleCreateChat = async (userId) => {
-    if (user.role !== "INSPECTOR") return;
+    if (user.role !== "inspector") return;
 
     try {
       const response = await axios.post("http://localhost:3000/api/v1/chat/", {
@@ -139,6 +139,8 @@ const ChatPage = () => {
       console.error("Error creating chat", error);
     }
   };
+
+  console.log(showSearchPopup);
 
   return (
     <div className="flex h-screen bg-gray-100 p-6">
@@ -180,10 +182,13 @@ const ChatPage = () => {
           </ul>
         </div>
 
-        {user.role === "INSPECTOR" && (
+        {user?.role === "inspector" && (
           <div className="p-4">
             <button
-              onClick={() => setShowSearchPopup(true)}
+              onClick={() => {
+                console.log("CLICKED");
+                setShowSearchPopup(true);
+              }}
               className="w-full py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition-colors duration-200 flex items-center justify-center space-x-2"
             >
               <FiPlus className="w-5 h-5" />
@@ -280,7 +285,7 @@ const ChatPage = () => {
       </div>
 
       {/* Search Popup */}
-      {showSearchPopup && user.role === "INSPECTOR" && (
+      {showSearchPopup && user.role === "inspector" && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-xl p-6 w-96 max-w-[90%] shadow-2xl">
             <div className="flex justify-between items-center mb-4">

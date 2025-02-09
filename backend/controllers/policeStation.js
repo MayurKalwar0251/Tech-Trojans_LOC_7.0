@@ -140,6 +140,34 @@ const makeIncharge = async (req, res) => {
 };
 
 // 📌 Get all cases filed under a specific Police Station
+// const getCasesByStation = async (req, res) => {
+//   try {
+//     const { stationId } = req.params;
+//     console.log(stationId);
+
+//     // Check if the police station exists
+//     const policeStation = await PoliceStation.findById(stationId);
+//     if (!policeStation) {
+//       return res
+//         .status(404)
+//         .json({ success: false, message: "Police station not found" });
+//     }
+
+//     // Find all cases linked to this police station
+//     const cases = await PoliceCase.find({ policeStation: stationId }).populate(
+//       "assignedInspector",
+//       "name badgeNumber role"
+//     ); // Fetch inspector details
+
+//     return res
+//       .status(200)
+//       .json({ success: true, totalCases: cases.length, cases });
+//   } catch (error) {
+//     console.error("Error fetching cases:", error);
+//     return res.status(500).json({ success: false, message: "Server error" });
+//   }
+// };
+
 const getCasesByStation = async (req, res) => {
   try {
     const { stationId } = req.params;
@@ -154,20 +182,60 @@ const getCasesByStation = async (req, res) => {
     }
 
     // Find all cases linked to this police station
-    const cases = await PoliceCase.find({ policeStation: stationId }).populate(
-      "assignedInspector",
-      "name badgeNumber role"
-    ); // Fetch inspector details
+    const cases = await PoliceCase.find({ policeStation: stationId })
+      .populate("assignedInspector", "name badgeNumber role") // Fetch inspector details
+      .populate("policeStation", "name location") // Fetch police station details
+      .select("-__v"); // Exclude unnecessary fields
 
-    return res
-      .status(200)
-      .json({ success: true, totalCases: cases.length, cases });
+    // Process evidence files for each case
+    const processedCases = cases.map((policeCase) => {
+      const processedCase = policeCase.toObject();
+
+      // Process evidence files if they exist
+
+      console.log(processedCase);
+
+      if (processedCase.evidence && processedCase.evidence.length > 0) {
+        processedCase.evidence = processedCase.evidence.map(({ url }) => {
+          // Get the filename from the path
+          const filename = url.split("/").pop();
+
+          // Get file extension
+          const fileExtension = filename.split(".").pop().toLowerCase();
+
+          // Determine file type
+          let fileType = "unknown";
+          if (["jpg", "jpeg", "png", "gif"].includes(fileExtension)) {
+            fileType = "image";
+          } else if (["pdf"].includes(fileExtension)) {
+            fileType = "document";
+          } else if (["mp4", "avi", "mov"].includes(fileExtension)) {
+            fileType = "video";
+          }
+
+          return {
+            path: url,
+            url: `${req.protocol}://${req.get("host")}/${url}`,
+            filename: filename,
+            fileType: fileType,
+            fileExtension: fileExtension,
+          };
+        });
+      }
+
+      return processedCase;
+    });
+
+    return res.status(200).json({
+      success: true,
+      totalCases: processedCases.length,
+      cases: processedCases,
+    });
   } catch (error) {
     console.error("Error fetching cases:", error);
     return res.status(500).json({ success: false, message: "Server error" });
   }
 };
-
 module.exports = {
   createPoliceStation,
   addPoliceMembers,

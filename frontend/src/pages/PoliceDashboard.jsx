@@ -1,21 +1,22 @@
 import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { UserContext } from "..//context/userContext";
+import { FileText, Film, X } from "lucide-react";
 
 export default function PoliceDashboard({ policeStationId }) {
   const [cases, setCases] = useState([]);
   const [sortedCases, setSortedCases] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCase, setSelectedCase] = useState(null);
+  const [selectedEvidence, setSelectedEvidence] = useState(null);
   const [loading, setLoading] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   const { user } = useContext(UserContext);
 
-  // const policeStationId = user.policeStation;
   useEffect(() => {
     async function fetchCases() {
-      if (!user?.policeStation) return; // Ensure policeStation exists
+      if (!user?.policeStation) return;
 
       try {
         const response = await axios.get(
@@ -33,8 +34,8 @@ export default function PoliceDashboard({ policeStationId }) {
       }
     }
 
-    fetchCases(); // Call the function
-  }, [user?.policeStation]); // Correct dependency
+    fetchCases();
+  }, [user?.policeStation]);
 
   useEffect(() => {
     const filtered = cases
@@ -66,6 +67,100 @@ export default function PoliceDashboard({ policeStationId }) {
     return status.toLowerCase() === "open"
       ? "bg-yellow-100 text-yellow-700 border-yellow-200"
       : "bg-green-100 text-green-700 border-green-200";
+  };
+
+  const renderEvidenceItem = (evid, index) => {
+    switch (evid.fileType) {
+      case "image":
+        return (
+          <div
+            key={index}
+            className="group relative overflow-hidden rounded-lg border border-gray-200 cursor-pointer hover:shadow-lg transition-shadow"
+            onClick={() => setSelectedEvidence(evid)}
+          >
+            <img
+              src={evid.url}
+              alt={evid.filename}
+              className="w-full h-32 object-cover"
+            />
+            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <p className="text-white text-sm truncate px-2">
+                {evid.filename}
+              </p>
+            </div>
+          </div>
+        );
+
+      case "video":
+        return (
+          <div
+            key={index}
+            className="relative overflow-hidden rounded-lg border border-gray-200 cursor-pointer hover:shadow-lg transition-shadow"
+            onClick={() => setSelectedEvidence(evid)}
+          >
+            <div className="w-full h-32 bg-gray-100 flex items-center justify-center">
+              <Film className="w-8 h-8 text-gray-500" />
+            </div>
+            <div className="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+              <p className="text-white text-sm truncate px-2">
+                {evid.filename}
+              </p>
+            </div>
+          </div>
+        );
+
+      case "document":
+        return (
+          <a
+            key={index}
+            href={evid.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block relative overflow-hidden rounded-lg border border-gray-200 hover:shadow-lg transition-shadow"
+          >
+            <div className="w-full h-32 bg-gray-100 flex items-center justify-center">
+              <FileText className="w-8 h-8 text-gray-500" />
+            </div>
+            <div className="absolute inset-0 bg-black/40 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+              <p className="text-white text-sm truncate px-2">
+                {evid.filename}
+              </p>
+            </div>
+          </a>
+        );
+
+      default:
+        return null;
+    }
+  };
+
+  const renderSuspectCard = (suspect) => {
+    return (
+      <div
+        key={suspect._id}
+        className="bg-gray-50 rounded-lg p-4 border border-gray-200"
+      >
+        <div className="flex items-start gap-3">
+          <div className="bg-gray-200 rounded-full p-2">
+            <img
+              src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg?semt=ais_hybrid"
+              alt=""
+              srcset=""
+              className="w-5 h-5 text-gray-600"
+            />
+          </div>
+          <div className="flex-1">
+            <h4 className="font-medium text-gray-900">{suspect.name}</h4>
+            <div className="mt-2 space-y-1 text-sm text-gray-600">
+              <p>Age: {suspect.age}</p>
+              <p>Gender: {suspect.gender}</p>
+              <p>Address: {suspect.address}</p>
+              <p>Aadhar: {suspect.aadharNo}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -127,33 +222,22 @@ export default function PoliceDashboard({ policeStationId }) {
         </div>
       )}
 
-      {/* Case Detail Modal */}
       {selectedCase && (
         <div className="fixed inset-0 z-50 overflow-y-auto">
           <div className="fixed inset-0 bg-gray-900/60 backdrop-blur-sm"></div>
           <div className="relative min-h-screen flex items-center justify-center p-4">
-            <div className="relative bg-white rounded-2xl shadow-xl max-w-3xl w-full p-4 lg:p-8">
+            <div className="relative bg-white rounded-2xl shadow-xl max-w-3xl w-full p-4 lg:p-8 max-h-[90vh] overflow-y-auto">
+              {/* Close button */}
               <div className="absolute top-4 right-4">
                 <button
                   onClick={() => setSelectedCase(null)}
                   className="p-2 hover:bg-gray-100 rounded-full transition-colors"
                 >
-                  <svg
-                    className="w-6 h-6 text-gray-500"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
+                  <X className="w-6 h-6 text-gray-500" />
                 </button>
               </div>
 
+              {/* Case header */}
               <div className="flex flex-col sm:flex-row sm:items-start gap-4 mb-6">
                 <div className="flex-1">
                   <h2 className="text-xl lg:text-2xl font-bold text-gray-800">
@@ -172,6 +256,7 @@ export default function PoliceDashboard({ policeStationId }) {
                 </span>
               </div>
 
+              {/* Case details grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 <div className="space-y-4">
                   <div>
@@ -207,31 +292,64 @@ export default function PoliceDashboard({ policeStationId }) {
                 </div>
               </div>
 
-              {selectedCase?.evidence && (
+              {/* Suspects Section */}
+              {selectedCase.suspects && selectedCase.suspects.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">
+                    Suspects
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {selectedCase.suspects.map((suspect) =>
+                      renderSuspectCard(suspect)
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* Evidence Section */}
+              {selectedCase?.evidence && selectedCase.evidence.length > 0 && (
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-4">
                     Evidence
                   </h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    {selectedCase?.evidence?.map(
-                      (evid, index) =>
-                        evid.type === "image" && (
-                          <div
-                            key={index}
-                            className="group relative overflow-hidden rounded-lg border border-gray-200"
-                          >
-                            <img
-                              src={evid.url}
-                              alt="Evidence"
-                              className="w-full h-32 object-cover"
-                            />
-                          </div>
-                        )
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                    {selectedCase.evidence.map((evid, index) =>
+                      renderEvidenceItem(evid, index)
                     )}
                   </div>
                 </div>
               )}
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Evidence Preview Modal remains the same */}
+      {selectedEvidence && (
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-[60] p-4">
+          <div className="relative max-w-4xl w-full">
+            <button
+              onClick={() => setSelectedEvidence(null)}
+              className="absolute -top-12 right-0 text-white hover:text-gray-300"
+            >
+              <X className="w-6 h-6" />
+            </button>
+
+            {selectedEvidence.fileType === "image" && (
+              <img
+                src={selectedEvidence.url}
+                alt={selectedEvidence.filename}
+                className="max-h-[80vh] w-full object-contain"
+              />
+            )}
+
+            {selectedEvidence.fileType === "video" && (
+              <video
+                src={selectedEvidence.url}
+                controls
+                className="max-h-[80vh] w-full"
+              />
+            )}
           </div>
         </div>
       )}

@@ -20,7 +20,6 @@ const defaultCenter = { lat: 19.076, lng: 72.8777 };
 
 const UserCrimeLoc = () => {
   const { user } = useContext(UserContext);
-
   const socket = useSocket();
 
   const [coordinates, setCoordinates] = useState(null);
@@ -30,20 +29,24 @@ const UserCrimeLoc = () => {
   const [infoWindowPos, setInfoWindowPos] = useState(null);
   const [infoWindowVisible, setInfoWindowVisible] = useState(false);
 
-  // nearest police station details
-  const [nearestPoliceStationName, setNearestPoliceStationName] = useState("");
-  const [nearestPoliceStationLocation, setNearestPoliceStationLocation] =
-    useState("");
-  const [nearestPoliceStationLatitude, setNearestPoliceStationLatitude] =
-    useState("");
-  const [nearestPoliceStationLongitude, setNearestPoliceStationLongitude] =
-    useState("");
+  // ✅ Store police officers' locations
+  const [policeOfficers, setPoliceOfficers] = useState([]);
 
   useEffect(() => {
     if (!socket) return;
 
     socket.on("available-police", (data) => {
-      console.log("Available Police Officers:", data);
+      console.log("🚔 Received available-police data:", data);
+
+      if (data && data.policeMembers && data.policeMembers.length > 0) {
+        const mappedPolice = data.policeMembers.map((officer) => ({
+          lat: officer.location.latitude,
+          lng: officer.location.longitude,
+        }));
+        setPoliceOfficers(mappedPolice);
+      } else {
+        console.warn("⚠ No police officers found in received data!");
+      }
     });
 
     return () => {
@@ -83,19 +86,9 @@ const UserCrimeLoc = () => {
 
     service.nearbySearch(request, (results, status) => {
       if (status === window.google.maps.places.PlacesServiceStatus.OK) {
-        console.log("Nearby Police Stations:");
-        results.forEach((station, index) => {
-          console.log(
-            `#${index + 1} Name: ${
-              station.name
-            }, Latitude: ${station.geometry.location.lat()}, Longitude: ${station.geometry.location.lng()}`
-          );
-        });
-
+        console.log("Nearby Police Stations:", results);
         setPoliceStations(results.slice(0, 5));
         findShortestRoute(coordinates, results);
-
-        // then  will pass this detail in backend about the nearest location police station and current user latitude and longitude
       } else {
         console.error("Error finding police stations:", status);
       }
@@ -125,41 +118,24 @@ const UserCrimeLoc = () => {
           });
 
           const nearestStation = stations[shortestIndex];
-          console.log("Nearest Police Station:"); // Log nearest police station details
-          console.log(
-            `Name: ${
-              nearestStation.name
-            }, Latitude: ${nearestStation.geometry.location.lat()}, Longitude: ${nearestStation.geometry.location.lng()}`
-          );
 
           if (!nearestStation) {
-            console.log("Didnt found any nearest police location");
+            console.log("No nearest police location found.");
             return;
           }
 
           console.log("Emitting crime alert socket event...");
 
-          // Emit to backend with nearest police station & user location
           socket.emit("crime-alert", {
             userLocation: coordinates,
             nearestPoliceStationDetails: {
               name: nearestStation.name,
               latitude: nearestStation.geometry.location.lat(),
               longitude: nearestStation.geometry.location.lng(),
-
               location: nearestStation.vicinity,
             },
             citizenId: user._id,
           });
-
-          setNearestPoliceStationName(nearestStation.name);
-          setNearestPoliceStationLatitude(
-            nearestStation.geometry.location.lat()
-          );
-          setNearestPoliceStationLongitude(
-            nearestStation.geometry.location.lng()
-          );
-          setNearestPoliceStationLocation(nearestStation.vicinity);
 
           setTravelTime(response.rows[0].elements[shortestIndex].duration.text);
           findRoute(origin, nearestStation.geometry.location);
@@ -225,6 +201,7 @@ const UserCrimeLoc = () => {
                 zoom={coordinates ? 15 : 10}
                 options={{ streetViewControl: false, mapTypeControl: false }}
               >
+                {/* 🔵 Your Location */}
                 {coordinates && (
                   <Marker
                     position={coordinates}
@@ -236,6 +213,7 @@ const UserCrimeLoc = () => {
                   />
                 )}
 
+                {/* 🔴 Police Stations */}
                 {policeStations.map((station, index) => (
                   <Marker
                     key={index}
@@ -245,26 +223,23 @@ const UserCrimeLoc = () => {
                       url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
                       scaledSize: new window.google.maps.Size(35, 35),
                     }}
-                    onClick={() => {
-                      setInfoWindowPos(station.geometry.location);
-                      setInfoWindowVisible(true);
+                  />
+                ))}
+
+                {/* 🟢 Police Officers */}
+                {policeOfficers.map((officer, index) => (
+                  <Marker
+                    key={index}
+                    position={officer}
+                    title="Police Officer"
+                    icon={{
+                      url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+                      scaledSize: new window.google.maps.Size(40, 40),
                     }}
                   />
                 ))}
 
-                {directions && (
-                  <>
-                    <DirectionsRenderer directions={directions} />
-                    {infoWindowVisible && infoWindowPos && (
-                      <InfoWindow
-                        position={infoWindowPos}
-                        onCloseClick={() => setInfoWindowVisible(false)}
-                      >
-                        <div>Estimated Time: {travelTime}</div>
-                      </InfoWindow>
-                    )}
-                  </>
-                )}
+                {directions && <DirectionsRenderer directions={directions} />}
               </GoogleMap>
             </div>
           </div>
