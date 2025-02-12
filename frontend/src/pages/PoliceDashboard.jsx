@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { UserContext } from "..//context/userContext";
-import { FileText, Film, X } from "lucide-react";
+import { FileText, Film, Filter, X } from "lucide-react";
 
 export default function PoliceDashboard({ policeStationId }) {
   const [cases, setCases] = useState([]);
@@ -11,6 +11,16 @@ export default function PoliceDashboard({ policeStationId }) {
   const [selectedEvidence, setSelectedEvidence] = useState(null);
   const [loading, setLoading] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(true);
+
+  const [filters, setFilters] = useState({
+    status: "",
+    priority: "",
+    dateFrom: "",
+    dateTo: "",
+    location: "",
+    caseType: "",
+  });
+  const [showFilters, setShowFilters] = useState(false);
 
   const { user } = useContext(UserContext);
 
@@ -37,18 +47,74 @@ export default function PoliceDashboard({ policeStationId }) {
     fetchCases();
   }, [user?.policeStation]);
 
+  // Enhanced filtering method
   useEffect(() => {
-    const filtered = cases
-      .filter(
-        (case_) =>
-          case_.caseNumber.includes(searchTerm.toLowerCase()) ||
-          case_.description.includes(searchTerm.toLowerCase()) ||
-          case_.crimeLocation.includes(searchTerm.toLowerCase())
-      )
-      .sort((a, b) => (a.status === "open" ? -1 : 1));
+    let filteredCases = cases.filter((case_) => {
+      // Search term filtering
+      const matchesSearch =
+        !searchTerm ||
+        case_.caseNumber.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        case_.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        case_.crimeLocation.toLowerCase().includes(searchTerm.toLowerCase());
 
-    setSortedCases(filtered);
-  }, [searchTerm, cases]);
+      // Status filtering
+      const matchesStatus =
+        !filters.status ||
+        case_.status.toLowerCase() === filters.status.toLowerCase();
+
+      // Priority filtering
+      const matchesPriority =
+        !filters.priority ||
+        case_.casePriority.toLowerCase() === filters.priority.toLowerCase();
+
+      // Date range filtering
+      const caseDate = new Date(case_.crimeDate);
+      const matchesDateFrom =
+        !filters.dateFrom || caseDate >= new Date(filters.dateFrom);
+
+      const matchesDateTo =
+        !filters.dateTo || caseDate <= new Date(filters.dateTo);
+
+      // Location filtering
+      const matchesLocation =
+        !filters.location ||
+        case_.crimeLocation
+          .toLowerCase()
+          .includes(filters.location.toLowerCase());
+
+      return (
+        matchesSearch &&
+        matchesStatus &&
+        matchesPriority &&
+        matchesDateFrom &&
+        matchesDateTo &&
+        matchesLocation
+      );
+    });
+
+    // Sort cases with open cases first
+    filteredCases.sort((a, b) =>
+      a.status.toLowerCase() === "open"
+        ? -1
+        : b.status.toLowerCase() === "open"
+        ? 1
+        : 0
+    );
+
+    setSortedCases(filteredCases);
+  }, [searchTerm, cases, filters]);
+
+  // Filter reset method
+  const resetFilters = () => {
+    setFilters({
+      status: "",
+      priority: "",
+      dateFrom: "",
+      dateTo: "",
+      location: "",
+      caseType: "",
+    });
+  };
 
   const getPriorityColor = (priority) => {
     switch (priority) {
@@ -165,12 +231,90 @@ export default function PoliceDashboard({ policeStationId }) {
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <h2 className="text-2xl font-bold mb-4">Case Management</h2>
+      <div className="flex justify-between items-center mb-4">
+        <h2 className="text-2xl font-bold">Case Management</h2>
+        <button
+          onClick={() => setShowFilters(!showFilters)}
+          className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+        >
+          <Filter className="mr-2" /> Filters
+        </button>
+      </div>
+
+      {/* Advanced Filtering Section */}
+      {showFilters && (
+        <div className="bg-white shadow-md rounded-lg p-4 mb-4 grid md:grid-cols-3 gap-4">
+          <select
+            value={filters.status}
+            onChange={(e) => setFilters({ ...filters, status: e.target.value })}
+            className="p-2 border rounded"
+          >
+            <option value="">All Statuses</option>
+            <option value="open">Open</option>
+            <option value="closed">Closed</option>
+            <option value="under_investigation">Under Investigation</option>
+          </select>
+
+          <select
+            value={filters.priority}
+            onChange={(e) =>
+              setFilters({ ...filters, priority: e.target.value })
+            }
+            className="p-2 border rounded"
+          >
+            <option value="">All Priorities</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+
+          <input
+            type="text"
+            placeholder="Location"
+            value={filters.location}
+            onChange={(e) =>
+              setFilters({ ...filters, location: e.target.value })
+            }
+            className="p-2 border rounded"
+          />
+
+          <div className="flex items-center space-x-2">
+            <label>From:</label>
+            <input
+              type="date"
+              value={filters.dateFrom}
+              onChange={(e) =>
+                setFilters({ ...filters, dateFrom: e.target.value })
+              }
+              className="p-2 border rounded"
+            />
+          </div>
+
+          <div className="flex items-center space-x-2">
+            <label>To:</label>
+            <input
+              type="date"
+              value={filters.dateTo}
+              onChange={(e) =>
+                setFilters({ ...filters, dateTo: e.target.value })
+              }
+              className="p-2 border rounded"
+            />
+          </div>
+
+          <button
+            onClick={resetFilters}
+            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+          >
+            Reset Filters
+          </button>
+        </div>
+      )}
 
       <input
         type="text"
         placeholder="Search cases..."
-        className="w-full sm:w-64 pl-3 pr-4 py-2 border border-gray-300 rounded-lg mb-4"
+        className="w-full pl-3 pr-4 py-2 border border-gray-300 rounded-lg mb-4"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
@@ -260,13 +404,26 @@ export default function PoliceDashboard({ policeStationId }) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 <div className="space-y-4">
                   <div>
-                    <label className="text-sm text-gray-500">Priority</label>
+                    <label className="text-2xl text-gray-500">
+                      Police Station
+                    </label>
+                    <p className="font-medium text-gray-800">
+                      {selectedCase.policeStation.name}
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      {selectedCase.policeStation.location}
+                    </p>
+                  </div>
+                </div>
+                <div className="space-y-4">
+                  <div>
+                    <label className="text-xl text-gray-500">Priority</label>
                     <p className="font-medium text-gray-800">
                       {selectedCase.casePriority}
                     </p>
                   </div>
                   <div>
-                    <label className="text-sm text-gray-500">Location</label>
+                    <label className="text-xl text-gray-500">Location</label>
                     <p className="font-medium text-gray-800">
                       {selectedCase.crimeLocation}
                     </p>
@@ -291,6 +448,27 @@ export default function PoliceDashboard({ policeStationId }) {
                   </div>
                 </div>
               </div>
+
+              {/* Witness Section */}
+              {selectedCase.witnesses && selectedCase.witnesses.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">
+                    Witnesses
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {selectedCase.witnesses.map((witness, index) => (
+                      <div key={index} className="bg-gray-50 p-4 rounded-lg">
+                        <p className="font-medium text-gray-800">
+                          {witness.name}
+                        </p>
+                        <p className="text-sm text-gray-600">
+                          Statement: {witness.statement}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Suspects Section */}
               {selectedCase.suspects && selectedCase.suspects.length > 0 && (

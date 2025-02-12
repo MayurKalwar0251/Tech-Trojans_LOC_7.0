@@ -145,6 +145,33 @@ const addSuspect = async (req, res) => {
   }
 };
 
+// 📌 Add Witnesses to a Case
+const addWitnesses = async (req, res) => {
+  try {
+    const { caseId } = req.params;
+    const data = req.body;
+
+    const policeCase = await PoliceCase.findById(caseId);
+    if (!policeCase) {
+      return res
+        .status(404)
+        .json({ success: false, message: "Case not found" });
+    }
+
+    policeCase.witnesses.push(data);
+    await policeCase.save();
+
+    return res.status(200).json({
+      success: true,
+      message: "Suspect added successfully",
+      case: policeCase,
+    });
+  } catch (error) {
+    console.error("Error adding suspect:", error);
+    return res.status(500).json({ success: false, message: "Server error" });
+  }
+};
+
 // 📌 Upload Evidence (Using Multer)
 const uploadEvidence = async (req, res) => {
   try {
@@ -271,4 +298,5 @@ module.exports = {
   addSuspect,
   uploadEvidence,
   getCaseDetails,
+  addWitnesses,
 };

@@ -7,7 +7,7 @@ import {
   InfoWindow,
 } from "@react-google-maps/api";
 
-const googleMapsApiKey = "AIzaSyCVxscEAGCEkBt_hGpbZD2QuNfrRGfW3VA";
+const googleMapsApiKey = "AIzaSyDYPSMpXi6u8plNM8mMTK2H0KItU_b9Res";
 
 const mapContainerStyle = {
   width: "100%",

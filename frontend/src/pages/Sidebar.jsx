@@ -21,6 +21,7 @@ import {
   PinOff,
   MapPin,
   GuitarIcon,
+  PersonStanding,
 } from "lucide-react";
 import { cn } from "./Utils";
 
@@ -32,7 +33,7 @@ export function Sidebar({ className }) {
   return (
     <div
       className={cn(
-        "group flex h-screen flex-col border-r  bg-background px-3 py-4 transition-all duration-300",
+        "group flex h-screen flex-col border-r bg-background px-3 py-4 transition-all duration-300 fixed top-0 left-0 z-50", // Add fixed, top-0, left-0, and z-50
         isExpanded ? "w-[240px]" : "w-[70px]",
         className
       )}
@@ -102,18 +103,18 @@ export function Sidebar({ className }) {
           label="Hotspots"
           isExpanded={isExpanded}
         />
+        <NavItem
+          to="/cases-ml"
+          icon={PersonStanding}
+          label="ML on Cases"
+          isExpanded={isExpanded}
+        />
       </nav>
       <div className="border-t pt-4">
         <NavItem
           to="/profile"
           icon={User}
           label="Profile"
-          isExpanded={isExpanded}
-        />
-        <NavItem
-          to="/settings"
-          icon={Settings}
-          label="Settings"
           isExpanded={isExpanded}
         />
         <NavItem

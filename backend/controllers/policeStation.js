@@ -30,6 +30,13 @@ const createPoliceStation = async (req, res) => {
         .json({ success: false, message: "All fields are required" });
     }
 
+    const station = await PoliceStation.findOne({ name });
+    if (station) {
+      return res
+        .status(400)
+        .json({ success: false, message: "Station already exists" });
+    }
+
     // Create a new police station
     const newStation = new PoliceStation({
       name,
@@ -139,35 +146,6 @@ const makeIncharge = async (req, res) => {
   }
 };
 
-// 📌 Get all cases filed under a specific Police Station
-// const getCasesByStation = async (req, res) => {
-//   try {
-//     const { stationId } = req.params;
-//     console.log(stationId);
-
-//     // Check if the police station exists
-//     const policeStation = await PoliceStation.findById(stationId);
-//     if (!policeStation) {
-//       return res
-//         .status(404)
-//         .json({ success: false, message: "Police station not found" });
-//     }
-
-//     // Find all cases linked to this police station
-//     const cases = await PoliceCase.find({ policeStation: stationId }).populate(
-//       "assignedInspector",
-//       "name badgeNumber role"
-//     ); // Fetch inspector details
-
-//     return res
-//       .status(200)
-//       .json({ success: true, totalCases: cases.length, cases });
-//   } catch (error) {
-//     console.error("Error fetching cases:", error);
-//     return res.status(500).json({ success: false, message: "Server error" });
-//   }
-// };
-
 const getCasesByStation = async (req, res) => {
   try {
     const { stationId } = req.params;
@@ -236,9 +214,163 @@ const getCasesByStation = async (req, res) => {
     return res.status(500).json({ success: false, message: "Server error" });
   }
 };
+
+const getPoliceStationBySimilarLocationName = async (req, res) => {
+  try {
+    // Aggregate to group by location and count occurrences
+    const duplicates = await PoliceStation.aggregate([
+      {
+        $group: {
+          _id: "$location",
+          count: { $sum: 1 },
+          stations: { $push: "$$ROOT" },
+        },
+      },
+      {
+        $match: {
+          count: { $gt: 1 }, // Only keep locations with more than one occurrence
+        },
+      },
+    ]);
+
+    if (duplicates.length > 0) {
+      return res.status(200).json({
+        success: true,
+        message: "Duplicate police stations found",
+        duplicates,
+      });
+    } else {
+      return res.status(200).json({
+        success: false,
+        message: "No duplicate police stations found",
+      });
+    }
+  } catch (error) {
+    console.error("Error checking duplicate police stations:", error);
+    return res.status(500).json({
+      success: false,
+      message: "Internal Server Error",
+    });
+  }
+};
+
+const createPoliceStationsFromArray = async (req, res) => {
+  try {
+    const { policeStations } = req.body;
+
+    // Validate request body
+    if (!Array.isArray(policeStations) || policeStations.length === 0) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide an array of police station data",
+      });
+    }
+
+    const results = {
+      created: [],
+      skipped: [],
+      errors: [],
+    };
+
+    // Process each police station in the array
+    await Promise.all(
+      policeStations.map(async (stationData) => {
+        try {
+          const {
+            name,
+            location,
+            longitude,
+            latitude,
+            contactNumber,
+            email,
+            password,
+            policeMembers,
+          } = stationData;
+
+          // Validate individual station data
+          if (
+            !name ||
+            !location ||
+            !longitude ||
+            !latitude ||
+            !contactNumber ||
+            !email ||
+            !password
+          ) {
+            results.errors.push({
+              name: name || "Unknown",
+              error: "Missing required fields",
+            });
+            return;
+          }
+
+          // Check if station already exists
+          const existingStation = await PoliceStation.findOne({ name });
+          if (existingStation) {
+            results.skipped.push({
+              name,
+              reason: "Station already exists",
+            });
+            return;
+          }
+
+          // Process police members if provided
+          const processedPoliceMembers = Array.isArray(policeMembers)
+            ? policeMembers.map((member) => ({
+                ...member,
+                id: member.id || new mongoose.Types.ObjectId(), // Generate new ID if not provided
+              }))
+            : [];
+
+          // Create new police station
+          const newStation = new PoliceStation({
+            name,
+            location,
+            longitude,
+            latitude,
+            contactNumber,
+            email,
+            password,
+            policeMembers: processedPoliceMembers,
+          });
+
+          await newStation.save();
+          results.created.push({
+            name,
+            id: newStation._id,
+            membersCount: processedPoliceMembers.length,
+          });
+        } catch (stationError) {
+          results.errors.push({
+            name: stationData.name || "Unknown",
+            error: stationError.message,
+          });
+        }
+      })
+    );
+
+    return res.status(200).json({
+      success: true,
+      message: "Police stations processing completed",
+      summary: {
+        total: policeStations.length,
+        created: results.created.length,
+        skipped: results.skipped.length,
+        failed: results.errors.length,
+      },
+      results,
+    });
+  } catch (error) {
+    console.error("Error processing police stations:", error);
+    return res.status(500).json({ success: false, message: "Server error" });
+  }
+};
+
 module.exports = {
   createPoliceStation,
   addPoliceMembers,
   makeIncharge,
   getCasesByStation,
+  getPoliceStationBySimilarLocationName,
+  createPoliceStationsFromArray,
 };

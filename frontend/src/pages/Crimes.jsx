@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { PlusCircle } from "lucide-react"; // Icon for adding suspects/evidence
+import {
+  CheckCircle2,
+  FileQuestion,
+  FileText,
+  PlusCircle,
+  Upload,
+  UserPlus,
+} from "lucide-react"; // Icon for adding suspects/evidence
 
 export default function MultiStepCaseForm() {
   const [step, setStep] = useState(1);
@@ -19,6 +26,7 @@ export default function MultiStepCaseForm() {
     crimeCoordinates: { lat: "121", lng: "121" },
     suspects: [],
     evidence: [],
+    witnesses: [],
   });
 
   const handleChange = (e) => {
@@ -69,12 +77,6 @@ export default function MultiStepCaseForm() {
       ...prev,
       evidence: [...prev.evidence, { type: "image", file: null }],
     }));
-  };
-
-  const handleNext = async () => {
-    if (step === 1) await createCase();
-    else if (step === 2) await submitSuspects();
-    else if (step === 3) await submitEvidence();
   };
 
   const createCase = async () => {
@@ -142,8 +144,7 @@ export default function MultiStepCaseForm() {
         );
       }
 
-      alert("Case submitted successfully!");
-      resetForm();
+      setStep((prev) => prev + 1);
     } catch (error) {
       console.error("Error uploading evidence:", error);
     } finally {
@@ -174,158 +175,280 @@ export default function MultiStepCaseForm() {
     console.log("Status updated:", formData.status);
   }, [formData.status]);
 
+  const handleWitnessChange = (index, e) => {
+    const { name, value } = e.target;
+    const updatedWitnesses = [...formData.witnesses];
+    updatedWitnesses[index][name] = value;
+    setFormData((prev) => ({ ...prev, witnesses: updatedWitnesses }));
+  };
+
+  const addWitness = () => {
+    setFormData((prev) => ({
+      ...prev,
+      witnesses: [...prev.witnesses, { name: "", statement: "" }],
+    }));
+  };
+
+  const submitWitnesses = async () => {
+    if (!caseId) return alert("Case ID is missing!");
+    setLoading(true);
+
+    try {
+      for (const witness of formData.witnesses) {
+        await axios.post(
+          `http://localhost:3000/api/v1/police-case/add_witness/${caseId}`,
+          witness
+        );
+      }
+      alert("Case submitted successfully!");
+      resetForm();
+    } catch (error) {
+      console.error("Error adding witnesses:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleNext = async () => {
+    if (step === 1) await createCase();
+    else if (step === 2) await submitSuspects();
+    else if (step === 3) await submitEvidence();
+    else if (step === 4) await submitWitnesses();
+  };
+
+  // Progress bar component
+  const StepProgressBar = () => {
+    const steps = [
+      { icon: <FileText />, title: "Case Details" },
+      { icon: <UserPlus />, title: "Suspects" },
+      { icon: <Upload />, title: "Evidence" },
+      { icon: <FileQuestion />, title: "Witnesses" },
+    ];
+
+    return (
+      <div className="flex justify-between items-center mb-6">
+        {steps.map((s, index) => (
+          <div
+            key={index}
+            className={`flex flex-col items-center ${
+              step > index
+                ? "text-green-500"
+                : step === index + 1
+                ? "text-blue-500"
+                : "text-gray-300"
+            }`}
+          >
+            {s.icon}
+            <span className="text-xs mt-1">{s.title}</span>
+            {index < steps.length - 1 && (
+              <div
+                className={`w-16 h-1 mx-2 mt-2 ${
+                  step > index + 1 ? "bg-green-500" : "bg-gray-300"
+                }`}
+              ></div>
+            )}
+          </div>
+        ))}
+      </div>
+    );
+  };
+
   return (
-    <div className="p-6 bg-white rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold mb-4">Multi-Step Case Form</h2>
+    <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg">
+      <h2 className="text-3xl font-bold mb-6 text-center">
+        Multi-Step Case Form
+      </h2>
+
+      <StepProgressBar />
 
       {step === 1 && (
-        <>
-          <input
-            type="text"
-            name="caseNumber"
-            placeholder="Case Number"
-            onChange={handleChange}
-            className="mb-3 p-2 border w-full"
-          />
-          <input
-            type="text"
-            name="title"
-            placeholder="Title"
-            onChange={handleChange}
-            className="mb-3 p-2 border w-full"
-          />
+        <div className="space-y-4">
+          <div className="grid md:grid-cols-2 gap-4">
+            <input
+              type="text"
+              name="caseNumber"
+              placeholder="Case Number"
+              onChange={handleChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+            <input
+              type="text"
+              name="title"
+              placeholder="Title"
+              onChange={handleChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
           <textarea
             name="description"
             placeholder="Description"
             onChange={handleChange}
-            className="mb-3 p-2 border w-full"
+            className="w-full p-3 border rounded-lg h-24 focus:ring-2 focus:ring-blue-500 focus:outline-none"
           />
-          <select
-            name="status"
-            value={formData.status}
-            onChange={handleChange}
-            className="mb-3 p-2 border w-full"
-          >
-            <option value="open">Open</option>
-            <option value="closed">Closed</option>
-            <option value="under_investigation">Under Investigation</option>
-          </select>
-          <input
-            type="text"
-            name="policeStation"
-            placeholder="Police Station ID"
-            onChange={handleChange}
-            className="mb-3 p-2 border w-full"
-          />
-          <input
-            type="text"
-            name="assignedInspector"
-            placeholder="Assigned Inspector ID"
-            onChange={handleChange}
-            className="mb-3 p-2 border w-full"
-          />
-          <input
-            type="text"
-            name="crimeLocation"
-            placeholder="Crime Location"
-            onChange={handleChange}
-            className="mb-3 p-2 border w-full"
-          />
-          <input
-            type="text"
-            name="crimeCoordinates.lat"
-            placeholder="Latitude"
-            onChange={handleCoordinateChange}
-            className="mb-3 p-2 border w-full"
-          />
-          <input
-            type="text"
-            name="crimeCoordinates.lng"
-            placeholder="Longitude"
-            onChange={handleCoordinateChange}
-            className="mb-3 p-2 border w-full"
-          />
-          <input
-            type="date"
-            name="crimeDate"
-            onChange={handleChange}
-            className="mb-3 p-2 border w-full"
-          />
-        </>
+          <div className="grid md:grid-cols-2 gap-4">
+            <select
+              name="status"
+              value={formData.status}
+              onChange={handleChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            >
+              <option value="open">Open</option>
+              <option value="closed">Closed</option>
+              <option value="under_investigation">Under Investigation</option>
+            </select>
+            <input
+              type="date"
+              name="crimeDate"
+              onChange={handleChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
+          <div className="grid md:grid-cols-2 gap-4">
+            <input
+              type="text"
+              name="policeStation"
+              placeholder="Police Station"
+              onChange={handleChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+            <input
+              type="text"
+              name="assignedInspector"
+              placeholder="Assigned Inspector"
+              onChange={handleChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
+          <div className="grid md:grid-cols-3 gap-4">
+            <input
+              type="text"
+              name="crimeLocation"
+              placeholder="Crime Location"
+              onChange={handleChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+            <input
+              type="text"
+              name="crimeCoordinates.lat"
+              placeholder="Latitude"
+              onChange={handleCoordinateChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+            <input
+              type="text"
+              name="crimeCoordinates.lng"
+              placeholder="Longitude"
+              onChange={handleCoordinateChange}
+              className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
+        </div>
       )}
 
       {step === 2 && (
-        <>
+        <div className="space-y-4">
           {formData.suspects.map((_, index) => (
-            <div key={index} className="mb-3">
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                onChange={(e) => handleSuspectChange(index, e)}
-                className="p-2 border w-full"
-              />
-              <input
-                type="number"
-                name="age"
-                placeholder="Age"
-                onChange={(e) => handleSuspectChange(index, e)}
-                className="p-2 border w-full"
-              />
-              <input
-                type="text"
-                name="address"
-                placeholder="Address"
-                onChange={(e) => handleSuspectChange(index, e)}
-                className="mb-3 p-2 border w-full"
-              />
-              <select
-                name="gender"
-                onChange={(e) => handleSuspectChange(index, e)}
-                className="mb-3 p-2 border w-full"
-              >
-                <option value="">Select Gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-              </select>
+            <div key={index} className="bg-gray-50 p-4 rounded-lg border">
+              <div className="grid md:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  onChange={(e) => handleSuspectChange(index, e)}
+                  className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                />
+                <input
+                  type="number"
+                  name="age"
+                  placeholder="Age"
+                  onChange={(e) => handleSuspectChange(index, e)}
+                  className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+              <div className="grid md:grid-cols-2 gap-4 mt-4">
+                <input
+                  type="text"
+                  name="address"
+                  placeholder="Address"
+                  onChange={(e) => handleSuspectChange(index, e)}
+                  className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                />
+                <select
+                  name="gender"
+                  onChange={(e) => handleSuspectChange(index, e)}
+                  className="p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                >
+                  <option value="">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
               <input
                 type="text"
                 name="aadharNo"
                 placeholder="Aadhar Number"
                 onChange={(e) => handleSuspectChange(index, e)}
-                className="mb-3 p-2 border w-full"
+                className="mt-4 p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
             </div>
           ))}
           <button
             onClick={addSuspect}
-            className="p-2 bg-green-500 text-white rounded-lg flex items-center"
+            className="p-3 bg-green-500 text-white rounded-lg flex items-center hover:bg-green-600 transition"
           >
             <PlusCircle className="w-5 h-5 mr-2" /> Add Suspect
           </button>
-        </>
+        </div>
       )}
 
       {step === 3 && (
-        <>
+        <div className="space-y-4">
           {formData.evidence.map((_, index) => (
-            <input
-              key={index}
-              type="file"
-              onChange={(e) => handleFileChange(index, e)}
-              className="mb-3 p-2 border w-full"
-            />
+            <div key={index} className="bg-gray-50 p-4 rounded-lg border">
+              <input
+                type="file"
+                onChange={(e) => handleFileChange(index, e)}
+                className="w-full p-3 border rounded-lg file:mr-4 file:rounded-lg file:border-0 file:bg-blue-50 file:px-4 file:py-2 hover:file:bg-blue-100"
+              />
+            </div>
           ))}
           <button
             onClick={addEvidence}
-            className="p-2 bg-green-500 text-white rounded-lg flex items-center"
+            className="p-3 bg-green-500 text-white rounded-lg flex items-center hover:bg-green-600 transition"
           >
             <PlusCircle className="w-5 h-5 mr-2" /> Add Evidence
           </button>
-        </>
+        </div>
       )}
 
+      {step === 4 && (
+        <div className="space-y-4">
+          {formData.witnesses.map((_, index) => (
+            <div key={index} className="bg-gray-50 p-4 rounded-lg border">
+              <input
+                type="text"
+                name="name"
+                placeholder="Witness Name"
+                onChange={(e) => handleWitnessChange(index, e)}
+                className="mb-4 p-3 border rounded-lg w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              />
+              <textarea
+                name="statement"
+                placeholder="Witness Statement"
+                onChange={(e) => handleWitnessChange(index, e)}
+                className="p-3 border rounded-lg w-full h-32 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              />
+            </div>
+          ))}
+          <button
+            onClick={addWitness}
+            className="p-3 bg-green-500 text-white rounded-lg flex items-center hover:bg-green-600 transition"
+          >
+            <PlusCircle className="w-5 h-5 mr-2" /> Add Witness
+          </button>
+        </div>
+      )}
       <button
         onClick={handleNext}
         disabled={loading}

@@ -9,7 +9,7 @@ import {
 import { useSocket } from "../../context/SocketContext";
 import { UserContext } from "../../context/userContext";
 
-const googleMapsApiKey = "AIzaSyCVxscEAGCEkBt_hGpbZD2QuNfrRGfW3VA";
+const googleMapsApiKey = "AIzaSyDYPSMpXi6u8plNM8mMTK2H0KItU_b9Res";
 
 const mapContainerStyle = {
   width: "100%",
@@ -73,6 +73,7 @@ const UserCrimeLoc = () => {
 
   const reportCrime = () => {
     if (!coordinates) return;
+    console.log("we are here");
 
     const service = new window.google.maps.places.PlacesService(
       document.createElement("div")
@@ -84,6 +85,31 @@ const UserCrimeLoc = () => {
       keyword: "police station",
     };
 
+    // Location ko print karake save karwana
+
+    // service.nearbySearch(request, (results, status) => {
+    //   if (status === window.google.maps.places.PlacesServiceStatus.OK) {
+    //     console.log("Nearby Police Stations:");
+
+    //     const formattedResults = results.map((station) => ({
+    //       name: station.name,
+    //       location: station.vicinity,
+    //       latitude: station.geometry.location.lat(),
+    //       longitude: station.geometry.location.lng(),
+    //       contactNumber: "9930948453",
+    //       email: "mayur@gmail.com",
+    //       password: "123456",
+    //     }));
+
+    //     console.log(JSON.stringify(formattedResults, null, 2));
+
+    //     setPoliceStations(formattedResults);
+    //     findShortestRoute(coordinates, results);
+    //   } else {
+    //     console.error("Error finding police stations:", status);
+    //   }
+    // });
+
     service.nearbySearch(request, (results, status) => {
       if (status === window.google.maps.places.PlacesServiceStatus.OK) {
         console.log("Nearby Police Stations:", results);
@@ -93,9 +119,12 @@ const UserCrimeLoc = () => {
         console.error("Error finding police stations:", status);
       }
     });
+    console.log("we are here2");
   };
 
   const findShortestRoute = (origin, stations) => {
+    console.log("3");
+
     const distanceService = new window.google.maps.DistanceMatrixService();
     const destinations = stations.map((station) => station.geometry.location);
 
@@ -124,7 +153,13 @@ const UserCrimeLoc = () => {
             return;
           }
 
-          console.log("Emitting crime alert socket event...");
+          console.log(
+            `Emitting crime alert socket event...,
+            ${nearestStation.name},
+            ${nearestStation.vicinity},
+            ${nearestStation.geometry.location.lat()},
+            ${nearestStation.geometry.location.lng()}`
+          );
 
           socket.emit("crime-alert", {
             userLocation: coordinates,

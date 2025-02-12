@@ -7,7 +7,7 @@ import {
   InfoWindow,
 } from "@react-google-maps/api";
 
-const googleMapsApiKey = "AIzaSyCVxscEAGCEkBt_hGpbZD2QuNfrRGfW3VA";
+const googleMapsApiKey = "AIzaSyDYPSMpXi6u8plNM8mMTK2H0KItU_b9Res";
 
 const mapContainerStyle = {
   width: "100%",
@@ -24,8 +24,7 @@ const PoliceLocator = () => {
   const [travelTime, setTravelTime] = useState("");
   const [infoWindowPos, setInfoWindowPos] = useState(null);
   const [infoWindowVisible, setInfoWindowVisible] = useState(false);
-// const [selectedStation, setSelectedStation] = useState(null);
-
+  // const [selectedStation, setSelectedStation] = useState(null);
 
   // Keeping all the original functions unchanged
   const geocodeLocation = async () => {
@@ -129,7 +128,8 @@ const PoliceLocator = () => {
               Emergency Police Station Locator
             </h2>
             <p className="mt-2 text-center text-blue-100">
-              Find the nearest police stations in your area with real-time directions
+              Find the nearest police stations in your area with real-time
+              directions
             </p>
           </div>
 
@@ -142,7 +142,7 @@ const PoliceLocator = () => {
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
                 className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
-                onKeyPress={(e) => e.key === 'Enter' && geocodeLocation()}
+                onKeyPress={(e) => e.key === "Enter" && geocodeLocation()}
               />
               <button
                 onClick={geocodeLocation}
@@ -186,8 +186,8 @@ const PoliceLocator = () => {
                       scaledSize: new window.google.maps.Size(35, 35),
                     }}
                     onClick={() => {
-                        setInfoWindowPos(station.geometry.location);
-                        setInfoWindowVisible(true);
+                      setInfoWindowPos(station.geometry.location);
+                      setInfoWindowVisible(true);
                     }}
                   />
                 ))}
@@ -231,8 +231,12 @@ const PoliceLocator = () => {
                     key={index}
                     className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <h4 className="font-medium text-blue-600">{station.name}</h4>
-                    <p className="text-gray-600 mt-1 text-sm">{station.vicinity}</p>
+                    <h4 className="font-medium text-blue-600">
+                      {station.name}
+                    </h4>
+                    <p className="text-gray-600 mt-1 text-sm">
+                      {station.vicinity}
+                    </p>
                   </div>
                 ))}
               </div>

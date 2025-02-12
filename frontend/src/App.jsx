@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className="min-h-screen sticky bg-gray-50 flex">
-      {user && <Sidebar className="" />}
+      <Sidebar />
       <div className="flex-1 space-y-6 p-6 ml-14">
         <Routes>
           <Route

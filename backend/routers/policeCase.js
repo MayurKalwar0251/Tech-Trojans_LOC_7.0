@@ -5,6 +5,7 @@ const {
   addSuspect,
   uploadEvidence,
   getCaseDetails,
+  addWitnesses,
 } = require("../controllers/policeCase.js");
 const { upload } = require("../utils/multerConfig.js");
 
@@ -20,6 +21,9 @@ policeCaseRouter.put("/update/:caseId", updateCase);
 
 // 📌 Add suspect to a case
 policeCaseRouter.post("/add_suspect/:caseId", addSuspect);
+
+// 📌 Add suspect to a case
+policeCaseRouter.post("/add_witness/:caseId", addWitnesses);
 
 // 📌 Upload evidence (images/videos/documents)
 policeCaseRouter.post(
